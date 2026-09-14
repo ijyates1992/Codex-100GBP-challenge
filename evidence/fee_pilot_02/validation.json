@@ -1,0 +1,23 @@
+{
+  "name": "fee_pilot_02",
+  "final_equity": 102.67,
+  "return_pct": 2.6700000000000017,
+  "cagr_pct": 0.8821944435426499,
+  "dd_pct": 5.308464849354374,
+  "profit_factor": 1.516441005802708,
+  "trades": 9,
+  "main_symbol_tick_warnings": 0,
+  "conversion_tick_warnings": 7,
+  "overnight_trades": 0,
+  "min_volume": 0.01,
+  "max_volume": 0.01,
+  "max_margin_fraction": 0.33183785596979726,
+  "max_risk_fraction": 0.019903666568367246,
+  "source_match": true,
+  "deal_profit_match": true,
+  "last_balance_match": true,
+  "trade_count_match": true,
+  "volume_grid_ok": true,
+  "report_sha256": "f873d4d182a4e3eb72e4dda6a5aecc5e14e6924cf551197b399387ed060a6b31",
+  "numeric_pass": true
+}

@@ -1,0 +1,3 @@
+# Preserve byte-exact source snapshots and evidence hashes across checkouts.
+src/** -text
+evidence/** -text

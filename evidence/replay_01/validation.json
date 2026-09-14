@@ -1,0 +1,23 @@
+{
+  "name": "replay_01",
+  "final_equity": 94.27,
+  "return_pct": -5.73,
+  "cagr_pct": -1.9476886251648784,
+  "dd_pct": 9.224843524313911,
+  "profit_factor": 0.4790909090909091,
+  "trades": 11,
+  "main_symbol_tick_warnings": 0,
+  "conversion_tick_warnings": 438,
+  "overnight_trades": 0,
+  "min_volume": 0.01,
+  "max_volume": 0.01,
+  "max_margin_fraction": 0.5988859442554043,
+  "max_risk_fraction": 0.0294757665677547,
+  "source_match": true,
+  "deal_profit_match": true,
+  "last_balance_match": true,
+  "trade_count_match": true,
+  "volume_grid_ok": true,
+  "report_sha256": "146c5c86020d2e713e465dae46475e80afdc21a12a473cf72d43d0b792660891",
+  "numeric_pass": false
+}

@@ -1,0 +1,10 @@
+{
+  "source": "IG-DEMO CopyTicksRange, unchanged bid/ask and timestamps",
+  "first_day": "20230901",
+  "last_day": "20260911",
+  "ticks": 70421527,
+  "minutes": 1125729,
+  "empty_weekdays": [
+    "20250114"
+  ]
+}

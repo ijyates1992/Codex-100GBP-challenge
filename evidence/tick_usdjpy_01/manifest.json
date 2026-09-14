@@ -1,0 +1,11 @@
+{
+  "symbol": "USDJPY",
+  "inputs": {},
+  "model": 4,
+  "start": "2023.09.12",
+  "end": "2026.09.12",
+  "deposit": 100,
+  "currency": "GBP",
+  "leverage": 200,
+  "source_sha256": "17c7dd9d5122360d2607db08ad99ee04706da1d8ac1b68f49c87988afa8731cf"
+}

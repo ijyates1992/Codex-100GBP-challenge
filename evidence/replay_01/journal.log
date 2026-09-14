@@ -1,0 +1,671 @@
+IM	0	11:37:34.745	Tester	Local network farm switched off
+QF	0	11:37:34.745	Tester	Cloud servers switched off
+CR	0	11:37:37.265	Tester	"GBP100\Challenge.ex5" X64
+PP	0	11:37:37.734	Tester	GBP100_USDJPY: history data begins from 2023.09.01 00:00
+NM	0	11:37:37.769	Tester	GBP100_USDJPY: ticks data begins from 2023.09.01 00:00
+HJ	0	11:37:37.785	Core 01	agent process started on 127.0.0.1:3000
+KM	0	11:37:37.785	Core 01	connecting to 127.0.0.1:3000
+ND	0	11:37:38.295	Core 01	connected
+RR	0	11:37:38.308	Core 01	authorized (agent build 6182)
+CS	0	11:37:38.310	Tester	GBP100_USDJPY,H1 (IG-DEMO): testing of Experts\GBP100\Challenge.ex5 from 2023.09.12 00:00 to 2026.09.12 00:00
+GI	0	11:37:38.321	Core 01	common synchronization completed
+ID	0	11:37:38.416	Core 01	GBP100_USDJPY: history for 2023 year synchronized
+KJ	0	11:37:38.653	Core 01	GBP100_USDJPY: history for 2024 year synchronized
+MP	0	11:37:38.894	Core 01	GBP100_USDJPY: history for 2025 year synchronized
+KG	0	11:37:39.069	Core 01	GBP100_USDJPY: history for 2026 year synchronized
+HQ	0	11:37:39.069	Core 01	GBP100_USDJPY: history synchronization completed [5875 Kb]
+FR	0	11:37:39.069	Core 01	GBP100_USDJPY: 5.74 Mb of history processed in 0:00:00.734
+RH	0	11:37:39.130	Core 01	GBP100_USDJPY: ticks synchronization [7284 Kb]
+RN	0	11:37:39.615	Core 01	GBP100_USDJPY: ticks synchronization [6993 Kb]
+PE	0	11:37:40.039	Core 01	GBP100_USDJPY: ticks synchronization [5527 Kb]
+EL	0	11:37:40.460	Core 01	GBP100_USDJPY: ticks synchronization [6923 Kb]
+CS	0	11:37:40.902	Core 01	GBP100_USDJPY: ticks synchronization [8238 Kb]
+CI	0	11:37:41.365	Core 01	GBP100_USDJPY: ticks synchronization [8719 Kb]
+FP	0	11:37:41.814	Core 01	GBP100_USDJPY: ticks synchronization [8261 Kb]
+GG	0	11:37:42.290	Core 01	GBP100_USDJPY: ticks synchronization [5776 Kb]
+ON	0	11:37:42.707	Core 01	GBP100_USDJPY: ticks synchronization [7056 Kb]
+ED	0	11:37:43.128	Core 01	GBP100_USDJPY: ticks synchronization [8859 Kb]
+IK	0	11:37:43.589	Core 01	GBP100_USDJPY: ticks synchronization [7848 Kb]
+RR	0	11:37:44.054	Core 01	GBP100_USDJPY: ticks synchronization [8491 Kb]
+EI	0	11:37:44.491	Core 01	GBP100_USDJPY: ticks synchronization [7645 Kb]
+LO	0	11:37:44.983	Core 01	GBP100_USDJPY: ticks synchronization [7178 Kb]
+ME	0	11:37:45.440	Core 01	GBP100_USDJPY: ticks synchronization [11397 Kb]
+GM	0	11:37:45.954	Core 01	GBP100_USDJPY: ticks synchronization [9963 Kb]
+ID	0	11:37:46.424	Core 01	GBP100_USDJPY: ticks synchronization [7814 Kb]
+FJ	0	11:37:46.856	Core 01	GBP100_USDJPY: ticks synchronization [6518 Kb]
+JQ	0	11:37:47.275	Core 01	GBP100_USDJPY: ticks synchronization [7887 Kb]
+HH	0	11:37:47.709	Core 01	GBP100_USDJPY: ticks synchronization [7070 Kb]
+OO	0	11:37:48.122	Core 01	GBP100_USDJPY: ticks synchronization [8261 Kb]
+JE	0	11:37:48.587	Core 01	GBP100_USDJPY: ticks synchronization [8018 Kb]
+OL	0	11:37:49.018	Core 01	GBP100_USDJPY: ticks synchronization [6381 Kb]
+CS	0	11:37:49.443	Core 01	GBP100_USDJPY: ticks synchronization [5030 Kb]
+LJ	0	11:37:49.847	Core 01	GBP100_USDJPY: ticks synchronization [5017 Kb]
+IP	0	11:37:50.231	Core 01	GBP100_USDJPY: ticks synchronization [6041 Kb]
+MG	0	11:37:50.670	Core 01	GBP100_USDJPY: ticks synchronization [9762 Kb]
+KM	0	11:37:51.214	Core 01	GBP100_USDJPY: ticks synchronization [19975 Kb]
+EG	0	11:37:51.850	Core 01	GBP100_USDJPY: ticks synchronization [13759 Kb]
+MK	0	11:37:52.385	Core 01	GBP100_USDJPY: ticks synchronization [6100 Kb]
+PR	0	11:37:52.809	Core 01	GBP100_USDJPY: ticks synchronization [7567 Kb]
+PE	0	11:37:53.238	Core 01	GBP100_USDJPY: ticks synchronization completed [2144 Kb]
+OP	0	11:37:59.455	Core 01	MetaTester 5 started on 127.0.0.1:3000
+EJ	0	11:37:59.455	Core 01	cloud network mode is off
+JN	0	11:37:59.455	Core 01	initialization finished
+EK	0	11:37:59.455	Core 01	login (build 6182)
+CS	0	11:37:59.455	Core 01	139316 bytes of account info loaded
+FD	0	11:37:59.455	Core 01	1478 bytes of tester parameters loaded
+LS	0	11:37:59.455	Core 01	8388 bytes of input parameters loaded
+QE	0	11:37:59.455	Core 01	725 bytes of symbols list loaded (111 symbols)
+FM	0	11:37:59.455	Core 01	expert file added: Experts\GBP100\Challenge.ex5. 37134 bytes loaded
+PD	0	11:37:59.455	Core 01	4255 Mb available, 52 blocks set for ticks generating
+HP	0	11:37:59.455	Core 01	initial deposit 100.00 GBP, leverage 1:200
+QL	0	11:37:59.455	Core 01	successfully initialized
+RS	0	11:37:59.455	Core 01	45 Kb of total initialization data received
+CO	0	11:37:59.455	Core 01	Intel Xeon  E5-2470 v2 @ 2.40GHz, 9998 MB
+RI	0	11:37:59.455	Core 01	GBP100_USDJPY: symbol to be synchronized
+NL	0	11:37:59.455	Core 01	GBP100_USDJPY: symbol synchronized, 3800 bytes of symbol info received
+LD	0	11:37:59.455	Core 01	GBP100_USDJPY: load 5.74 Mb of history data to synchronize in 0:00:00.783
+GD	0	11:37:59.455	Core 01	GBP100_USDJPY: history synchronized from 2023.09.01 to 2026.09.11
+QP	0	11:37:59.455	Core 01	GBP100_USDJPY: ticks synchronization started
+NH	0	11:37:59.455	Core 01	GBP100_USDJPY: load 247.30 Mb of tick data to synchronize in 0:00:14.235
+EI	0	11:37:59.455	Core 01	GBP100_USDJPY: history ticks synchronized from 2023.09.12 to 2026.09.11
+KL	0	11:37:59.455	Core 01	GBP100_USDJPY,H1: history cache allocated for 18957 bars and contains 168 bars from 2023.09.01 00:00 to 2023.09.11 23:00
+HH	0	11:37:59.455	Core 01	GBP100_USDJPY,H1: history begins from 2023.09.01 00:00
+FS	0	11:37:59.455	Core 01	GBP100_USDJPY,H1 (IG-DEMO): generating based on real ticks
+PI	0	11:37:59.455	Core 01	testing with execution delay 100 milliseconds
+DH	0	11:37:59.455	Core 01	GBP100_USDJPY,H1: testing of Experts\GBP100\Challenge.ex5 from 2023.09.12 00:00 to 2026.09.12 00:00 started with inputs:
+JH	0	11:37:59.455	Core 01	  Mode=2
+DF	0	11:37:59.455	Core 01	  Lookback=12
+MR	0	11:37:59.455	Core 01	  StopATR=3.0
+DD	0	11:37:59.455	Core 01	  TargetATR=12.0
+JH	0	11:37:59.455	Core 01	  RiskPercent=3.0
+FR	0	11:37:59.455	Core 01	  StartHour=7
+RD	0	11:37:59.455	Core 01	  EndHour=17
+EJ	0	11:37:59.455	Core 01	  CloseHour=20
+RO	0	11:37:59.455	Core 01	  MaxDrawdown=27.0
+MI	0	11:37:59.455	Core 01	  MarginFraction=0.6
+FE	0	11:37:59.455	Core 01	  BrokerMarginPerLot=2602.0
+PL	0	11:37:59.455	Core 01	  MarginSafety=1.15
+CE	0	11:37:59.455	Core 01	  BrokerNotionalRate=0.0353
+PO	0	11:37:59.455	Core 01	  Direction=0
+CF	0	11:37:59.455	Core 01	  SpreadATR=0.2
+RI	0	11:37:59.455	Core 01	  Magic=100202609
+DS	0	11:37:59.455	Core 01	2023.09.12 00:00:00   SPEC GBP100_USDJPY leverage=200 calc=2 contract=100000.0000 min=0.0100 step=0.0100 buy_rate=0.03530000 maintenance=0.03530000
+FF	0	11:38:04.852	Core 01	GBPJPY: ticks synchronized already [43 bytes]
+DP	0	11:38:10.958	Core 01	GBP100_USDJPY : real ticks begin from 2023.09.12 00:00:00
+NF	0	11:38:10.958	Core 01	GBPJPY: symbol to be synchronized
+PS	0	11:38:10.958	Core 01	GBPJPY: symbol synchronized, 3800 bytes of symbol info received
+RO	0	11:38:10.958	Core 01	GBPJPY: load 27 bytes of history data to synchronize in 0:00:00.119
+QG	0	11:38:10.958	Core 01	GBPJPY: history synchronized from 2022.01.02 to 2026.09.11
+CQ	0	11:38:10.958	Core 01	GBPJPY: ticks synchronization started
+FF	0	11:38:10.958	Core 01	GBPJPY: load 34 bytes of tick data to synchronize in 0:00:01.094
+MJ	0	11:38:10.958	Core 01	GBPJPY: history ticks synchronized from 2023.09.12 to 2026.09.11
+OL	3	11:38:10.958	Core 01	GBPJPY : 2023.09.15 23:59 - real ticks discarded for 1353 minutes out of 1379 total minute bars within a day
+QR	3	11:38:10.958	Core 01	GBPJPY : 2023.09.15 23:59 - 155700 tick prices mismatch for 1353 minute bars
+FR	3	11:38:10.958	Core 01	GBPJPY : 2023.09.18 23:59 - real ticks discarded for 1352 minutes out of 1439 total minute bars within a day
+JP	3	11:38:10.958	Core 01	GBPJPY : 2023.09.18 23:59 - 280382 tick prices mismatch for 1352 minute bars
+OP	3	11:38:10.958	Core 01	GBPJPY : 2023.09.22 23:59 - real ticks discarded for 1346 minutes out of 1379 total minute bars within a day
+KN	3	11:38:10.958	Core 01	GBPJPY : 2023.09.22 23:59 - 406736 tick prices mismatch for 1346 minute bars
+OF	3	11:38:10.958	Core 01	GBPJPY : 2023.09.29 23:59 - real ticks discarded for 1318 minutes out of 1379 total minute bars within a day
+QL	3	11:38:10.958	Core 01	GBPJPY : 2023.09.29 23:59 - 536116 tick prices mismatch for 1318 minute bars
+RD	3	11:38:10.958	Core 01	GBPJPY : 2023.10.03 23:59 - real ticks discarded for 1309 minutes out of 1439 total minute bars within a day
+EJ	3	11:38:10.958	Core 01	GBPJPY : 2023.10.03 23:59 - 675817 tick prices mismatch for 1309 minute bars
+HJ	3	11:38:10.958	Core 01	GBPJPY : 2023.10.06 23:59 - real ticks discarded for 1336 minutes out of 1379 total minute bars within a day
+MH	3	11:38:10.958	Core 01	GBPJPY : 2023.10.06 23:59 - 857504 tick prices mismatch for 1336 minute bars
+DH	3	11:38:10.958	Core 01	GBPJPY : 2023.10.13 23:59 - real ticks discarded for 1327 minutes out of 1379 total minute bars within a day
+JE	3	11:38:10.958	Core 01	GBPJPY : 2023.10.13 23:59 - 1015124 tick prices mismatch for 1327 minute bars
+IN	3	11:38:10.958	Core 01	GBPJPY : 2023.10.20 23:59 - real ticks discarded for 95 minutes out of 1377 total minute bars within a day
+CG	3	11:38:10.958	Core 01	GBPJPY : 2023.10.20 23:59 - 1017069 tick prices mismatch for 95 minute bars
+GO	3	11:38:10.958	Core 01	GBPJPY : 2023.10.27 23:59 - real ticks discarded for 100 minutes out of 1379 total minute bars within a day
+CR	3	11:38:10.958	Core 01	GBPJPY : 2023.10.27 23:59 - 1019337 tick prices mismatch for 100 minute bars
+RQ	3	11:38:10.958	Core 01	GBPJPY : 2023.11.03 23:59 - real ticks discarded for 140 minutes out of 1319 total minute bars within a day
+QP	3	11:38:10.958	Core 01	GBPJPY : 2023.11.03 23:59 - 1022725 tick prices mismatch for 140 minute bars
+IS	3	11:38:10.958	Core 01	GBPJPY : 2023.11.10 23:59 - real ticks discarded for 138 minutes out of 1379 total minute bars within a day
+IN	3	11:38:10.958	Core 01	GBPJPY : 2023.11.10 23:59 - 1026340 tick prices mismatch for 138 minute bars
+LE	3	11:38:10.958	Core 01	GBPJPY : 2023.11.17 23:59 - real ticks discarded for 105 minutes out of 1379 total minute bars within a day
+IL	3	11:38:10.958	Core 01	GBPJPY : 2023.11.17 23:59 - 1029074 tick prices mismatch for 105 minute bars
+NG	3	11:38:10.958	Core 01	GBPJPY : 2023.11.20 23:59 - real ticks discarded for 120 minutes out of 1439 total minute bars within a day
+JI	3	11:38:10.958	Core 01	GBPJPY : 2023.11.20 23:59 - 1033136 tick prices mismatch for 120 minute bars
+PK	3	11:38:10.958	Core 01	GBPJPY : 2023.11.24 23:59 - real ticks discarded for 95 minutes out of 1379 total minute bars within a day
+LD	3	11:38:10.958	Core 01	GBPJPY : 2023.11.24 23:59 - 1035120 tick prices mismatch for 95 minute bars
+HI	3	11:38:10.958	Core 01	GBPJPY : 2023.12.01 23:59 - real ticks discarded for 1340 minutes out of 1379 total minute bars within a day
+HF	3	11:38:10.958	Core 01	GBPJPY : 2023.12.01 23:59 - 1137356 tick prices mismatch for 1340 minute bars
+QO	3	11:38:10.958	Core 01	GBPJPY : 2023.12.08 23:59 - real ticks discarded for 1363 minutes out of 1378 total minute bars within a day
+QP	3	11:38:10.958	Core 01	GBPJPY : 2023.12.08 23:59 - 1264765 tick prices mismatch for 1363 minute bars
+FM	3	11:38:10.958	Core 01	GBPJPY : 2023.12.15 23:59 - real ticks discarded for 1374 minutes out of 1379 total minute bars within a day
+QR	3	11:38:10.958	Core 01	GBPJPY : 2023.12.15 23:59 - 1411628 tick prices mismatch for 1374 minute bars
+GS	3	11:38:10.958	Core 01	GBPJPY : 2023.12.18 23:59 - real ticks discarded for 1376 minutes out of 1412 total minute bars within a day
+PL	3	11:38:10.958	Core 01	GBPJPY : 2023.12.18 23:59 - 1535757 tick prices mismatch for 1376 minute bars
+FP	3	11:38:10.958	Core 01	GBPJPY : 2023.12.19 23:59 - real ticks discarded for 1358 minutes out of 1434 total minute bars within a day
+GM	3	11:38:10.958	Core 01	GBPJPY : 2023.12.19 23:59 - 1693321 tick prices mismatch for 1358 minute bars
+OF	3	11:38:10.958	Core 01	GBPJPY : 2023.12.20 23:59 - real ticks discarded for 1352 minutes out of 1439 total minute bars within a day
+LO	3	11:38:10.958	Core 01	GBPJPY : 2023.12.20 23:59 - 1828155 tick prices mismatch for 1352 minute bars
+DD	3	11:38:10.958	Core 01	GBPJPY : 2023.12.22 23:59 - real ticks discarded for 1349 minutes out of 1379 total minute bars within a day
+QI	3	11:38:10.958	Core 01	GBPJPY : 2023.12.22 23:59 - 1957753 tick prices mismatch for 1349 minute bars
+GJ	3	11:38:10.958	Core 01	GBPJPY : 2023.12.25 23:59 - real ticks discarded for 26 minutes out of 70 total minute bars within a day
+LD	3	11:38:10.958	Core 01	GBPJPY : 2023.12.25 23:59 - 1958078 tick prices mismatch for 26 minute bars
+RI	3	11:38:10.958	Core 01	GBPJPY : 2023.12.29 23:59 - real ticks discarded for 1377 minutes out of 1379 total minute bars within a day
+HF	3	11:38:10.958	Core 01	GBPJPY : 2023.12.29 23:59 - 2086064 tick prices mismatch for 1377 minute bars
+JO	3	11:38:10.958	Core 01	GBPJPY : 2024.01.05 23:59 - real ticks discarded for 1345 minutes out of 1379 total minute bars within a day
+PP	3	11:38:10.958	Core 01	GBPJPY : 2024.01.05 23:59 - 2232395 tick prices mismatch for 1345 minute bars
+DL	3	11:38:10.958	Core 01	GBPJPY : 2024.01.12 23:59 - real ticks discarded for 1297 minutes out of 1379 total minute bars within a day
+HQ	3	11:38:10.958	Core 01	GBPJPY : 2024.01.12 23:59 - 2367624 tick prices mismatch for 1297 minute bars
+HR	3	11:38:10.958	Core 01	GBPJPY : 2024.01.15 23:59 - real ticks discarded for 1186 minutes out of 1438 total minute bars within a day
+PS	3	11:38:10.958	Core 01	GBPJPY : 2024.01.15 23:59 - 2464758 tick prices mismatch for 1186 minute bars
+PP	3	11:38:10.958	Core 01	GBPJPY : 2024.01.19 23:59 - real ticks discarded for 1359 minutes out of 1379 total minute bars within a day
+IM	3	11:38:10.958	Core 01	GBPJPY : 2024.01.19 23:59 - 2602955 tick prices mismatch for 1359 minute bars
+FF	3	11:38:10.958	Core 01	GBPJPY : 2024.01.25 23:59 - real ticks discarded for 1401 minutes out of 1433 total minute bars within a day
+DO	3	11:38:10.958	Core 01	GBPJPY : 2024.01.25 23:59 - 2744802 tick prices mismatch for 1401 minute bars
+FD	3	11:38:10.958	Core 01	GBPJPY : 2024.01.26 23:59 - real ticks discarded for 1364 minutes out of 1379 total minute bars within a day
+RI	3	11:38:10.958	Core 01	GBPJPY : 2024.01.26 23:59 - 2874320 tick prices mismatch for 1364 minute bars
+MJ	3	11:38:10.958	Core 01	GBPJPY : 2024.02.02 23:59 - real ticks discarded for 1348 minutes out of 1379 total minute bars within a day
+CK	3	11:38:10.958	Core 01	GBPJPY : 2024.02.02 23:59 - 3012259 tick prices mismatch for 1348 minute bars
+OH	3	11:38:10.958	Core 01	GBPJPY : 2024.02.09 23:59 - real ticks discarded for 1307 minutes out of 1379 total minute bars within a day
+NE	3	11:38:10.958	Core 01	GBPJPY : 2024.02.09 23:59 - 3118448 tick prices mismatch for 1307 minute bars
+CN	3	11:38:10.958	Core 01	GBPJPY : 2024.02.16 23:59 - real ticks discarded for 1136 minutes out of 1379 total minute bars within a day
+LG	3	11:38:10.958	Core 01	GBPJPY : 2024.02.16 23:59 - 3192532 tick prices mismatch for 1136 minute bars
+LO	3	11:38:10.958	Core 01	GBPJPY : 2024.02.23 23:59 - real ticks discarded for 1225 minutes out of 1379 total minute bars within a day
+QP	3	11:38:10.958	Core 01	GBPJPY : 2024.02.23 23:59 - 3280028 tick prices mismatch for 1225 minute bars
+RM	3	11:38:10.958	Core 01	GBPJPY : 2024.03.01 23:59 - real ticks discarded for 1189 minutes out of 1379 total minute bars within a day
+LR	3	11:38:10.958	Core 01	GBPJPY : 2024.03.01 23:59 - 3377046 tick prices mismatch for 1189 minute bars
+IS	3	11:38:10.958	Core 01	GBPJPY : 2024.03.08 23:59 - real ticks discarded for 1250 minutes out of 1378 total minute bars within a day
+GL	3	11:38:10.958	Core 01	GBPJPY : 2024.03.08 23:59 - 3490595 tick prices mismatch for 1250 minute bars
+IQ	3	11:38:10.958	Core 01	GBPJPY : 2024.03.15 23:59 - real ticks discarded for 1206 minutes out of 1320 total minute bars within a day
+CN	3	11:38:10.958	Core 01	GBPJPY : 2024.03.15 23:59 - 3544932 tick prices mismatch for 1206 minute bars
+JG	3	11:38:10.958	Core 01	GBPJPY : 2024.03.20 23:59 - real ticks discarded for 1296 minutes out of 1405 total minute bars within a day
+KH	3	11:38:10.958	Core 01	GBPJPY : 2024.03.20 23:59 - 3607746 tick prices mismatch for 1296 minute bars
+JE	3	11:38:10.958	Core 01	GBPJPY : 2024.03.22 23:59 - real ticks discarded for 1272 minutes out of 1319 total minute bars within a day
+FJ	3	11:38:10.958	Core 01	GBPJPY : 2024.03.22 23:59 - 3677298 tick prices mismatch for 1272 minute bars
+OK	3	11:38:10.958	Core 01	GBPJPY : 2024.03.26 23:59 - real ticks discarded for 1290 minutes out of 1439 total minute bars within a day
+QD	3	11:38:10.958	Core 01	GBPJPY : 2024.03.26 23:59 - 3721938 tick prices mismatch for 1290 minute bars
+KJ	3	11:38:10.958	Core 01	GBPJPY : 2024.03.29 23:59 - real ticks discarded for 268 minutes out of 1320 total minute bars within a day
+IE	3	11:38:10.958	Core 01	GBPJPY : 2024.03.29 23:59 - 3726172 tick prices mismatch for 268 minute bars
+EO	3	11:38:10.958	Core 01	GBPJPY : 2024.04.05 23:59 - real ticks discarded for 1303 minutes out of 1379 total minute bars within a day
+JP	3	11:38:10.958	Core 01	GBPJPY : 2024.04.05 23:59 - 3787912 tick prices mismatch for 1303 minute bars
+RM	3	11:38:10.958	Core 01	GBPJPY : 2024.04.08 23:59 - real ticks discarded for 1331 minutes out of 1439 total minute bars within a day
+RR	3	11:38:10.958	Core 01	GBPJPY : 2024.04.08 23:59 - 3839503 tick prices mismatch for 1331 minute bars
+JR	3	11:38:10.958	Core 01	GBPJPY : 2024.04.09 23:59 - real ticks discarded for 1305 minutes out of 1439 total minute bars within a day
+LS	3	11:38:10.958	Core 01	GBPJPY : 2024.04.09 23:59 - 3880794 tick prices mismatch for 1305 minute bars
+KP	3	11:38:10.958	Core 01	GBPJPY : 2024.04.12 23:59 - real ticks discarded for 1354 minutes out of 1379 total minute bars within a day
+HM	3	11:38:10.958	Core 01	GBPJPY : 2024.04.12 23:59 - 3966322 tick prices mismatch for 1354 minute bars
+GF	3	11:38:10.958	Core 01	GBPJPY : 2024.04.19 23:59 - real ticks discarded for 1333 minutes out of 1379 total minute bars within a day
+EO	3	11:38:10.958	Core 01	GBPJPY : 2024.04.19 23:59 - 4075163 tick prices mismatch for 1333 minute bars
+GD	3	11:38:10.958	Core 01	GBPJPY : 2024.04.26 23:59 - real ticks discarded for 1287 minutes out of 1379 total minute bars within a day
+HI	3	11:38:10.958	Core 01	GBPJPY : 2024.04.26 23:59 - 4137958 tick prices mismatch for 1287 minute bars
+HJ	3	11:38:10.958	Core 01	GBPJPY : 2024.04.30 23:59 - real ticks discarded for 1305 minutes out of 1439 total minute bars within a day
+PK	3	11:38:10.958	Core 01	GBPJPY : 2024.04.30 23:59 - 4194766 tick prices mismatch for 1305 minute bars
+NH	3	11:38:10.958	Core 01	GBPJPY : 2024.05.03 23:59 - real ticks discarded for 1181 minutes out of 1379 total minute bars within a day
+IE	3	11:38:10.958	Core 01	GBPJPY : 2024.05.03 23:59 - 4249736 tick prices mismatch for 1181 minute bars
+EN	3	11:38:10.958	Core 01	GBPJPY : 2024.05.06 23:59 - real ticks discarded for 1365 minutes out of 1438 total minute bars within a day
+EG	3	11:38:10.958	Core 01	GBPJPY : 2024.05.06 23:59 - 4300076 tick prices mismatch for 1365 minute bars
+HL	3	11:38:10.958	Core 01	GBPJPY : 2024.05.09 23:59 - real ticks discarded for 1360 minutes out of 1437 total minute bars within a day
+DQ	3	11:38:10.958	Core 01	GBPJPY : 2024.05.09 23:59 - 4358070 tick prices mismatch for 1360 minute bars
+GM	3	11:38:10.958	Core 01	GBPJPY : 2024.05.10 23:59 - real ticks discarded for 1249 minutes out of 1379 total minute bars within a day
+IR	3	11:38:10.958	Core 01	GBPJPY : 2024.05.10 23:59 - 4406220 tick prices mismatch for 1249 minute bars
+NS	3	11:38:10.958	Core 01	GBPJPY : 2024.05.13 23:59 - real ticks discarded for 1344 minutes out of 1438 total minute bars within a day
+JL	3	11:38:10.958	Core 01	GBPJPY : 2024.05.13 23:59 - 4455802 tick prices mismatch for 1344 minute bars
+MQ	3	11:38:10.958	Core 01	GBPJPY : 2024.05.14 23:59 - real ticks discarded for 1332 minutes out of 1439 total minute bars within a day
+FN	3	11:38:10.958	Core 01	GBPJPY : 2024.05.14 23:59 - 4504380 tick prices mismatch for 1332 minute bars
+QG	3	11:38:10.958	Core 01	GBPJPY : 2024.05.17 23:59 - real ticks discarded for 1242 minutes out of 1379 total minute bars within a day
+NH	3	11:38:10.958	Core 01	GBPJPY : 2024.05.17 23:59 - 4547838 tick prices mismatch for 1242 minute bars
+FE	3	11:38:10.958	Core 01	GBPJPY : 2024.05.24 23:59 - real ticks discarded for 1340 minutes out of 1379 total minute bars within a day
+IJ	3	11:38:10.958	Core 01	GBPJPY : 2024.05.24 23:59 - 4604214 tick prices mismatch for 1340 minute bars
+OK	3	11:38:10.958	Core 01	GBPJPY : 2024.05.28 23:59 - real ticks discarded for 1319 minutes out of 1437 total minute bars within a day
+DD	3	11:38:10.958	Core 01	GBPJPY : 2024.05.28 23:59 - 4653550 tick prices mismatch for 1319 minute bars
+EI	3	11:38:10.958	Core 01	GBPJPY : 2024.05.31 23:59 - real ticks discarded for 1341 minutes out of 1379 total minute bars within a day
+QF	3	11:38:10.958	Core 01	GBPJPY : 2024.05.31 23:59 - 4721844 tick prices mismatch for 1341 minute bars
+IO	3	11:38:10.958	Core 01	GBPJPY : 2024.06.04 23:59 - real ticks discarded for 1372 minutes out of 1439 total minute bars within a day
+OP	3	11:38:10.958	Core 01	GBPJPY : 2024.06.04 23:59 - 4796562 tick prices mismatch for 1372 minute bars
+ML	3	11:38:10.958	Core 01	GBPJPY : 2024.06.05 23:59 - real ticks discarded for 1401 minutes out of 1439 total minute bars within a day
+NQ	3	11:38:10.958	Core 01	GBPJPY : 2024.06.05 23:59 - 4865548 tick prices mismatch for 1401 minute bars
+RR	3	11:38:10.958	Core 01	GBPJPY : 2024.06.07 23:59 - real ticks discarded for 1333 minutes out of 1379 total minute bars within a day
+LS	3	11:38:10.958	Core 01	GBPJPY : 2024.06.07 23:59 - 4939137 tick prices mismatch for 1333 minute bars
+RP	3	11:38:10.958	Core 01	GBPJPY : 2024.06.13 23:59 - real ticks discarded for 1406 minutes out of 1438 total minute bars within a day
+EM	3	11:38:10.958	Core 01	GBPJPY : 2024.06.13 23:59 - 5017338 tick prices mismatch for 1406 minute bars
+PF	3	11:38:10.958	Core 01	GBPJPY : 2024.06.14 23:59 - real ticks discarded for 1326 minutes out of 1379 total minute bars within a day
+CO	3	11:38:10.958	Core 01	GBPJPY : 2024.06.14 23:59 - 5104494 tick prices mismatch for 1326 minute bars
+GD	3	11:38:10.958	Core 01	GBPJPY : 2024.06.21 23:59 - real ticks discarded for 1363 minutes out of 1379 total minute bars within a day
+CI	3	11:38:10.958	Core 01	GBPJPY : 2024.06.21 23:59 - 5173617 tick prices mismatch for 1363 minute bars
+FJ	3	11:38:10.958	Core 01	GBPJPY : 2024.06.24 23:59 - real ticks discarded for 1410 minutes out of 1439 total minute bars within a day
+OK	3	11:38:10.958	Core 01	GBPJPY : 2024.06.24 23:59 - 5242889 tick prices mismatch for 1410 minute bars
+CH	3	11:38:10.958	Core 01	GBPJPY : 2024.06.27 23:59 - real ticks discarded for 1366 minutes out of 1439 total minute bars within a day
+HE	3	11:38:10.958	Core 01	GBPJPY : 2024.06.27 23:59 - 5304624 tick prices mismatch for 1366 minute bars
+DN	3	11:38:10.958	Core 01	GBPJPY : 2024.06.28 23:59 - real ticks discarded for 1268 minutes out of 1379 total minute bars within a day
+FG	3	11:38:10.958	Core 01	GBPJPY : 2024.06.28 23:59 - 5361601 tick prices mismatch for 1268 minute bars
+IO	3	11:38:10.958	Core 01	GBPJPY : 2024.07.01 23:59 - real ticks discarded for 1369 minutes out of 1439 total minute bars within a day
+KP	3	11:38:10.958	Core 01	GBPJPY : 2024.07.01 23:59 - 5421784 tick prices mismatch for 1369 minute bars
+LM	3	11:38:10.958	Core 01	GBPJPY : 2024.07.02 23:59 - real ticks discarded for 652 minutes out of 728 total minute bars within a day
+PP	3	11:38:10.958	Core 01	GBPJPY : 2024.07.02 23:59 - 5442921 tick prices mismatch for 652 minute bars
+DP	3	11:38:10.958	Core 01	GBPJPY : 2024.07.03 23:59 - real ticks discarded for 1282 minutes out of 1436 total minute bars within a day
+MM	3	11:38:10.958	Core 01	GBPJPY : 2024.07.03 23:59 - 5487386 tick prices mismatch for 1282 minute bars
+NQ	3	11:38:10.958	Core 01	GBPJPY : 2024.07.04 23:59 - real ticks discarded for 1307 minutes out of 1439 total minute bars within a day
+ON	3	11:38:10.958	Core 01	GBPJPY : 2024.07.04 23:59 - 5527702 tick prices mismatch for 1307 minute bars
+LG	3	11:38:10.958	Core 01	GBPJPY : 2024.07.05 23:59 - real ticks discarded for 1341 minutes out of 1379 total minute bars within a day
+OH	3	11:38:10.958	Core 01	GBPJPY : 2024.07.05 23:59 - 5587086 tick prices mismatch for 1341 minute bars
+EE	3	11:38:10.958	Core 01	GBPJPY : 2024.07.07 23:59 - real ticks discarded for 14 minutes out of 54 total minute bars within a day
+PK	3	11:38:10.958	Core 01	GBPJPY : 2024.07.07 23:59 - 5587320 tick prices mismatch for 14 minute bars
+RH	3	11:38:10.958	Core 01	GBPJPY : 2024.07.12 23:59 - real ticks discarded for 1349 minutes out of 1379 total minute bars within a day
+EE	3	11:38:10.958	Core 01	GBPJPY : 2024.07.12 23:59 - 5664282 tick prices mismatch for 1349 minute bars
+NN	3	11:38:10.958	Core 01	GBPJPY : 2024.07.18 23:59 - real ticks discarded for 1371 minutes out of 1439 total minute bars within a day
+KG	3	11:38:10.958	Core 01	GBPJPY : 2024.07.18 23:59 - 5733305 tick prices mismatch for 1371 minute bars
+HL	3	11:38:10.958	Core 01	GBPJPY : 2024.07.19 23:59 - real ticks discarded for 1291 minutes out of 1378 total minute bars within a day
+DQ	3	11:38:10.958	Core 01	GBPJPY : 2024.07.19 23:59 - 5791038 tick prices mismatch for 1291 minute bars
+QM	3	11:38:10.958	Core 01	GBPJPY : 2024.07.22 23:59 - real ticks discarded for 1371 minutes out of 1439 total minute bars within a day
+NR	3	11:38:10.958	Core 01	GBPJPY : 2024.07.22 23:59 - 5850280 tick prices mismatch for 1371 minute bars
+KS	3	11:38:10.958	Core 01	GBPJPY : 2024.07.25 23:59 - real ticks discarded for 1413 minutes out of 1439 total minute bars within a day
+EL	3	11:38:10.958	Core 01	GBPJPY : 2024.07.25 23:59 - 5938587 tick prices mismatch for 1413 minute bars
+FQ	3	11:38:10.958	Core 01	GBPJPY : 2024.07.26 23:59 - real ticks discarded for 1319 minutes out of 1379 total minute bars within a day
+CN	3	11:38:10.958	Core 01	GBPJPY : 2024.07.26 23:59 - 6008382 tick prices mismatch for 1319 minute bars
+HG	3	11:38:10.958	Core 01	GBPJPY : 2024.07.29 23:59 - real ticks discarded for 1397 minutes out of 1437 total minute bars within a day
+FH	3	11:38:10.958	Core 01	GBPJPY : 2024.07.29 23:59 - 6081563 tick prices mismatch for 1397 minute bars
+RE	3	11:38:10.958	Core 01	GBPJPY : 2024.08.01 23:59 - real ticks discarded for 1396 minutes out of 1437 total minute bars within a day
+KJ	3	11:38:10.958	Core 01	GBPJPY : 2024.08.01 23:59 - 6183992 tick prices mismatch for 1396 minute bars
+OK	3	11:38:10.958	Core 01	GBPJPY : 2024.08.02 23:59 - real ticks discarded for 1377 minutes out of 1379 total minute bars within a day
+JD	3	11:38:10.958	Core 01	GBPJPY : 2024.08.02 23:59 - 6287730 tick prices mismatch for 1377 minute bars
+GI	3	11:38:10.958	Core 01	GBPJPY : 2024.08.05 23:59 - real ticks discarded for 1383 minutes out of 1438 total minute bars within a day
+IF	3	11:38:10.958	Core 01	GBPJPY : 2024.08.05 23:59 - 6414443 tick prices mismatch for 1383 minute bars
+IO	3	11:38:10.958	Core 01	GBPJPY : 2024.08.06 23:59 - real ticks discarded for 1390 minutes out of 1439 total minute bars within a day
+FP	3	11:38:10.958	Core 01	GBPJPY : 2024.08.06 23:59 - 6530983 tick prices mismatch for 1390 minute bars
+FL	3	11:38:10.958	Core 01	GBPJPY : 2024.08.08 23:59 - real ticks discarded for 1375 minutes out of 1440 total minute bars within a day
+HQ	3	11:38:10.958	Core 01	GBPJPY : 2024.08.08 23:59 - 6635119 tick prices mismatch for 1375 minute bars
+RR	3	11:38:10.958	Core 01	GBPJPY : 2024.08.09 23:59 - real ticks discarded for 1366 minutes out of 1379 total minute bars within a day
+HS	3	11:38:10.958	Core 01	GBPJPY : 2024.08.09 23:59 - 6723934 tick prices mismatch for 1366 minute bars
+HP	3	11:38:10.958	Core 01	GBPJPY : 2024.08.16 23:59 - real ticks discarded for 1331 minutes out of 1379 total minute bars within a day
+PM	3	11:38:10.958	Core 01	GBPJPY : 2024.08.16 23:59 - 6791410 tick prices mismatch for 1331 minute bars
+OF	3	11:38:10.958	Core 01	GBPJPY : 2024.08.19 23:59 - real ticks discarded for 1363 minutes out of 1439 total minute bars within a day
+NO	3	11:38:10.958	Core 01	GBPJPY : 2024.08.19 23:59 - 6866592 tick prices mismatch for 1363 minute bars
+PD	3	11:38:10.958	Core 01	GBPJPY : 2024.08.21 23:59 - real ticks discarded for 1376 minutes out of 1439 total minute bars within a day
+CI	3	11:38:10.958	Core 01	GBPJPY : 2024.08.21 23:59 - 6949844 tick prices mismatch for 1376 minute bars
+MJ	3	11:38:10.958	Core 01	GBPJPY : 2024.08.23 23:59 - real ticks discarded for 1350 minutes out of 1379 total minute bars within a day
+PK	3	11:38:10.958	Core 01	GBPJPY : 2024.08.23 23:59 - 7025344 tick prices mismatch for 1350 minute bars
+RH	3	11:38:10.958	Core 01	GBPJPY : 2024.08.30 23:59 - real ticks discarded for 1304 minutes out of 1379 total minute bars within a day
+HE	3	11:38:10.958	Core 01	GBPJPY : 2024.08.30 23:59 - 7091177 tick prices mismatch for 1304 minute bars
+FN	3	11:38:10.958	Core 01	GBPJPY : 2024.09.06 23:59 - real ticks discarded for 1296 minutes out of 1379 total minute bars within a day
+MG	3	11:38:10.958	Core 01	GBPJPY : 2024.09.06 23:59 - 7179489 tick prices mismatch for 1296 minute bars
+HO	3	11:38:10.958	Core 01	GBPJPY : 2024.09.11 23:59 - real ticks discarded for 1347 minutes out of 1439 total minute bars within a day
+EP	3	11:38:10.958	Core 01	GBPJPY : 2024.09.11 23:59 - 7266243 tick prices mismatch for 1347 minute bars
+JM	3	11:38:10.958	Core 01	GBPJPY : 2024.09.12 23:59 - real ticks discarded for 1322 minutes out of 1439 total minute bars within a day
+ER	3	11:38:10.958	Core 01	GBPJPY : 2024.09.12 23:59 - 7351266 tick prices mismatch for 1322 minute bars
+DS	3	11:38:10.958	Core 01	GBPJPY : 2024.09.13 23:59 - real ticks discarded for 1265 minutes out of 1379 total minute bars within a day
+HL	3	11:38:10.958	Core 01	GBPJPY : 2024.09.13 23:59 - 7420265 tick prices mismatch for 1265 minute bars
+FQ	3	11:38:10.958	Core 01	GBPJPY : 2024.09.20 23:59 - real ticks discarded for 1331 minutes out of 1379 total minute bars within a day
+EN	3	11:38:10.958	Core 01	GBPJPY : 2024.09.20 23:59 - 7509259 tick prices mismatch for 1331 minute bars
+MG	3	11:38:10.958	Core 01	GBPJPY : 2024.09.23 23:59 - real ticks discarded for 1327 minutes out of 1439 total minute bars within a day
+GH	3	11:38:10.958	Core 01	GBPJPY : 2024.09.23 23:59 - 7587646 tick prices mismatch for 1327 minute bars
+GE	3	11:38:10.958	Core 01	GBPJPY : 2024.09.27 23:59 - real ticks discarded for 1287 minutes out of 1379 total minute bars within a day
+JJ	3	11:38:10.958	Core 01	GBPJPY : 2024.09.27 23:59 - 7679190 tick prices mismatch for 1287 minute bars
+RK	3	11:38:10.958	Core 01	GBPJPY : 2024.09.30 23:59 - real ticks discarded for 1307 minutes out of 1438 total minute bars within a day
+LD	3	11:38:10.958	Core 01	GBPJPY : 2024.09.30 23:59 - 7759783 tick prices mismatch for 1307 minute bars
+KI	3	11:38:10.958	Core 01	GBPJPY : 2024.10.03 23:59 - real ticks discarded for 1329 minutes out of 1439 total minute bars within a day
+PF	3	11:38:10.958	Core 01	GBPJPY : 2024.10.03 23:59 - 7842380 tick prices mismatch for 1329 minute bars
+EN	3	11:38:10.958	Core 01	GBPJPY : 2024.10.04 23:59 - real ticks discarded for 1282 minutes out of 1379 total minute bars within a day
+NG	3	11:38:10.958	Core 01	GBPJPY : 2024.10.04 23:59 - 7913706 tick prices mismatch for 1282 minute bars
+KL	3	11:38:10.958	Core 01	GBPJPY : 2024.10.07 23:59 - real ticks discarded for 1312 minutes out of 1439 total minute bars within a day
+FQ	3	11:38:10.958	Core 01	GBPJPY : 2024.10.07 23:59 - 7985593 tick prices mismatch for 1312 minute bars
+RR	3	11:38:10.958	Core 01	GBPJPY : 2024.10.08 23:59 - real ticks discarded for 1349 minutes out of 1439 total minute bars within a day
+RS	3	11:38:10.958	Core 01	GBPJPY : 2024.10.08 23:59 - 8061091 tick prices mismatch for 1349 minute bars
+QP	3	11:38:10.958	Core 01	GBPJPY : 2024.10.11 23:59 - real ticks discarded for 1125 minutes out of 1379 total minute bars within a day
+MM	3	11:38:10.958	Core 01	GBPJPY : 2024.10.11 23:59 - 8105369 tick prices mismatch for 1125 minute bars
+RF	3	11:38:10.958	Core 01	GBPJPY : 2024.10.15 23:59 - real ticks discarded for 1202 minutes out of 1437 total minute bars within a day
+LO	3	11:38:10.958	Core 01	GBPJPY : 2024.10.15 23:59 - 8159864 tick prices mismatch for 1202 minute bars
+DD	3	11:38:10.958	Core 01	GBPJPY : 2024.10.18 23:59 - real ticks discarded for 1149 minutes out of 1379 total minute bars within a day
+NI	3	11:38:10.958	Core 01	GBPJPY : 2024.10.18 23:59 - 8210647 tick prices mismatch for 1149 minute bars
+JJ	3	11:38:10.958	Core 01	GBPJPY : 2024.10.21 23:59 - real ticks discarded for 1271 minutes out of 1438 total minute bars within a day
+PK	3	11:38:10.958	Core 01	GBPJPY : 2024.10.21 23:59 - 8264217 tick prices mismatch for 1271 minute bars
+FH	3	11:38:10.958	Core 01	GBPJPY : 2024.10.22 23:59 - real ticks discarded for 1196 minutes out of 1437 total minute bars within a day
+LE	3	11:38:10.958	Core 01	GBPJPY : 2024.10.22 23:59 - 8318742 tick prices mismatch for 1196 minute bars
+OI	3	11:38:10.958	Core 01	GBPJPY : 2024.10.25 23:59 - real ticks discarded for 1371 minutes out of 1379 total minute bars within a day
+DF	3	11:38:10.958	Core 01	GBPJPY : 2024.10.25 23:59 - 8411533 tick prices mismatch for 1371 minute bars
+LO	3	11:38:10.958	Core 01	GBPJPY : 2024.10.28 23:59 - real ticks discarded for 1387 minutes out of 1439 total minute bars within a day
+IP	3	11:38:10.958	Core 01	GBPJPY : 2024.10.28 23:59 - 8507345 tick prices mismatch for 1387 minute bars
+JM	3	11:38:10.958	Core 01	GBPJPY : 2024.10.31 23:59 - real ticks discarded for 1397 minutes out of 1438 total minute bars within a day
+IR	3	11:38:10.958	Core 01	GBPJPY : 2024.10.31 23:59 - 8617834 tick prices mismatch for 1397 minute bars
+LS	3	11:38:10.958	Core 01	GBPJPY : 2024.11.01 23:59 - real ticks discarded for 1315 minutes out of 1319 total minute bars within a day
+PL	3	11:38:10.958	Core 01	GBPJPY : 2024.11.01 23:59 - 8722229 tick prices mismatch for 1315 minute bars
+QQ	3	11:38:10.958	Core 01	GBPJPY : 2024.11.05 23:59 - real ticks discarded for 1388 minutes out of 1435 total minute bars within a day
+MN	3	11:38:10.958	Core 01	GBPJPY : 2024.11.05 23:59 - 8828234 tick prices mismatch for 1388 minute bars
+JD	3	11:38:10.958	Core 01	GBPJPY : 2024.11.08 23:59 - all the real ticks discarded within a day
+HE	3	11:38:10.958	Core 01	GBPJPY : 2024.11.08 23:59 - 8941355 tick prices mismatch for 1379 minute bars
+NN	3	11:38:10.958	Core 01	GBPJPY : 2024.11.13 23:59 - real ticks discarded for 1391 minutes out of 1439 total minute bars within a day
+HG	3	11:38:10.958	Core 01	GBPJPY : 2024.11.13 23:59 - 9054054 tick prices mismatch for 1391 minute bars
+QO	3	11:38:10.958	Core 01	GBPJPY : 2024.11.15 23:59 - real ticks discarded for 1371 minutes out of 1379 total minute bars within a day
+DP	3	11:38:10.958	Core 01	GBPJPY : 2024.11.15 23:59 - 9170567 tick prices mismatch for 1371 minute bars
+QM	3	11:38:10.958	Core 01	GBPJPY : 2024.11.20 23:59 - real ticks discarded for 1398 minutes out of 1439 total minute bars within a day
+NR	3	11:38:10.958	Core 01	GBPJPY : 2024.11.20 23:59 - 9279610 tick prices mismatch for 1398 minute bars
+JS	3	11:38:10.958	Core 01	GBPJPY : 2024.11.22 23:59 - real ticks discarded for 1378 minutes out of 1379 total minute bars within a day
+HL	3	11:38:10.958	Core 01	GBPJPY : 2024.11.22 23:59 - 9395088 tick prices mismatch for 1378 minute bars
+IQ	3	11:38:10.958	Core 01	GBPJPY : 2024.11.25 23:59 - real ticks discarded for 1390 minutes out of 1438 total minute bars within a day
+DN	3	11:38:10.958	Core 01	GBPJPY : 2024.11.25 23:59 - 9512196 tick prices mismatch for 1390 minute bars
+EG	3	11:38:10.958	Core 01	GBPJPY : 2024.11.29 23:59 - real ticks discarded for 1358 minutes out of 1379 total minute bars within a day
+NH	3	11:38:10.958	Core 01	GBPJPY : 2024.11.29 23:59 - 9625151 tick prices mismatch for 1358 minute bars
+QE	3	11:38:10.958	Core 01	GBPJPY : 2024.12.02 23:59 - real ticks discarded for 1382 minutes out of 1439 total minute bars within a day
+IJ	3	11:38:10.958	Core 01	GBPJPY : 2024.12.02 23:59 - 9741895 tick prices mismatch for 1382 minute bars
+IK	3	11:38:10.958	Core 01	GBPJPY : 2024.12.03 23:59 - real ticks discarded for 1402 minutes out of 1439 total minute bars within a day
+LD	3	11:38:10.958	Core 01	GBPJPY : 2024.12.03 23:59 - 9852916 tick prices mismatch for 1402 minute bars
+JI	3	11:38:10.958	Core 01	GBPJPY : 2024.12.06 23:59 - real ticks discarded for 1377 minutes out of 1379 total minute bars within a day
+FF	3	11:38:10.958	Core 01	GBPJPY : 2024.12.06 23:59 - 9956641 tick prices mismatch for 1377 minute bars
+KN	3	11:38:10.958	Core 01	GBPJPY : 2024.12.09 23:59 - real ticks discarded for 1394 minutes out of 1439 total minute bars within a day
+HD	3	11:38:10.958	Core 01	GBPJPY : 2024.12.09 23:59 - 10058053 tick prices mismatch for 1394 minute bars
+FL	3	11:38:10.958	Core 01	GBPJPY : 2024.12.12 23:59 - real ticks discarded for 1391 minutes out of 1439 total minute bars within a day
+KR	3	11:38:10.958	Core 01	GBPJPY : 2024.12.12 23:59 - 10155194 tick prices mismatch for 1391 minute bars
+ER	3	11:38:10.958	Core 01	GBPJPY : 2024.12.13 23:59 - real ticks discarded for 1370 minutes out of 1379 total minute bars within a day
+PP	3	11:38:10.958	Core 01	GBPJPY : 2024.12.13 23:59 - 10242718 tick prices mismatch for 1370 minute bars
+EP	3	11:38:10.958	Core 01	GBPJPY : 2024.12.20 23:59 - real ticks discarded for 1365 minutes out of 1379 total minute bars within a day
+RN	3	11:38:10.958	Core 01	GBPJPY : 2024.12.20 23:59 - 10347910 tick prices mismatch for 1365 minute bars
+OQ	3	11:38:10.958	Core 01	GBPJPY : 2024.12.24 23:59 - real ticks discarded for 1181 minutes out of 1366 total minute bars within a day
+NM	3	11:38:10.958	Core 01	GBPJPY : 2024.12.24 23:59 - 10407825 tick prices mismatch for 1181 minute bars
+EG	3	11:38:10.958	Core 01	GBPJPY : 2024.12.27 23:59 - real ticks discarded for 1359 minutes out of 1379 total minute bars within a day
+MK	3	11:38:10.958	Core 01	GBPJPY : 2024.12.27 23:59 - 10493506 tick prices mismatch for 1359 minute bars
+ME	3	11:38:10.958	Core 01	GBPJPY : 2024.12.30 23:59 - real ticks discarded for 1358 minutes out of 1439 total minute bars within a day
+OI	3	11:38:10.958	Core 01	GBPJPY : 2024.12.30 23:59 - 10575016 tick prices mismatch for 1358 minute bars
+HK	3	11:38:10.958	Core 01	GBPJPY : 2024.12.31 23:59 - real ticks discarded for 1357 minutes out of 1380 total minute bars within a day
+EG	3	11:38:10.958	Core 01	GBPJPY : 2024.12.31 23:59 - 10658852 tick prices mismatch for 1357 minute bars
+HH	3	11:38:10.958	Core 01	GBPJPY : 2025.01.03 23:59 - real ticks discarded for 1328 minutes out of 1379 total minute bars within a day
+QF	3	11:38:10.958	Core 01	GBPJPY : 2025.01.03 23:59 - 10738640 tick prices mismatch for 1328 minute bars
+CN	3	11:38:10.958	Core 01	GBPJPY : 2025.01.07 23:59 - real ticks discarded for 1152 minutes out of 1205 total minute bars within a day
+HD	3	11:38:10.958	Core 01	GBPJPY : 2025.01.07 23:59 - 10820819 tick prices mismatch for 1152 minute bars
+FL	3	11:38:10.958	Core 01	GBPJPY : 2025.01.08 23:59 - real ticks discarded for 1384 minutes out of 1439 total minute bars within a day
+MR	3	11:38:10.958	Core 01	GBPJPY : 2025.01.08 23:59 - 10914366 tick prices mismatch for 1384 minute bars
+DR	3	11:38:10.958	Core 01	GBPJPY : 2025.01.09 23:59 - real ticks discarded for 1338 minutes out of 1439 total minute bars within a day
+HP	3	11:38:10.958	Core 01	GBPJPY : 2025.01.09 23:59 - 10993375 tick prices mismatch for 1338 minute bars
+KS	3	11:38:10.958	Core 01	GBPJPY : 2025.01.10 23:59 - real ticks discarded for 1350 minutes out of 1379 total minute bars within a day
+PO	3	11:38:10.958	Core 01	GBPJPY : 2025.01.10 23:59 - 11087439 tick prices mismatch for 1350 minute bars
+FQ	3	11:38:10.958	Core 01	GBPJPY : 2025.01.13 23:59 - real ticks discarded for 1412 minutes out of 1440 total minute bars within a day
+NM	3	11:38:10.958	Core 01	GBPJPY : 2025.01.13 23:59 - 11210020 tick prices mismatch for 1412 minute bars
+MK	3	11:38:10.958	Core 01	GBPJPY : 2025.01.14 23:59 - no real ticks within a day
+RD	3	11:38:10.958	Core 01	GBPJPY : 2025.01.15 23:59 - real ticks absent for 189 minutes out of 1440 total minute bars within a day
+GH	3	11:38:10.958	Core 01	GBPJPY : 2025.01.15 23:59 - real ticks discarded for 1251 minutes out of 1440 total minute bars within a day
+EF	3	11:38:10.958	Core 01	GBPJPY : 2025.01.15 23:59 - 11342956 tick prices mismatch for 1251 minute bars
+MM	3	11:38:10.958	Core 01	GBPJPY : 2025.01.16 23:59 - all the real ticks discarded within a day
+CO	3	11:38:10.958	Core 01	GBPJPY : 2025.01.16 23:59 - 11497815 tick prices mismatch for 1440 minute bars
+NL	3	11:38:17.061	Core 01	GBPJPY : 2025.01.17 23:59 - real ticks absent for 1 minutes out of 1320 total minute bars within a day
+KP	3	11:38:17.061	Core 01	GBPJPY : 2025.01.17 23:59 - real ticks discarded for 1319 minutes out of 1320 total minute bars within a day
+DN	3	11:38:17.061	Core 01	GBPJPY : 2025.01.17 23:59 - 11622117 tick prices mismatch for 1319 minute bars
+FF	3	11:38:17.061	Core 01	GBPJPY : 2025.01.19 23:59 - real ticks discarded for 118 minutes out of 120 total minute bars within a day
+DO	3	11:38:17.061	Core 01	GBPJPY : 2025.01.19 23:59 - 11628717 tick prices mismatch for 118 minute bars
+JI	3	11:38:17.061	Core 01	GBPJPY : 2025.01.20 23:59 - real ticks absent for 4 minutes out of 1431 total minute bars within a day
+KD	3	11:38:17.061	Core 01	GBPJPY : 2025.01.20 23:59 - real ticks discarded for 1417 minutes out of 1431 total minute bars within a day
+HJ	3	11:38:17.061	Core 01	GBPJPY : 2025.01.20 23:59 - 11750891 tick prices mismatch for 1417 minute bars
+PG	3	11:38:17.061	Core 01	GBPJPY : 2025.01.21 23:59 - real ticks absent for 1 minutes out of 1440 total minute bars within a day
+CE	3	11:38:17.061	Core 01	GBPJPY : 2025.01.21 23:59 - real ticks discarded for 1423 minutes out of 1440 total minute bars within a day
+LI	3	11:38:17.061	Core 01	GBPJPY : 2025.01.21 23:59 - 11906825 tick prices mismatch for 1423 minute bars
+KK	3	11:38:17.061	Core 01	GBPJPY : 2025.01.22 23:59 - real ticks discarded for 1422 minutes out of 1439 total minute bars within a day
+KG	3	11:38:17.061	Core 01	GBPJPY : 2025.01.22 23:59 - 12019851 tick prices mismatch for 1422 minute bars
+QI	3	11:38:17.061	Core 01	GBPJPY : 2025.01.23 23:59 - real ticks discarded for 1402 minutes out of 1421 total minute bars within a day
+HE	3	11:38:17.061	Core 01	GBPJPY : 2025.01.23 23:59 - 12136156 tick prices mismatch for 1402 minute bars
+LR	3	11:38:17.061	Core 01	GBPJPY : 2025.01.24 23:59 - real ticks absent for 1 minutes out of 1320 total minute bars within a day
+MN	3	11:38:17.061	Core 01	GBPJPY : 2025.01.24 23:59 - real ticks discarded for 1319 minutes out of 1320 total minute bars within a day
+HD	3	11:38:17.061	Core 01	GBPJPY : 2025.01.24 23:59 - 12293738 tick prices mismatch for 1319 minute bars
+RO	3	11:38:17.061	Core 01	GBPJPY : 2025.01.26 23:59 - real ticks discarded for 66 minutes out of 119 total minute bars within a day
+NQ	3	11:38:17.061	Core 01	GBPJPY : 2025.01.26 23:59 - 12296155 tick prices mismatch for 66 minute bars
+EN	3	11:38:17.061	Core 01	GBPJPY : 2025.01.27 23:59 - real ticks absent for 498 minutes out of 1438 total minute bars within a day
+FQ	3	11:38:17.061	Core 01	GBPJPY : 2025.01.27 23:59 - real ticks discarded for 899 minutes out of 1438 total minute bars within a day
+CS	3	11:38:17.061	Core 01	GBPJPY : 2025.01.27 23:59 - 12370770 tick prices mismatch for 899 minute bars
+GM	3	11:38:17.061	Core 01	GBPJPY : 2025.01.28 23:59 - real ticks absent for 5 minutes out of 1439 total minute bars within a day
+NP	3	11:38:17.061	Core 01	GBPJPY : 2025.01.28 23:59 - real ticks discarded for 1434 minutes out of 1439 total minute bars within a day
+KN	3	11:38:17.061	Core 01	GBPJPY : 2025.01.28 23:59 - 12461343 tick prices mismatch for 1434 minute bars
+MH	3	11:38:17.061	Core 01	GBPJPY : 2025.01.29 23:59 - real ticks absent for 30 minutes out of 1438 total minute bars within a day
+HQ	3	11:38:17.061	Core 01	GBPJPY : 2025.01.29 23:59 - real ticks discarded for 1175 minutes out of 1438 total minute bars within a day
+DM	3	11:38:17.061	Core 01	GBPJPY : 2025.01.29 23:59 - 12566325 tick prices mismatch for 1175 minute bars
+HD	3	11:38:17.061	Core 01	GBPJPY : 2025.01.30 23:59 - real ticks discarded for 999 minutes out of 1437 total minute bars within a day
+RH	3	11:38:17.061	Core 01	GBPJPY : 2025.01.30 23:59 - 12662158 tick prices mismatch for 999 minute bars
+FF	3	11:38:17.061	Core 01	GBPJPY : 2025.01.31 23:59 - real ticks discarded for 960 minutes out of 1320 total minute bars within a day
+PJ	3	11:38:17.061	Core 01	GBPJPY : 2025.01.31 23:59 - 12768013 tick prices mismatch for 960 minute bars
+MK	3	11:38:17.061	Core 01	GBPJPY : 2025.02.02 23:59 - real ticks discarded for 103 minutes out of 117 total minute bars within a day
+GD	3	11:38:17.061	Core 01	GBPJPY : 2025.02.02 23:59 - 12778116 tick prices mismatch for 103 minute bars
+LI	3	11:38:17.061	Core 01	GBPJPY : 2025.02.03 23:59 - real ticks discarded for 1250 minutes out of 1439 total minute bars within a day
+QE	3	11:38:17.061	Core 01	GBPJPY : 2025.02.03 23:59 - 12951358 tick prices mismatch for 1250 minute bars
+FO	3	11:38:17.061	Core 01	GBPJPY : 2025.02.04 23:59 - real ticks discarded for 1135 minutes out of 1438 total minute bars within a day
+PS	3	11:38:17.061	Core 01	GBPJPY : 2025.02.04 23:59 - 13057855 tick prices mismatch for 1135 minute bars
+NM	3	11:38:17.061	Core 01	GBPJPY : 2025.02.05 23:59 - real ticks discarded for 1137 minutes out of 1440 total minute bars within a day
+DQ	3	11:38:17.061	Core 01	GBPJPY : 2025.02.05 23:59 - 13164112 tick prices mismatch for 1137 minute bars
+RR	3	11:38:17.061	Core 01	GBPJPY : 2025.02.06 23:59 - real ticks discarded for 1100 minutes out of 1438 total minute bars within a day
+PP	3	11:38:17.061	Core 01	GBPJPY : 2025.02.06 23:59 - 13257897 tick prices mismatch for 1100 minute bars
+RS	3	11:38:17.061	Core 01	GBPJPY : 2025.02.07 23:59 - real ticks discarded for 919 minutes out of 1319 total minute bars within a day
+OM	3	11:38:17.061	Core 01	GBPJPY : 2025.02.07 23:59 - 13358593 tick prices mismatch for 919 minute bars
+QF	3	11:38:17.061	Core 01	GBPJPY : 2025.02.09 23:59 - real ticks discarded for 106 minutes out of 120 total minute bars within a day
+GO	3	11:38:17.061	Core 01	GBPJPY : 2025.02.09 23:59 - 13362734 tick prices mismatch for 106 minute bars
+JG	3	11:38:17.061	Core 01	GBPJPY : 2025.02.10 23:59 - real ticks discarded for 955 minutes out of 1438 total minute bars within a day
+FI	3	11:38:17.061	Core 01	GBPJPY : 2025.02.10 23:59 - 13430991 tick prices mismatch for 955 minute bars
+NI	3	11:38:17.061	Core 01	GBPJPY : 2025.02.11 23:59 - real ticks discarded for 965 minutes out of 1436 total minute bars within a day
+EK	3	11:38:17.061	Core 01	GBPJPY : 2025.02.11 23:59 - 13494509 tick prices mismatch for 965 minute bars
+NK	3	11:38:17.061	Core 01	GBPJPY : 2025.02.12 23:59 - real ticks discarded for 989 minutes out of 1437 total minute bars within a day
+KE	3	11:38:17.061	Core 01	GBPJPY : 2025.02.12 23:59 - 13585053 tick prices mismatch for 989 minute bars
+HN	3	11:38:17.061	Core 01	GBPJPY : 2025.02.13 23:59 - real ticks discarded for 1064 minutes out of 1433 total minute bars within a day
+GD	3	11:38:17.061	Core 01	GBPJPY : 2025.02.13 23:59 - 13690098 tick prices mismatch for 1064 minute bars
+CO	3	11:38:17.061	Core 01	GBPJPY : 2025.02.14 23:59 - real ticks discarded for 886 minutes out of 1294 total minute bars within a day
+LQ	3	11:38:17.061	Core 01	GBPJPY : 2025.02.14 23:59 - 13765421 tick prices mismatch for 886 minute bars
+RR	3	11:38:17.061	Core 01	GBPJPY : 2025.02.16 23:59 - real ticks discarded for 116 minutes out of 120 total minute bars within a day
+DS	3	11:38:17.061	Core 01	GBPJPY : 2025.02.16 23:59 - 13769175 tick prices mismatch for 116 minute bars
+PP	3	11:38:17.061	Core 01	GBPJPY : 2025.02.17 23:59 - real ticks discarded for 1052 minutes out of 1438 total minute bars within a day
+EN	3	11:38:17.061	Core 01	GBPJPY : 2025.02.17 23:59 - 13823354 tick prices mismatch for 1052 minute bars
+NE	3	11:38:17.061	Core 01	GBPJPY : 2025.02.18 23:59 - real ticks discarded for 927 minutes out of 1440 total minute bars within a day
+DO	3	11:38:17.061	Core 01	GBPJPY : 2025.02.18 23:59 - 13884632 tick prices mismatch for 927 minute bars
+PG	3	11:38:17.061	Core 01	GBPJPY : 2025.02.19 23:59 - real ticks discarded for 975 minutes out of 1437 total minute bars within a day
+CI	3	11:38:17.061	Core 01	GBPJPY : 2025.02.19 23:59 - 13955937 tick prices mismatch for 975 minute bars
+MJ	3	11:38:17.061	Core 01	GBPJPY : 2025.02.20 23:59 - real ticks discarded for 1007 minutes out of 1437 total minute bars within a day
+KH	3	11:38:17.061	Core 01	GBPJPY : 2025.02.20 23:59 - 14041803 tick prices mismatch for 1007 minute bars
+FK	3	11:38:17.061	Core 01	GBPJPY : 2025.02.21 23:59 - real ticks discarded for 908 minutes out of 1319 total minute bars within a day
+IE	3	11:38:17.061	Core 01	GBPJPY : 2025.02.21 23:59 - 14121714 tick prices mismatch for 908 minute bars
+PM	3	11:38:17.061	Core 01	GBPJPY : 2025.02.23 23:59 - real ticks discarded for 62 minutes out of 120 total minute bars within a day
+LD	3	11:38:17.061	Core 01	GBPJPY : 2025.02.23 23:59 - 14124946 tick prices mismatch for 62 minute bars
+MO	3	11:38:17.061	Core 01	GBPJPY : 2025.02.24 23:59 - real ticks discarded for 982 minutes out of 1425 total minute bars within a day
+KQ	3	11:38:17.061	Core 01	GBPJPY : 2025.02.24 23:59 - 14212626 tick prices mismatch for 982 minute bars
+FR	3	11:38:17.061	Core 01	GBPJPY : 2025.02.25 23:59 - real ticks discarded for 1017 minutes out of 1438 total minute bars within a day
+JP	3	11:38:17.061	Core 01	GBPJPY : 2025.02.25 23:59 - 14315541 tick prices mismatch for 1017 minute bars
+CS	3	11:38:17.061	Core 01	GBPJPY : 2025.02.26 23:59 - real ticks discarded for 993 minutes out of 1429 total minute bars within a day
+DM	3	11:38:17.061	Core 01	GBPJPY : 2025.02.26 23:59 - 14410302 tick prices mismatch for 993 minute bars
+GE	3	11:38:17.061	Core 01	GBPJPY : 2025.02.27 23:59 - real ticks discarded for 913 minutes out of 1435 total minute bars within a day
+CO	3	11:38:17.061	Core 01	GBPJPY : 2025.02.27 23:59 - 14506429 tick prices mismatch for 913 minute bars
+NG	3	11:38:17.061	Core 01	GBPJPY : 2025.02.28 23:59 - real ticks discarded for 839 minutes out of 1319 total minute bars within a day
+LI	3	11:38:17.061	Core 01	GBPJPY : 2025.02.28 23:59 - 14610721 tick prices mismatch for 839 minute bars
+GI	3	11:38:17.061	Core 01	GBPJPY : 2025.03.02 23:59 - real ticks discarded for 86 minutes out of 110 total minute bars within a day
+MH	3	11:38:17.061	Core 01	GBPJPY : 2025.03.02 23:59 - 14613409 tick prices mismatch for 86 minute bars
+JK	3	11:38:17.061	Core 01	GBPJPY : 2025.03.03 23:59 - real ticks discarded for 999 minutes out of 1439 total minute bars within a day
+JE	3	11:38:17.061	Core 01	GBPJPY : 2025.03.03 23:59 - 14737571 tick prices mismatch for 999 minute bars
+NN	3	11:38:17.061	Core 01	GBPJPY : 2025.03.04 23:59 - real ticks discarded for 1094 minutes out of 1440 total minute bars within a day
+PD	3	11:38:17.061	Core 01	GBPJPY : 2025.03.04 23:59 - 14914565 tick prices mismatch for 1094 minute bars
+CL	3	11:38:17.061	Core 01	GBPJPY : 2025.03.05 23:59 - real ticks discarded for 1063 minutes out of 1439 total minute bars within a day
+HR	3	11:38:17.061	Core 01	GBPJPY : 2025.03.05 23:59 - 15076869 tick prices mismatch for 1063 minute bars
+NR	3	11:38:17.061	Core 01	GBPJPY : 2025.03.06 23:59 - real ticks discarded for 1064 minutes out of 1432 total minute bars within a day
+FP	3	11:38:17.061	Core 01	GBPJPY : 2025.03.06 23:59 - 15241456 tick prices mismatch for 1064 minute bars
+QP	3	11:38:17.061	Core 01	GBPJPY : 2025.03.07 23:59 - real ticks discarded for 924 minutes out of 1320 total minute bars within a day
+PL	3	11:38:17.061	Core 01	GBPJPY : 2025.03.07 23:59 - 15386011 tick prices mismatch for 924 minute bars
+CR	3	11:38:17.061	Core 01	GBPJPY : 2025.03.09 23:59 - real ticks discarded for 84 minutes out of 120 total minute bars within a day
+RL	3	11:38:17.061	Core 01	GBPJPY : 2025.03.09 23:59 - 15390523 tick prices mismatch for 84 minute bars
+DG	3	11:38:17.061	Core 01	GBPJPY : 2025.03.10 23:59 - real ticks discarded for 922 minutes out of 1437 total minute bars within a day
+JI	3	11:38:17.061	Core 01	GBPJPY : 2025.03.10 23:59 - 15513578 tick prices mismatch for 922 minute bars
+MI	3	11:38:17.061	Core 01	GBPJPY : 2025.03.11 23:59 - real ticks discarded for 968 minutes out of 1433 total minute bars within a day
+JK	3	11:38:17.061	Core 01	GBPJPY : 2025.03.11 23:59 - 15663753 tick prices mismatch for 968 minute bars
+NK	3	11:38:17.061	Core 01	GBPJPY : 2025.03.12 23:59 - real ticks discarded for 895 minutes out of 1432 total minute bars within a day
+CE	3	11:38:17.061	Core 01	GBPJPY : 2025.03.12 23:59 - 15767470 tick prices mismatch for 895 minute bars
+JM	3	11:38:17.061	Core 01	GBPJPY : 2025.03.13 23:59 - real ticks discarded for 901 minutes out of 1433 total minute bars within a day
+NG	3	11:38:17.061	Core 01	GBPJPY : 2025.03.13 23:59 - 15865811 tick prices mismatch for 901 minute bars
+KO	3	11:38:17.061	Core 01	GBPJPY : 2025.03.14 23:59 - real ticks discarded for 741 minutes out of 1262 total minute bars within a day
+KQ	3	11:38:17.061	Core 01	GBPJPY : 2025.03.14 23:59 - 15945137 tick prices mismatch for 741 minute bars
+JQ	3	11:38:17.061	Core 01	GBPJPY : 2025.03.16 23:59 - real ticks discarded for 83 minutes out of 120 total minute bars within a day
+LP	3	11:38:17.061	Core 01	GBPJPY : 2025.03.16 23:59 - 15947809 tick prices mismatch for 83 minute bars
+QS	3	11:38:17.061	Core 01	GBPJPY : 2025.03.17 23:59 - real ticks discarded for 944 minutes out of 1435 total minute bars within a day
+OM	3	11:38:17.061	Core 01	GBPJPY : 2025.03.17 23:59 - 16022369 tick prices mismatch for 944 minute bars
+PE	3	11:38:17.061	Core 01	GBPJPY : 2025.03.18 23:59 - real ticks discarded for 928 minutes out of 1433 total minute bars within a day
+LO	3	11:38:17.061	Core 01	GBPJPY : 2025.03.18 23:59 - 16094414 tick prices mismatch for 928 minute bars
+LG	3	11:38:17.061	Core 01	GBPJPY : 2025.03.19 23:59 - real ticks discarded for 992 minutes out of 1437 total minute bars within a day
+GI	3	11:38:17.061	Core 01	GBPJPY : 2025.03.19 23:59 - 16169843 tick prices mismatch for 992 minute bars
+GD	3	11:38:17.061	Core 01	GBPJPY : 2025.03.20 23:59 - real ticks absent for 13 minutes out of 1434 total minute bars within a day
+MI	3	11:38:17.061	Core 01	GBPJPY : 2025.03.20 23:59 - real ticks discarded for 938 minutes out of 1434 total minute bars within a day
+FK	3	11:38:17.061	Core 01	GBPJPY : 2025.03.20 23:59 - 16240466 tick prices mismatch for 938 minute bars
+IK	3	11:38:17.061	Core 01	GBPJPY : 2025.03.21 23:59 - real ticks discarded for 758 minutes out of 1262 total minute bars within a day
+QE	3	11:38:17.061	Core 01	GBPJPY : 2025.03.21 23:59 - 16302878 tick prices mismatch for 758 minute bars
+OM	3	11:38:17.061	Core 01	GBPJPY : 2025.03.23 23:59 - real ticks discarded for 71 minutes out of 120 total minute bars within a day
+QD	3	11:38:17.061	Core 01	GBPJPY : 2025.03.23 23:59 - 16305376 tick prices mismatch for 71 minute bars
+OO	3	11:38:17.061	Core 01	GBPJPY : 2025.03.24 23:59 - real ticks discarded for 889 minutes out of 1437 total minute bars within a day
+GQ	3	11:38:17.061	Core 01	GBPJPY : 2025.03.24 23:59 - 16366878 tick prices mismatch for 889 minute bars
+OQ	3	11:38:17.061	Core 01	GBPJPY : 2025.03.25 23:59 - real ticks discarded for 889 minutes out of 1436 total minute bars within a day
+GS	3	11:38:17.061	Core 01	GBPJPY : 2025.03.25 23:59 - 16421323 tick prices mismatch for 889 minute bars
+RS	3	11:38:17.061	Core 01	GBPJPY : 2025.03.26 23:59 - real ticks discarded for 857 minutes out of 1435 total minute bars within a day
+DM	3	11:38:17.061	Core 01	GBPJPY : 2025.03.26 23:59 - 16486468 tick prices mismatch for 857 minute bars
+IE	3	11:38:17.061	Core 01	GBPJPY : 2025.03.27 23:59 - real ticks discarded for 934 minutes out of 1439 total minute bars within a day
+RO	3	11:38:17.061	Core 01	GBPJPY : 2025.03.27 23:59 - 16560239 tick prices mismatch for 934 minute bars
+LG	3	11:38:17.061	Core 01	GBPJPY : 2025.03.28 23:59 - real ticks discarded for 752 minutes out of 1264 total minute bars within a day
+OI	3	11:38:17.061	Core 01	GBPJPY : 2025.03.28 23:59 - 16627684 tick prices mismatch for 752 minute bars
+HJ	3	11:38:17.061	Core 01	GBPJPY : 2025.03.30 23:59 - real ticks discarded for 103 minutes out of 116 total minute bars within a day
+IK	3	11:38:17.061	Core 01	GBPJPY : 2025.03.30 23:59 - 16629737 tick prices mismatch for 103 minute bars
+IK	3	11:38:17.061	Core 01	GBPJPY : 2025.03.31 23:59 - real ticks discarded for 949 minutes out of 1436 total minute bars within a day
+OE	3	11:38:17.061	Core 01	GBPJPY : 2025.03.31 23:59 - 16726220 tick prices mismatch for 949 minute bars
+FP	3	11:38:17.061	Core 01	GBPJPY : 2025.04.01 23:59 - real ticks absent for 22 minutes out of 1437 total minute bars within a day
+GM	3	11:38:17.061	Core 01	GBPJPY : 2025.04.01 23:59 - real ticks discarded for 940 minutes out of 1437 total minute bars within a day
+FG	3	11:38:17.061	Core 01	GBPJPY : 2025.04.01 23:59 - 16815755 tick prices mismatch for 940 minute bars
+KO	3	11:38:17.061	Core 01	GBPJPY : 2025.04.02 23:59 - real ticks discarded for 938 minutes out of 1440 total minute bars within a day
+EQ	3	11:38:17.061	Core 01	GBPJPY : 2025.04.02 23:59 - 16911348 tick prices mismatch for 938 minute bars
+FR	3	11:38:17.061	Core 01	GBPJPY : 2025.04.03 23:59 - real ticks discarded for 1170 minutes out of 1438 total minute bars within a day
+DP	3	11:38:17.061	Core 01	GBPJPY : 2025.04.03 23:59 - 17108579 tick prices mismatch for 1170 minute bars
+HP	3	11:38:17.061	Core 01	GBPJPY : 2025.04.04 23:59 - real ticks discarded for 1094 minutes out of 1320 total minute bars within a day
+CN	3	11:38:17.061	Core 01	GBPJPY : 2025.04.04 23:59 - 17352906 tick prices mismatch for 1094 minute bars
+OQ	3	11:38:17.061	Core 01	GBPJPY : 2025.04.06 23:59 - real ticks discarded for 102 minutes out of 118 total minute bars within a day
+PO	3	11:38:17.061	Core 01	GBPJPY : 2025.04.06 23:59 - 17358401 tick prices mismatch for 102 minute bars
+OG	3	11:38:17.061	Core 01	GBPJPY : 2025.04.07 23:59 - real ticks discarded for 1286 minutes out of 1433 total minute bars within a day
+MK	3	11:38:17.061	Core 01	GBPJPY : 2025.04.07 23:59 - 17655209 tick prices mismatch for 1286 minute bars
+EE	3	11:38:17.061	Core 01	GBPJPY : 2025.04.08 23:59 - real ticks discarded for 1179 minutes out of 1398 total minute bars within a day
+II	3	11:38:17.061	Core 01	GBPJPY : 2025.04.08 23:59 - 17890484 tick prices mismatch for 1179 minute bars
+DK	3	11:38:17.061	Core 01	GBPJPY : 2025.04.09 23:59 - real ticks discarded for 1252 minutes out of 1413 total minute bars within a day
+RG	3	11:38:17.061	Core 01	GBPJPY : 2025.04.09 23:59 - 18154459 tick prices mismatch for 1252 minute bars
+NI	3	11:38:17.061	Core 01	GBPJPY : 2025.04.10 23:59 - real ticks discarded for 1170 minutes out of 1425 total minute bars within a day
+IE	3	11:38:17.061	Core 01	GBPJPY : 2025.04.10 23:59 - 18370468 tick prices mismatch for 1170 minute bars
+NN	3	11:38:17.061	Core 01	GBPJPY : 2025.04.11 23:59 - real ticks discarded for 1108 minutes out of 1320 total minute bars within a day
+FD	3	11:38:17.061	Core 01	GBPJPY : 2025.04.11 23:59 - 18582237 tick prices mismatch for 1108 minute bars
+CO	3	11:38:17.061	Core 01	GBPJPY : 2025.04.13 23:59 - real ticks discarded for 89 minutes out of 105 total minute bars within a day
+MQ	3	11:38:17.061	Core 01	GBPJPY : 2025.04.13 23:59 - 18585386 tick prices mismatch for 89 minute bars
+NM	3	11:38:17.061	Core 01	GBPJPY : 2025.04.14 23:59 - real ticks absent for 63 minutes out of 1416 total minute bars within a day
+HR	3	11:38:17.061	Core 01	GBPJPY : 2025.04.14 23:59 - real ticks discarded for 1051 minutes out of 1416 total minute bars within a day
+EP	3	11:38:17.061	Core 01	GBPJPY : 2025.04.14 23:59 - 18717674 tick prices mismatch for 1051 minute bars
+CP	3	11:38:17.061	Core 01	GBPJPY : 2025.04.15 23:59 - real ticks discarded for 1047 minutes out of 1419 total minute bars within a day
+ON	3	11:38:17.061	Core 01	GBPJPY : 2025.04.15 23:59 - 18824824 tick prices mismatch for 1047 minute bars
+QF	3	11:38:17.061	Core 01	GBPJPY : 2025.04.16 23:59 - real ticks discarded for 1024 minutes out of 1404 total minute bars within a day
+CL	3	11:38:17.061	Core 01	GBPJPY : 2025.04.16 23:59 - 18941714 tick prices mismatch for 1024 minute bars
+PG	3	11:38:17.061	Core 01	GBPJPY : 2025.04.17 23:59 - real ticks discarded for 1050 minutes out of 1397 total minute bars within a day
+HK	3	11:38:17.061	Core 01	GBPJPY : 2025.04.17 23:59 - 19055260 tick prices mismatch for 1050 minute bars
+LE	3	11:38:17.061	Core 01	GBPJPY : 2025.04.18 23:59 - real ticks discarded for 1269 minutes out of 1318 total minute bars within a day
+MI	3	11:38:17.061	Core 01	GBPJPY : 2025.04.18 23:59 - 19159764 tick prices mismatch for 1269 minute bars
+HJ	0	11:38:23.165	Core 01	GBPJPY : real ticks begin from 2023.09.12 00:00:00
+FR	3	11:38:23.165	Core 01	GBPJPY : 2023.09.12 00:00 - 2026.09.12 00:00  real ticks absent for 2267 minutes of 1115733 total minute bars, every tick generation used
+MH	3	11:38:23.165	Core 01	GBPJPY : 2023.09.12 00:00 - 2026.09.12 00:00  real ticks discarded for 240572 minutes of 1115733 total minute bars, every tick generation used
+RJ	3	11:38:23.165	Core 01	GBPJPY : 2023.09.12 00:00 - 2026.09.12 00:00  real ticks absent for 1 whole days
+CI	3	11:38:23.165	Core 01	GBPJPY : 2023.09.12 00:00 - 2026.09.12 00:00  real ticks discarded for 2 whole days
+MJ	3	11:38:23.165	Core 01	GBPJPY : 2023.09.12 00:00 - 2026.09.12 00:00  tick volumes not matched for 208172 minute bars
+MI	3	11:38:23.165	Core 01	GBPJPY : 2023.09.12 00:00 - 2026.09.12 00:00  tick prices of 19159764 ticks not matched for 240572 minute bars
+MF	0	11:38:23.165	Core 01	2023.09.12 07:00:00   market buy 0.01 GBP100_USDJPY sl: 146.267 tp: 148.597 (146.735 / 146.736)
+PE	0	11:38:23.165	Core 01	2023.09.12 07:00:00   deal #2 buy 0.01 GBP100_USDJPY at 146.736 done (based on order #2)
+PL	0	11:38:23.165	Core 01	2023.09.12 07:00:00   deal performed [#2 buy 0.01 GBP100_USDJPY at 146.736]
+EM	0	11:38:23.165	Core 01	2023.09.12 07:00:00   order performed buy 0.01 at 146.736 [#2 buy 0.01 GBP100_USDJPY at 146.736]
+ML	0	11:38:23.165	Core 01	2023.09.12 07:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 146.267 tp: 148.597 [done at 146.736]
+CP	0	11:38:23.165	Core 01	2023.09.12 20:00:00   market sell 0.01 GBP100_USDJPY, close #2 (147.207 / 147.210)
+GP	0	11:38:23.165	Core 01	2023.09.12 20:00:00   deal #3 sell 0.01 GBP100_USDJPY at 147.207 done (based on order #3)
+NN	0	11:38:23.165	Core 01	2023.09.12 20:00:00   deal performed [#3 sell 0.01 GBP100_USDJPY at 147.207]
+OF	0	11:38:23.165	Core 01	2023.09.12 20:00:00   order performed sell 0.01 at 147.207 [#3 sell 0.01 GBP100_USDJPY at 147.207]
+MH	0	11:38:23.165	Core 01	2023.09.12 20:00:00   CTrade::OrderSend: market sell 0.01 position #2 GBP100_USDJPY [done at 147.207]
+NI	0	11:38:23.165	Core 01	2023.09.13 07:00:00   market buy 0.01 GBP100_USDJPY sl: 147.006 tp: 148.951 (147.394 / 147.395)
+CJ	0	11:38:23.165	Core 01	2023.09.13 07:00:00   deal #4 buy 0.01 GBP100_USDJPY at 147.395 done (based on order #4)
+IG	0	11:38:23.165	Core 01	2023.09.13 07:00:00   deal performed [#4 buy 0.01 GBP100_USDJPY at 147.395]
+HH	0	11:38:23.165	Core 01	2023.09.13 07:00:00   order performed buy 0.01 at 147.395 [#4 buy 0.01 GBP100_USDJPY at 147.395]
+HI	0	11:38:23.165	Core 01	2023.09.13 07:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 147.006 tp: 148.951 [done at 147.395]
+FG	0	11:38:23.165	Core 01	2023.09.13 20:00:00   market sell 0.01 GBP100_USDJPY, close #4 (147.322 / 147.331)
+FK	0	11:38:23.165	Core 01	2023.09.13 20:00:00   deal #5 sell 0.01 GBP100_USDJPY at 147.322 done (based on order #5)
+MS	0	11:38:23.165	Core 01	2023.09.13 20:00:00   deal performed [#5 sell 0.01 GBP100_USDJPY at 147.322]
+NM	0	11:38:23.165	Core 01	2023.09.13 20:00:00   order performed sell 0.01 at 147.322 [#5 sell 0.01 GBP100_USDJPY at 147.322]
+NM	0	11:38:23.165	Core 01	2023.09.13 20:00:00   CTrade::OrderSend: market sell 0.01 position #4 GBP100_USDJPY [done at 147.322]
+FS	0	11:38:23.165	Core 01	2023.09.14 07:00:00   market sell 0.01 GBP100_USDJPY sl: 147.549 tp: 145.494 (147.138 / 147.139)
+KP	0	11:38:23.165	Core 01	2023.09.14 07:00:00   deal #6 sell 0.01 GBP100_USDJPY at 147.138 done (based on order #6)
+EN	0	11:38:23.165	Core 01	2023.09.14 07:00:00   deal performed [#6 sell 0.01 GBP100_USDJPY at 147.138]
+MF	0	11:38:23.165	Core 01	2023.09.14 07:00:00   order performed sell 0.01 at 147.138 [#6 sell 0.01 GBP100_USDJPY at 147.138]
+II	0	11:38:23.165	Core 01	2023.09.14 07:00:00   CTrade::OrderSend: market sell 0.01 GBP100_USDJPY sl: 147.549 tp: 145.494 [done at 147.138]
+KS	0	11:38:23.165	Core 01	2023.09.14 14:30:22   stop loss triggered #6 sell 0.01 GBP100_USDJPY 147.138 sl: 147.549 tp: 145.494 [#7 buy 0.01 GBP100_USDJPY at 147.549]
+DQ	0	11:38:23.165	Core 01	2023.09.14 14:30:22   deal #7 buy 0.01 GBP100_USDJPY at 147.549 done (based on order #7)
+GP	0	11:38:23.165	Core 01	2023.09.14 14:30:22   deal performed [#7 buy 0.01 GBP100_USDJPY at 147.549]
+CQ	0	11:38:23.165	Core 01	2023.09.14 14:30:22   order performed buy 0.01 at 147.549 [#7 buy 0.01 GBP100_USDJPY at 147.549]
+MO	0	11:38:23.165	Core 01	2023.09.14 15:00:00   market buy 0.01 GBP100_USDJPY sl: 146.971 tp: 149.159 (147.408 / 147.409)
+MK	0	11:38:23.165	Core 01	2023.09.14 15:00:00   deal #8 buy 0.01 GBP100_USDJPY at 147.409 done (based on order #8)
+CE	0	11:38:23.165	Core 01	2023.09.14 15:00:00   deal performed [#8 buy 0.01 GBP100_USDJPY at 147.409]
+LK	0	11:38:23.165	Core 01	2023.09.14 15:00:00   order performed buy 0.01 at 147.409 [#8 buy 0.01 GBP100_USDJPY at 147.409]
+QJ	0	11:38:23.165	Core 01	2023.09.14 15:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 146.971 tp: 149.159 [done at 147.409]
+FF	0	11:38:23.165	Core 01	2023.09.14 20:00:00   market sell 0.01 GBP100_USDJPY, close #8 (147.425 / 147.428)
+KJ	0	11:38:23.165	Core 01	2023.09.14 20:00:00   deal #9 sell 0.01 GBP100_USDJPY at 147.425 done (based on order #9)
+HD	0	11:38:23.165	Core 01	2023.09.14 20:00:00   deal performed [#9 sell 0.01 GBP100_USDJPY at 147.425]
+GL	0	11:38:23.165	Core 01	2023.09.14 20:00:00   order performed sell 0.01 at 147.425 [#9 sell 0.01 GBP100_USDJPY at 147.425]
+OS	0	11:38:23.165	Core 01	2023.09.14 20:00:00   CTrade::OrderSend: market sell 0.01 position #8 GBP100_USDJPY [done at 147.425]
+PR	0	11:38:23.165	Core 01	2023.09.15 07:00:00   market buy 0.01 GBP100_USDJPY sl: 147.029 tp: 148.941 (147.410 / 147.411)
+DP	0	11:38:23.165	Core 01	2023.09.15 07:00:00   deal #10 buy 0.01 GBP100_USDJPY at 147.411 done (based on order #10)
+IS	0	11:38:23.165	Core 01	2023.09.15 07:00:00   deal performed [#10 buy 0.01 GBP100_USDJPY at 147.411]
+KR	0	11:38:23.165	Core 01	2023.09.15 07:00:00   order performed buy 0.01 at 147.411 [#10 buy 0.01 GBP100_USDJPY at 147.411]
+KG	0	11:38:23.165	Core 01	2023.09.15 07:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 147.029 tp: 148.941 [done at 147.411]
+NO	0	11:38:23.165	Core 01	2023.09.15 20:00:00   market sell 0.01 GBP100_USDJPY, close #10 (147.793 / 147.796)
+LD	0	11:38:23.165	Core 01	2023.09.15 20:00:00   deal #11 sell 0.01 GBP100_USDJPY at 147.793 done (based on order #11)
+HI	0	11:38:23.165	Core 01	2023.09.15 20:00:00   deal performed [#11 sell 0.01 GBP100_USDJPY at 147.793]
+OI	0	11:38:23.165	Core 01	2023.09.15 20:00:00   order performed sell 0.01 at 147.793 [#11 sell 0.01 GBP100_USDJPY at 147.793]
+KF	0	11:38:23.165	Core 01	2023.09.15 20:00:00   CTrade::OrderSend: market sell 0.01 position #10 GBP100_USDJPY [done at 147.793]
+PK	0	11:38:23.165	Core 01	2023.09.18 07:00:00   market sell 0.01 GBP100_USDJPY sl: 147.945 tp: 146.606 (147.674 / 147.675)
+FI	0	11:38:23.165	Core 01	2023.09.18 07:00:00   deal #12 sell 0.01 GBP100_USDJPY at 147.674 done (based on order #12)
+KF	0	11:38:23.165	Core 01	2023.09.18 07:00:00   deal performed [#12 sell 0.01 GBP100_USDJPY at 147.674]
+PL	0	11:38:23.165	Core 01	2023.09.18 07:00:00   order performed sell 0.01 at 147.674 [#12 sell 0.01 GBP100_USDJPY at 147.674]
+RQ	0	11:38:23.165	Core 01	2023.09.18 07:00:00   CTrade::OrderSend: market sell 0.01 GBP100_USDJPY sl: 147.945 tp: 146.606 [done at 147.674]
+LI	0	11:38:23.165	Core 01	2023.09.18 20:00:00   market buy 0.01 GBP100_USDJPY, close #12 (147.667 / 147.676)
+CR	0	11:38:23.165	Core 01	2023.09.18 20:00:00   deal #13 buy 0.01 GBP100_USDJPY at 147.676 done (based on order #13)
+GL	0	11:38:23.165	Core 01	2023.09.18 20:00:00   deal performed [#13 buy 0.01 GBP100_USDJPY at 147.676]
+LS	0	11:38:23.165	Core 01	2023.09.18 20:00:00   order performed buy 0.01 at 147.676 [#13 buy 0.01 GBP100_USDJPY at 147.676]
+RS	0	11:38:23.165	Core 01	2023.09.18 20:00:00   CTrade::OrderSend: market buy 0.01 position #12 GBP100_USDJPY [done at 147.676]
+HN	0	11:38:23.165	Core 01	2023.09.19 07:00:00   market buy 0.01 GBP100_USDJPY sl: 147.456 tp: 148.956 (147.750 / 147.757)
+GM	0	11:38:23.165	Core 01	2023.09.19 07:00:00   deal #14 buy 0.01 GBP100_USDJPY at 147.757 done (based on order #14)
+JG	0	11:38:23.165	Core 01	2023.09.19 07:00:00   deal performed [#14 buy 0.01 GBP100_USDJPY at 147.757]
+KF	0	11:38:23.165	Core 01	2023.09.19 07:00:00   order performed buy 0.01 at 147.757 [#14 buy 0.01 GBP100_USDJPY at 147.757]
+JD	0	11:38:23.165	Core 01	2023.09.19 07:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 147.456 tp: 148.956 [done at 147.757]
+FK	0	11:38:23.165	Core 01	2023.09.19 20:00:00   market sell 0.01 GBP100_USDJPY, close #14 (147.855 / 147.858)
+KH	0	11:38:23.165	Core 01	2023.09.19 20:00:00   deal #15 sell 0.01 GBP100_USDJPY at 147.855 done (based on order #15)
+CE	0	11:38:23.165	Core 01	2023.09.19 20:00:00   deal performed [#15 sell 0.01 GBP100_USDJPY at 147.855]
+OM	0	11:38:23.165	Core 01	2023.09.19 20:00:00   order performed sell 0.01 at 147.855 [#15 sell 0.01 GBP100_USDJPY at 147.855]
+PR	0	11:38:23.165	Core 01	2023.09.19 20:00:00   CTrade::OrderSend: market sell 0.01 position #14 GBP100_USDJPY [done at 147.855]
+DP	0	11:38:23.165	Core 01	2023.09.20 09:00:00   market buy 0.01 GBP100_USDJPY sl: 147.661 tp: 149.055 (147.939 / 147.940)
+OS	0	11:38:23.165	Core 01	2023.09.20 09:00:00   deal #16 buy 0.01 GBP100_USDJPY at 147.940 done (based on order #16)
+HN	0	11:38:23.165	Core 01	2023.09.20 09:00:00   deal performed [#16 buy 0.01 GBP100_USDJPY at 147.940]
+EQ	0	11:38:23.165	Core 01	2023.09.20 09:00:00   order performed buy 0.01 at 147.940 [#16 buy 0.01 GBP100_USDJPY at 147.940]
+MR	0	11:38:23.165	Core 01	2023.09.20 09:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 147.661 tp: 149.055 [done at 147.940]
+OO	0	11:38:23.165	Core 01	2023.09.20 16:02:06   stop loss triggered #16 buy 0.01 GBP100_USDJPY 147.940 sl: 147.661 tp: 149.055 [#17 sell 0.01 GBP100_USDJPY at 147.661]
+EJ	0	11:38:23.165	Core 01	2023.09.20 16:02:06   deal #17 sell 0.01 GBP100_USDJPY at 147.661 done (based on order #17)
+KG	0	11:38:23.165	Core 01	2023.09.20 16:02:06   deal performed [#17 sell 0.01 GBP100_USDJPY at 147.661]
+PO	0	11:38:23.165	Core 01	2023.09.20 16:02:06   order performed sell 0.01 at 147.661 [#17 sell 0.01 GBP100_USDJPY at 147.661]
+PR	0	11:38:23.165	Core 01	2023.09.21 08:00:00   market buy 0.01 GBP100_USDJPY sl: 147.807 tp: 150.529 (148.345 / 148.352)
+IP	0	11:38:23.165	Core 01	2023.09.21 08:00:00   deal #18 buy 0.01 GBP100_USDJPY at 148.352 done (based on order #18)
+LS	0	11:38:23.165	Core 01	2023.09.21 08:00:00   deal performed [#18 buy 0.01 GBP100_USDJPY at 148.352]
+KR	0	11:38:23.165	Core 01	2023.09.21 08:00:00   order performed buy 0.01 at 148.352 [#18 buy 0.01 GBP100_USDJPY at 148.352]
+CG	0	11:38:23.165	Core 01	2023.09.21 08:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 147.807 tp: 150.529 [done at 148.352]
+GR	0	11:38:23.165	Core 01	2023.09.21 12:55:58   stop loss triggered #18 buy 0.01 GBP100_USDJPY 148.352 sl: 147.807 tp: 150.529 [#19 sell 0.01 GBP100_USDJPY at 147.807]
+PM	0	11:38:23.165	Core 01	2023.09.21 12:55:58   deal #19 sell 0.01 GBP100_USDJPY at 147.806 done (based on order #19)
+DR	0	11:38:23.165	Core 01	2023.09.21 12:55:58   deal performed [#19 sell 0.01 GBP100_USDJPY at 147.806]
+EP	0	11:38:23.165	Core 01	2023.09.21 12:55:58   order performed sell 0.01 at 147.806 [#19 sell 0.01 GBP100_USDJPY at 147.807]
+RR	0	11:38:23.165	Core 01	2023.12.26 07:00:00   market sell 0.01 GBP100_USDJPY sl: 142.705 tp: 140.491 (142.262 / 142.272)
+ER	0	11:38:23.165	Core 01	2023.12.26 07:00:00   deal #20 sell 0.01 GBP100_USDJPY at 142.262 done (based on order #20)
+KO	0	11:38:23.165	Core 01	2023.12.26 07:00:00   deal performed [#20 sell 0.01 GBP100_USDJPY at 142.262]
+NG	0	11:38:23.165	Core 01	2023.12.26 07:00:00   order performed sell 0.01 at 142.262 [#20 sell 0.01 GBP100_USDJPY at 142.262]
+NJ	0	11:38:23.165	Core 01	2023.12.26 07:00:00   CTrade::OrderSend: market sell 0.01 GBP100_USDJPY sl: 142.705 tp: 140.491 [done at 142.262]
+JF	0	11:38:23.165	Core 01	2023.12.26 20:00:00   market buy 0.01 GBP100_USDJPY, close #20 (142.495 / 142.505)
+HI	0	11:38:23.165	Core 01	2023.12.26 20:00:00   deal #21 buy 0.01 GBP100_USDJPY at 142.505 done (based on order #21)
+CK	0	11:38:23.165	Core 01	2023.12.26 20:00:00   deal performed [#21 buy 0.01 GBP100_USDJPY at 142.505]
+RJ	0	11:38:23.165	Core 01	2023.12.26 20:00:00   order performed buy 0.01 at 142.505 [#21 buy 0.01 GBP100_USDJPY at 142.505]
+NJ	0	11:38:23.165	Core 01	2023.12.26 20:00:00   CTrade::OrderSend: market buy 0.01 position #20 GBP100_USDJPY [done at 142.505]
+IG	0	11:38:23.165	Core 01	2023.12.27 08:00:00   market buy 0.01 GBP100_USDJPY sl: 142.218 tp: 144.485 (142.663 / 142.669)
+HD	0	11:38:23.165	Core 01	2023.12.27 08:00:00   deal #22 buy 0.01 GBP100_USDJPY at 142.669 done (based on order #22)
+FN	0	11:38:23.165	Core 01	2023.12.27 08:00:00   deal performed [#22 buy 0.01 GBP100_USDJPY at 142.669]
+HQ	0	11:38:23.165	Core 01	2023.12.27 08:00:00   order performed buy 0.01 at 142.669 [#22 buy 0.01 GBP100_USDJPY at 142.669]
+CS	0	11:38:23.165	Core 01	2023.12.27 08:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 142.218 tp: 144.485 [done at 142.669]
+DO	0	11:38:23.165	Core 01	2023.12.27 16:59:45   stop loss triggered #22 buy 0.01 GBP100_USDJPY 142.669 sl: 142.218 tp: 144.485 [#23 sell 0.01 GBP100_USDJPY at 142.218]
+EI	0	11:38:23.165	Core 01	2023.12.27 16:59:45   deal #23 sell 0.01 GBP100_USDJPY at 142.217 done (based on order #23)
+JG	0	11:38:23.165	Core 01	2023.12.27 16:59:45   deal performed [#23 sell 0.01 GBP100_USDJPY at 142.217]
+HL	0	11:38:23.165	Core 01	2023.12.27 16:59:45   order performed sell 0.01 at 142.217 [#23 sell 0.01 GBP100_USDJPY at 142.218]
+GP	0	11:38:45.985	Core 01	final balance 94.27 GBP
+OG	0	11:38:45.985	Core 01	OnTester result -5.73
+NL	0	11:38:45.985	Core 01	GBP100_USDJPY,H1: 69798126 ticks, 18652 bars generated. Environment synchronized in 0:00:15.028. Test passed in 0:00:52.649 (including ticks preprocessing 0:00:23.422).
+EH	0	11:38:45.985	Core 01	GBP100_USDJPY,H1: total time from login to stop testing 0:01:07.677 (including 0:00:16.238 for history data synchronization)
+DJ	0	11:38:45.985	Core 01	139705394 total ticks for all symbols
+HN	0	11:38:45.985	Core 01	GBP100_USDJPY: generate 69798126 ticks in 0:00:10.156, passed to tester 69798127 ticks
+NN	0	11:38:45.985	Core 01	GBPJPY: generate 69928424 ticks in 0:00:13.266, passed to tester 69907478 ticks
+MP	0	11:38:45.985	Core 01	2937 Mb memory used including 1.41 Mb of history data, 2816 Mb of tick data
+QE	0	11:38:45.985	Core 01	log file "C:\Users\ian\AppData\Roaming\MetaQuotes\Tester\DE9A4B13809164D991CFFF8AF2B25C58\Agent-127.0.0.1-3000\logs\20260913.log" written
+DQ	0	11:38:46.317	Tester	automatic testing finished
+LK	0	11:38:46.317	Core 01	connection closed

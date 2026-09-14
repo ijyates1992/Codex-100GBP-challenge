@@ -1,0 +1,5 @@
+import pandas as pd,numpy as np,json
+from pathlib import Path
+m=pd.read_pickle('data/minutes.pkl');h=m.groupby(m.time//3600*3600).agg(open=('open','first'),high=('high','max'),low=('low','min'),close=('close','last'))
+b=pd.DataFrame(np.load('data/USDJPY.npy')).set_index('time');z=h.join(b[['open','high','low','close']],rsuffix='_broker').dropna();diff=pd.DataFrame({c:(z[c]-z[c+'_broker']).abs()for c in ['open','high','low','close']});d=diff.max(axis=1)
+summary={'matched_hours':len(z),'max_absolute_jpy_difference':float(d.max()),'median_absolute_jpy_difference':float(d.median()),'p99_absolute_jpy_difference':float(d.quantile(.99)),'hours_above_0_1_jpy':int((d>.1).sum()),'hours_above_1pct':int((d/z.close>.01).sum())};Path('evidence/hourly-cross-check.json').write_text(json.dumps(summary,indent=2));top=z.loc[d.nlargest(20).index].copy();top['time_utc']=pd.to_datetime(top.index,unit='s',utc=True);top.to_csv('evidence/hourly-largest-differences.csv');print(summary);print(top.head(3).to_string(index=False))

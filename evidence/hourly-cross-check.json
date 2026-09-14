@@ -1,0 +1,8 @@
+{
+  "matched_hours": 18784,
+  "max_absolute_jpy_difference": 0.3160000000000025,
+  "median_absolute_jpy_difference": 0.0,
+  "p99_absolute_jpy_difference": 0.009000000000014552,
+  "hours_above_0_1_jpy": 6,
+  "hours_above_1pct": 0
+}

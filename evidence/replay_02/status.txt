@@ -1,0 +1,1 @@
+Runner stopped after detecting the unit-profit rounding bug. Report retained; no audit or stats accepted for this superseded run.

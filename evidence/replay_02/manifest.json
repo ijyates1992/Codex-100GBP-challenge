@@ -1,0 +1,20 @@
+{
+  "symbol": "GBP100_USDJPY",
+  "inputs": {
+    "Mode": 2,
+    "Lookback": 12,
+    "StopATR": 2.0,
+    "TargetATR": 12.0,
+    "StartHour": 7,
+    "EndHour": 17,
+    "RiskPercent": 3.0,
+    "Direction": 1
+  },
+  "model": 4,
+  "start": "2023.09.12",
+  "end": "2026.09.12",
+  "deposit": 100,
+  "currency": "GBP",
+  "leverage": 200,
+  "source_sha256": "e8cef88895fd0b9535007e12eff9447a9eb4c97717e78f64f3e9569846fd6e6f"
+}

@@ -1,0 +1,3 @@
+name,final_equity,return_pct,cagr_pct,dd_pct,profit_factor,trades,main_symbol_tick_warnings,conversion_tick_warnings,overnight_trades,min_volume,max_volume,max_margin_fraction,max_risk_fraction,source_match,deal_profit_match,last_balance_match,trade_count_match,volume_grid_ok,report_sha256,numeric_pass
+refined_01,492.59,392.59,70.14865889258226,26.70253247605301,1.2032449614570224,853,1,438,0,0.01,0.09,0.5999296730806631,0.0199662132124122,True,True,True,True,True,4f773bf1d2a49d2e89ac49dc990be544996d6c6c93fd9d008c374cb4ccfcdb2c,True
+refined_04,478.4,378.4,68.49889493767611,24.684828731320344,1.2652162942611231,693,1,438,0,0.01,0.12,0.7991858566320578,0.02499745308584119,True,True,True,True,True,d7fee15f7af88255ba7db59e4af20306da1142ddd09e4e24b584477961c7a682,True

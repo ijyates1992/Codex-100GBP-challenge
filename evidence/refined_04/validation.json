@@ -1,0 +1,23 @@
+{
+  "name": "refined_04",
+  "final_equity": 478.4,
+  "return_pct": 378.4,
+  "cagr_pct": 68.49889493767611,
+  "dd_pct": 24.684828731320344,
+  "profit_factor": 1.2652162942611231,
+  "trades": 693,
+  "main_symbol_tick_warnings": 1,
+  "conversion_tick_warnings": 438,
+  "overnight_trades": 0,
+  "min_volume": 0.01,
+  "max_volume": 0.12,
+  "max_margin_fraction": 0.7991858566320578,
+  "max_risk_fraction": 0.02499745308584119,
+  "source_match": true,
+  "deal_profit_match": true,
+  "last_balance_match": true,
+  "trade_count_match": true,
+  "volume_grid_ok": true,
+  "report_sha256": "d7fee15f7af88255ba7db59e4af20306da1142ddd09e4e24b584477961c7a682",
+  "numeric_pass": true
+}

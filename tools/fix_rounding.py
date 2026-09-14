@@ -1,0 +1,2 @@
+from pathlib import Path
+p=Path('src/Challenge.mq5');s=p.read_text().replace('OrderCalcProfit(type,_Symbol,minvol,entry,sl,loss)','OrderCalcProfit(type,_Symbol,1.0,entry,sl,loss)').replace('double perlot=-loss/minvol;','double perlot=-loss;').replace('OrderCalcProfit(ORDER_TYPE_BUY,_Symbol,minvol,entry,entry+quantum,unitProfit)','OrderCalcProfit(ORDER_TYPE_BUY,_Symbol,1.0,entry,entry+1.0,unitProfit)').replace('double notionalLot=entry*unitProfit/quantum/minvol;','double notionalLot=entry*unitProfit;');p.write_text(s)

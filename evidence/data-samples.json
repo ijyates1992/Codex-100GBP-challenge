@@ -1,0 +1,90 @@
+[
+  {
+    "symbol": "USDJPY",
+    "date": "2023-09-12 12:00:00+00:00",
+    "ticks": 144,
+    "bars": 1,
+    "tick_bid_min": 146.773,
+    "tick_bid_max": 146.802,
+    "bar_low": 160.327,
+    "bar_high": 160.333
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2025-02-03 12:00:00+00:00",
+    "ticks": 372,
+    "bars": 1,
+    "tick_bid_min": 154.572,
+    "tick_bid_max": 154.611,
+    "bar_low": 160.327,
+    "bar_high": 160.333
+  },
+  {
+    "symbol": "USDJPY",
+    "date": "2026-09-10 12:00:00+00:00",
+    "ticks": 411,
+    "bars": 6,
+    "tick_bid_min": 154.043,
+    "tick_bid_max": 154.093,
+    "bar_low": 154.035,
+    "bar_high": 154.093
+  },
+  {
+    "symbol": "USDTRY",
+    "date": "2023-09-12 12:00:00+00:00",
+    "ticks": 0,
+    "bars": 1,
+    "bar_low": 45.89843,
+    "bar_high": 45.8988
+  },
+  {
+    "symbol": "USDTRY",
+    "date": "2025-02-03 12:00:00+00:00",
+    "ticks": 74,
+    "bars": 1,
+    "tick_bid_min": 35.99058,
+    "tick_bid_max": 35.99556,
+    "bar_low": 45.89843,
+    "bar_high": 45.8988
+  },
+  {
+    "symbol": "USDTRY",
+    "date": "2026-09-10 12:00:00+00:00",
+    "ticks": 71,
+    "bars": 6,
+    "tick_bid_min": 48.48901,
+    "tick_bid_max": 48.49365,
+    "bar_low": 48.48901,
+    "bar_high": 48.49365
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2023-09-12 12:00:00+00:00",
+    "ticks": 236,
+    "bars": 1,
+    "tick_bid_min": 1.07216,
+    "tick_bid_max": 1.07245,
+    "bar_low": 1.15128,
+    "bar_high": 1.15148
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2025-02-03 12:00:00+00:00",
+    "ticks": 241,
+    "bars": 1,
+    "tick_bid_min": 1.02509,
+    "tick_bid_max": 1.02524,
+    "bar_low": 1.15128,
+    "bar_high": 1.15148
+  },
+  {
+    "symbol": "EURUSD",
+    "date": "2026-09-10 12:00:00+00:00",
+    "ticks": 131,
+    "bars": 6,
+    "tick_bid_min": 1.16259,
+    "tick_bid_max": 1.1628,
+    "bar_low": 1.16259,
+    "bar_high": 1.1628
+  }
+]

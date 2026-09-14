@@ -1,0 +1,110 @@
+{
+  "date": "2025-01-14",
+  "reason": "IG recorded quotes absent; IG M1 matches all original H1 OHLC exactly",
+  "recorded_tick_source": "Dukascopy HTTPS",
+  "recorded_hours": [
+    {
+      "hour": 0,
+      "url": "https://datafeed.dukascopy.com/datafeed/USDJPY/2025/00/14/00h_ticks.bi5",
+      "sha256": "e0010c2a0364584f2e7be70b8f056880447c50c175059802577a210080514682",
+      "ticks": 9471
+    },
+    {
+      "hour": 1,
+      "url": "https://datafeed.dukascopy.com/datafeed/USDJPY/2025/00/14/01h_ticks.bi5",
+      "sha256": "855f1ff2b1ab50d6602a943767171b93ff43d5b43e0ac4a6bba44720f55fa0b2",
+      "ticks": 11787
+    },
+    {
+      "hour": 2,
+      "url": "https://datafeed.dukascopy.com/datafeed/USDJPY/2025/00/14/02h_ticks.bi5",
+      "sha256": "be49625f5ad1bb6f15d802052cd6d304708e57b43dc3e4450e4c545c8a787935",
+      "ticks": 6458
+    },
+    {
+      "hour": 3,
+      "url": "https://datafeed.dukascopy.com/datafeed/USDJPY/2025/00/14/03h_ticks.bi5",
+      "sha256": "733bb717a5c7e9a7c3dafba02ba94559fb694b828f471ed81f2140b17600eac6",
+      "ticks": 4450
+    },
+    {
+      "hour": 4,
+      "url": "https://datafeed.dukascopy.com/datafeed/USDJPY/2025/00/14/04h_ticks.bi5",
+      "sha256": "fb3c5c17c6085c249d152ad4759aa72019cf63fc0d042b1222ba8b33c81f0cf9",
+      "ticks": 2868
+    },
+    {
+      "hour": 6,
+      "url": "https://datafeed.dukascopy.com/datafeed/USDJPY/2025/00/14/06h_ticks.bi5",
+      "sha256": "69d5fecc5aba202ab52d5fc8a1446ef3382a94ab3d4e4e30e9fe7e3e5624fb0f",
+      "ticks": 5537
+    },
+    {
+      "hour": 8,
+      "url": "https://datafeed.dukascopy.com/datafeed/USDJPY/2025/00/14/08h_ticks.bi5",
+      "sha256": "24652e415eb7ae4bb2dd8f0105f9cda2323b52f4480afb052869289deb5e8a5f",
+      "ticks": 9366
+    },
+    {
+      "hour": 9,
+      "url": "https://datafeed.dukascopy.com/datafeed/USDJPY/2025/00/14/09h_ticks.bi5",
+      "sha256": "9a313aa5a8aab7a9a9562ba7ffa1003871b0588289ad4853bf60e7f22cd63c57",
+      "ticks": 9787
+    },
+    {
+      "hour": 10,
+      "url": "https://datafeed.dukascopy.com/datafeed/USDJPY/2025/00/14/10h_ticks.bi5",
+      "sha256": "ca6766c3d31ea91c99c40375fe2dbb6b34db24452e9758a6011b444b0ce8fd47",
+      "ticks": 5310
+    },
+    {
+      "hour": 11,
+      "url": "https://datafeed.dukascopy.com/datafeed/USDJPY/2025/00/14/11h_ticks.bi5",
+      "sha256": "6487bc4219940aa9733db49d06de79ab5852a48d0789301334d2efe9f654b39b",
+      "ticks": 4210
+    },
+    {
+      "hour": 12,
+      "url": "https://datafeed.dukascopy.com/datafeed/USDJPY/2025/00/14/12h_ticks.bi5",
+      "sha256": "4c859e0a2184e6ece085de3c472406be172164b186a7a0ec758aa58b3d9ea0dc",
+      "ticks": 7424
+    },
+    {
+      "hour": 13,
+      "url": "https://datafeed.dukascopy.com/datafeed/USDJPY/2025/00/14/13h_ticks.bi5",
+      "sha256": "64c06fdffab385914dda4bec3c1b5e24556399b4234287e40378ca725b7b74c0",
+      "ticks": 13538
+    },
+    {
+      "hour": 15,
+      "url": "https://datafeed.dukascopy.com/datafeed/USDJPY/2025/00/14/15h_ticks.bi5",
+      "sha256": "8d0a6ef3d01b2a4780898e56caf278f43453fb600f577ced41e5a83ceac27800",
+      "ticks": 12377
+    },
+    {
+      "hour": 16,
+      "url": "https://datafeed.dukascopy.com/datafeed/USDJPY/2025/00/14/16h_ticks.bi5",
+      "sha256": "ff932db8687fc4999d733d959dded0a1ecf9b76d015935da56c5ddb7797d4cfe",
+      "ticks": 10882
+    }
+  ],
+  "recorded_tick_count": 113465,
+  "recorded_minutes": 840,
+  "fallback_minutes": 586,
+  "fallback_hours": [
+    5,
+    7,
+    14,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "fallback_source": "IG-DEMO M1 OHLC; native generated paths in these minutes only",
+  "costs": "Recorded ask +0.010 JPY; fallback spread at least 0.010 JPY",
+  "ticks_sha256": "d588af1c734feac56dfe419e1aed22874e41b0ee8f021d81e0c11b06683afa1f",
+  "bars_sha256": "b7b1420722a5a751cfb89532779477c093211f7c774829018b558bc2d8158665"
+}

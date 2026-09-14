@@ -1,0 +1,23 @@
+{
+  "name": "costed_03",
+  "final_equity": 333.66999999999996,
+  "return_pct": 233.67,
+  "cagr_pct": 49.4304326165887,
+  "dd_pct": 17.67686610797116,
+  "profit_factor": 1.28523473548009,
+  "trades": 596,
+  "main_symbol_tick_warnings": 0,
+  "conversion_tick_warnings": 438,
+  "overnight_trades": 0,
+  "min_volume": 0.01,
+  "max_volume": 0.06,
+  "max_margin_fraction": 0.5984362955378068,
+  "max_risk_fraction": 0.0199705575078355,
+  "source_match": true,
+  "deal_profit_match": true,
+  "last_balance_match": true,
+  "trade_count_match": true,
+  "volume_grid_ok": true,
+  "report_sha256": "0be2f8a4f11d927d6c810c373f5e45623d509f94b4df07edb1bc6fbde61e35aa",
+  "numeric_pass": true
+}

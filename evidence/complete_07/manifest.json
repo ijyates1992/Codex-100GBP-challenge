@@ -1,0 +1,29 @@
+{
+  "symbol": "GBP100_USDJPY",
+  "inputs": {
+    "StopATR": 2,
+    "RiskPercent": 2.5,
+    "MarginFraction": 0.8,
+    "Lookback": 8,
+    "TargetATR": 12,
+    "StartHour": 1,
+    "EndHour": 19,
+    "Direction": 1,
+    "MaxDrawdown": 29
+  },
+  "model": 4,
+  "start": "2023.09.12",
+  "end": "2026.09.12",
+  "deposit": 100,
+  "currency": "GBP",
+  "leverage": 200,
+  "delay_ms": 100,
+  "source_sha256": "fa4fbc90e7596e650b3e66cdd29f9cc0b0de40800eb8f8e3ebe28d33da726dc0",
+  "binary_sha256": "f6feba431ec2678012b5910e5becf26a9079f0a77f832bda97ac8096af972c36",
+  "data_provenance_sha256": {
+    "evidence\\broker.json": "a15b774c4be7c40aad91958c41d6649b7c1265e0e512011d6771d3292b51d6b6",
+    "evidence\\USDJPY-raw-manifest.json": "0b1eded9b789fb5f2ec0b3ce6c86b7dd09ff8f14ec936dc440a3f4aa62be4e2e",
+    "evidence\\gap-provenance.json": "b4af68e7074511f3424c3d8e9ff2b69a198fd30de838dc79081bc6b3b4a4c2de",
+    "evidence\\gap-import-verified.txt": "e62a079daf50711359c644ba26a9aa95a979bc39f373930b06b7b739032eb1c5"
+  }
+}

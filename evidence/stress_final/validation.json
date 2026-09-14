@@ -1,0 +1,23 @@
+{
+  "name": "stress_final",
+  "final_equity": 100.69,
+  "return_pct": 0.6899999999999977,
+  "cagr_pct": 0.22947301855225088,
+  "dd_pct": 28.73522542288909,
+  "profit_factor": 1.0029783744118783,
+  "trades": 234,
+  "main_symbol_tick_warnings": 1,
+  "conversion_tick_warnings": 438,
+  "overnight_trades": 0,
+  "min_volume": 0.01,
+  "max_volume": 0.02,
+  "max_margin_fraction": 0.5984712022447546,
+  "max_risk_fraction": 0.01979331402176466,
+  "source_match": true,
+  "deal_profit_match": true,
+  "last_balance_match": true,
+  "trade_count_match": true,
+  "volume_grid_ok": true,
+  "report_sha256": "caa13f6111b0f1098827d97bf0b510a1256a01e52738f230ec1fb21c881849f4",
+  "numeric_pass": true
+}

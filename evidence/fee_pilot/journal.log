@@ -1,0 +1,179 @@
+FD	0	11:47:44.535	Tester	Local network farm switched off
+NM	0	11:47:44.535	Tester	Cloud servers switched off
+NK	0	11:47:47.381	Tester	"GBP100\Challenge.ex5" X64
+OI	0	11:47:47.881	Tester	GBP100_USDJPY: history data begins from 2023.09.01 00:00
+LF	0	11:47:47.921	Tester	GBP100_USDJPY: ticks data begins from 2023.09.01 00:00
+PM	0	11:47:47.938	Core 01	agent process started on 127.0.0.1:3000
+CJ	0	11:47:47.938	Core 01	connecting to 127.0.0.1:3000
+EM	0	11:47:48.447	Core 01	connected
+IM	0	11:47:48.460	Core 01	authorized (agent build 6182)
+FJ	0	11:47:48.464	Tester	GBP100_USDJPY,H1 (IG-DEMO): testing of Experts\GBP100\Challenge.ex5 from 2023.09.12 00:00 to 2023.09.23 00:00
+QF	0	11:47:48.479	Core 01	common synchronization completed
+OS	0	11:47:48.526	Core 01	GBP100_USDJPY: ticks synchronized already [57 bytes]
+IO	0	11:47:49.829	Core 01	GBPJPY: ticks synchronized already [43 bytes]
+LD	0	11:47:50.788	Core 01	MetaTester 5 started on 127.0.0.1:3000
+JM	0	11:47:50.788	Core 01	cloud network mode is off
+EJ	0	11:47:50.788	Core 01	initialization finished
+JF	0	11:47:50.788	Core 01	login (build 6182)
+HO	0	11:47:50.788	Core 01	139316 bytes of account info loaded
+IH	0	11:47:50.788	Core 01	1478 bytes of tester parameters loaded
+IN	0	11:47:50.788	Core 01	8900 bytes of input parameters loaded
+NH	0	11:47:50.788	Core 01	725 bytes of symbols list loaded (111 symbols)
+RR	0	11:47:50.788	Core 01	expert file added: Experts\GBP100\Challenge.ex5. 40348 bytes loaded
+RS	0	11:47:50.788	Core 01	4334 Mb available, 53 blocks set for ticks generating
+CK	0	11:47:50.788	Core 01	initial deposit 100.00 GBP, leverage 1:200
+NQ	0	11:47:50.788	Core 01	successfully initialized
+JG	0	11:47:50.788	Core 01	48 Kb of total initialization data received
+HS	0	11:47:50.788	Core 01	Intel Xeon  E5-2470 v2 @ 2.40GHz, 9998 MB
+MD	0	11:47:50.788	Core 01	GBP100_USDJPY: symbol to be synchronized
+QP	0	11:47:50.788	Core 01	GBP100_USDJPY: symbol synchronized, 3800 bytes of symbol info received
+PL	0	11:47:50.788	Core 01	GBP100_USDJPY: load 41 bytes of history data to synchronize in 0:00:00.006
+FH	0	11:47:50.788	Core 01	GBP100_USDJPY: history synchronized from 2023.09.01 to 2026.09.11
+PG	0	11:47:50.788	Core 01	GBP100_USDJPY: ticks synchronization started
+RQ	0	11:47:50.788	Core 01	GBP100_USDJPY: load 48 bytes of tick data to synchronize in 0:00:00.000
+JE	0	11:47:50.788	Core 01	GBP100_USDJPY: history ticks synchronized from 2023.09.12 to 2026.09.11
+QG	0	11:47:50.788	Core 01	GBP100_USDJPY,H1: history cache allocated for 357 bars and contains 168 bars from 2023.09.01 00:00 to 2023.09.11 23:00
+OD	0	11:47:50.788	Core 01	GBP100_USDJPY,H1: history begins from 2023.09.01 00:00
+EG	0	11:47:50.788	Core 01	GBP100_USDJPY,H1 (IG-DEMO): generating based on real ticks
+GM	0	11:47:50.788	Core 01	testing with execution delay 100 milliseconds
+RD	0	11:47:50.788	Core 01	GBP100_USDJPY,H1: testing of Experts\GBP100\Challenge.ex5 from 2023.09.12 00:00 to 2023.09.23 00:00 started with inputs:
+QD	0	11:47:50.788	Core 01	  Mode=2
+FQ	0	11:47:50.788	Core 01	  Lookback=8
+MG	0	11:47:50.788	Core 01	  StopATR=2
+CI	0	11:47:50.788	Core 01	  TargetATR=12
+FM	0	11:47:50.788	Core 01	  RiskPercent=2
+QQ	0	11:47:50.788	Core 01	  StartHour=1
+IH	0	11:47:50.788	Core 01	  EndHour=19
+HN	0	11:47:50.788	Core 01	  CloseHour=20
+KS	0	11:47:50.788	Core 01	  MaxDrawdown=27.0
+PE	0	11:47:50.788	Core 01	  MarginFraction=0.6
+GQ	0	11:47:50.788	Core 01	  BrokerMarginPerLot=2602.0
+IK	0	11:47:50.788	Core 01	  MarginSafety=1.15
+JF	0	11:47:50.788	Core 01	  BrokerNotionalRate=0.0353
+RR	0	11:47:50.788	Core 01	  Direction=1
+JE	0	11:47:50.788	Core 01	  SpreadATR=0.2
+CR	0	11:47:50.788	Core 01	  ConversionFeePercent=0.8
+CS	0	11:47:50.788	Core 01	  Magic=100202609
+EE	0	11:47:50.788	Core 01	2023.09.12 00:00:00   SPEC GBP100_USDJPY leverage=200 calc=2 contract=100000.0000 min=0.0100 step=0.0100 buy_rate=0.03530000 maintenance=0.03530000
+QQ	0	11:47:50.788	Core 01	GBP100_USDJPY : real ticks begin from 2023.09.12 00:00:00
+GE	0	11:47:50.788	Core 01	GBPJPY: symbol to be synchronized
+ER	0	11:47:50.788	Core 01	GBPJPY: symbol synchronized, 3800 bytes of symbol info received
+CN	0	11:47:50.788	Core 01	GBPJPY: load 27 bytes of history data to synchronize in 0:00:00.108
+DH	0	11:47:50.788	Core 01	GBPJPY: history synchronized from 2022.01.02 to 2026.09.11
+RP	0	11:47:50.788	Core 01	GBPJPY: ticks synchronization started
+HG	0	11:47:50.788	Core 01	GBPJPY: load 34 bytes of tick data to synchronize in 0:00:01.015
+HK	0	11:47:50.788	Core 01	GBPJPY: history ticks synchronized from 2023.09.12 to 2026.09.11
+FO	3	11:47:50.788	Core 01	GBPJPY : 2023.09.15 23:59 - real ticks discarded for 1353 minutes out of 1379 total minute bars within a day
+DS	3	11:47:50.788	Core 01	GBPJPY : 2023.09.15 23:59 - 155700 tick prices mismatch for 1353 minute bars
+OM	3	11:47:50.788	Core 01	GBPJPY : 2023.09.18 23:59 - real ticks discarded for 1352 minutes out of 1439 total minute bars within a day
+KQ	3	11:47:50.788	Core 01	GBPJPY : 2023.09.18 23:59 - 280382 tick prices mismatch for 1352 minute bars
+FS	3	11:47:50.788	Core 01	GBPJPY : 2023.09.22 23:59 - real ticks discarded for 1346 minutes out of 1379 total minute bars within a day
+JO	3	11:47:50.788	Core 01	GBPJPY : 2023.09.22 23:59 - 406736 tick prices mismatch for 1346 minute bars
+KP	0	11:47:50.788	Core 01	GBPJPY : real ticks begin from 2023.09.12 00:00:00
+CJ	3	11:47:50.788	Core 01	GBPJPY : 2023.09.12 00:00 - 2023.09.23 00:00  real ticks discarded for 4051 minutes of 12895 total minute bars, every tick generation used
+ID	3	11:47:50.788	Core 01	GBPJPY : 2023.09.12 00:00 - 2023.09.23 00:00  tick volumes not matched for 4051 minute bars
+MG	3	11:47:50.788	Core 01	GBPJPY : 2023.09.12 00:00 - 2023.09.23 00:00  tick prices of 406736 ticks not matched for 4051 minute bars
+GI	0	11:47:50.788	Core 01	2023.09.12 07:00:00   market buy 0.01 GBP100_USDJPY sl: 146.422 tp: 148.597 (146.735 / 146.736)
+GJ	0	11:47:50.788	Core 01	2023.09.12 07:00:00   deal #2 buy 0.01 GBP100_USDJPY at 146.736 done (based on order #2)
+GG	0	11:47:50.788	Core 01	2023.09.12 07:00:00   deal performed [#2 buy 0.01 GBP100_USDJPY at 146.736]
+NH	0	11:47:50.788	Core 01	2023.09.12 07:00:00   order performed buy 0.01 at 146.736 [#2 buy 0.01 GBP100_USDJPY at 146.736]
+GI	0	11:47:50.788	Core 01	2023.09.12 07:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 146.422 tp: 148.597 [done at 146.736]
+LG	0	11:47:50.788	Core 01	2023.09.12 20:00:00   market sell 0.01 GBP100_USDJPY, close #2 (147.207 / 147.210)
+PK	0	11:47:50.788	Core 01	2023.09.12 20:00:00   deal #3 sell 0.01 GBP100_USDJPY at 147.207 done (based on order #3)
+ES	0	11:47:50.788	Core 01	2023.09.12 20:00:00   deal performed [#3 sell 0.01 GBP100_USDJPY at 147.207]
+HM	0	11:47:50.788	Core 01	2023.09.12 20:00:00   order performed sell 0.01 at 147.207 [#3 sell 0.01 GBP100_USDJPY at 147.207]
+FM	0	11:47:50.788	Core 01	2023.09.12 20:00:00   CTrade::OrderSend: market sell 0.01 position #2 GBP100_USDJPY [done at 147.207]
+OM	0	11:47:50.788	Core 01	2023.09.12 20:00:00   deal #4 balance -0.02 [withdrawal] done
+DH	0	11:47:50.788	Core 01	2023.09.13 05:00:00   market buy 0.01 GBP100_USDJPY sl: 147.102 tp: 149.014 (147.366 / 147.375)
+IJ	0	11:47:50.788	Core 01	2023.09.13 05:00:00   deal #5 buy 0.01 GBP100_USDJPY at 147.375 done (based on order #4)
+CG	0	11:47:50.788	Core 01	2023.09.13 05:00:00   deal performed [#5 buy 0.01 GBP100_USDJPY at 147.375]
+KH	0	11:47:50.788	Core 01	2023.09.13 05:00:00   order performed buy 0.01 at 147.375 [#4 buy 0.01 GBP100_USDJPY at 147.375]
+MI	0	11:47:50.788	Core 01	2023.09.13 05:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 147.102 tp: 149.014 [done at 147.375]
+OG	0	11:47:50.788	Core 01	2023.09.13 20:00:00   market sell 0.01 GBP100_USDJPY, close #4 (147.322 / 147.331)
+JK	0	11:47:50.788	Core 01	2023.09.13 20:00:00   deal #6 sell 0.01 GBP100_USDJPY at 147.322 done (based on order #5)
+ES	0	11:47:50.788	Core 01	2023.09.13 20:00:00   deal performed [#6 sell 0.01 GBP100_USDJPY at 147.322]
+CM	0	11:47:50.788	Core 01	2023.09.13 20:00:00   order performed sell 0.01 at 147.322 [#5 sell 0.01 GBP100_USDJPY at 147.322]
+CM	0	11:47:50.788	Core 01	2023.09.13 20:00:00   CTrade::OrderSend: market sell 0.01 position #4 GBP100_USDJPY [done at 147.322]
+ES	0	11:47:50.788	Core 01	2023.09.14 11:00:00   market buy 0.01 GBP100_USDJPY sl: 147.050 tp: 148.734 (147.290 / 147.291)
+RO	0	11:47:50.788	Core 01	2023.09.14 11:00:00   deal #7 buy 0.01 GBP100_USDJPY at 147.291 done (based on order #6)
+NR	0	11:47:50.788	Core 01	2023.09.14 11:00:00   deal performed [#7 buy 0.01 GBP100_USDJPY at 147.291]
+KG	0	11:47:50.788	Core 01	2023.09.14 11:00:00   order performed buy 0.01 at 147.291 [#6 buy 0.01 GBP100_USDJPY at 147.291]
+DF	0	11:47:50.788	Core 01	2023.09.14 11:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 147.050 tp: 148.734 [done at 147.291]
+KD	0	11:47:50.788	Core 01	2023.09.14 16:47:50   stop loss triggered #6 buy 0.01 GBP100_USDJPY 147.291 sl: 147.050 tp: 148.734 [#7 sell 0.01 GBP100_USDJPY at 147.050]
+EO	0	11:47:50.788	Core 01	2023.09.14 16:47:50   deal #8 sell 0.01 GBP100_USDJPY at 147.048 done (based on order #7)
+DO	0	11:47:50.788	Core 01	2023.09.14 16:47:50   deal performed [#8 sell 0.01 GBP100_USDJPY at 147.048]
+LQ	0	11:47:50.788	Core 01	2023.09.14 16:47:50   order performed sell 0.01 at 147.048 [#7 sell 0.01 GBP100_USDJPY at 147.050]
+LN	0	11:47:50.788	Core 01	2023.09.14 16:47:50   deal #9 balance -0.01 [withdrawal] done
+PD	0	11:47:50.788	Core 01	2023.09.15 01:00:00   market buy 0.01 GBP100_USDJPY sl: 147.096 tp: 149.660 (147.447 / 147.462)
+FE	0	11:47:50.788	Core 01	2023.09.15 01:00:00   deal #10 buy 0.01 GBP100_USDJPY at 147.462 done (based on order #8)
+NI	0	11:47:50.788	Core 01	2023.09.15 01:00:00   deal performed [#10 buy 0.01 GBP100_USDJPY at 147.462]
+KO	0	11:47:50.788	Core 01	2023.09.15 01:00:00   order performed buy 0.01 at 147.462 [#8 buy 0.01 GBP100_USDJPY at 147.462]
+QM	0	11:47:50.788	Core 01	2023.09.15 01:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 147.096 tp: 149.660 [done at 147.462]
+RR	0	11:47:50.788	Core 01	2023.09.15 20:00:00   market sell 0.01 GBP100_USDJPY, close #8 (147.793 / 147.796)
+FL	0	11:47:50.788	Core 01	2023.09.15 20:00:00   deal #11 sell 0.01 GBP100_USDJPY at 147.793 done (based on order #9)
+GL	0	11:47:50.788	Core 01	2023.09.15 20:00:00   deal performed [#11 sell 0.01 GBP100_USDJPY at 147.793]
+GQ	0	11:47:50.788	Core 01	2023.09.15 20:00:00   order performed sell 0.01 at 147.793 [#9 sell 0.01 GBP100_USDJPY at 147.793]
+EN	0	11:47:50.788	Core 01	2023.09.15 20:00:00   CTrade::OrderSend: market sell 0.01 position #8 GBP100_USDJPY [done at 147.793]
+NM	0	11:47:50.788	Core 01	2023.09.15 20:00:00   deal #12 balance -0.01 [withdrawal] done
+LD	0	11:47:50.788	Core 01	2023.09.18 16:00:00   market buy 0.01 GBP100_USDJPY sl: 147.557 tp: 148.952 (147.755 / 147.756)
+MG	0	11:47:50.788	Core 01	2023.09.18 16:00:00   deal #13 buy 0.01 GBP100_USDJPY at 147.756 done (based on order #10)
+HJ	0	11:47:50.788	Core 01	2023.09.18 16:00:00   deal performed [#13 buy 0.01 GBP100_USDJPY at 147.756]
+KM	0	11:47:50.788	Core 01	2023.09.18 16:00:00   order performed buy 0.01 at 147.756 [#10 buy 0.01 GBP100_USDJPY at 147.756]
+IN	0	11:47:50.788	Core 01	2023.09.18 16:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 147.557 tp: 148.952 [done at 147.756]
+QF	0	11:47:50.788	Core 01	2023.09.18 20:00:00   market sell 0.01 GBP100_USDJPY, close #10 (147.667 / 147.676)
+IM	0	11:47:50.788	Core 01	2023.09.18 20:00:00   deal #14 sell 0.01 GBP100_USDJPY at 147.667 done (based on order #11)
+ES	0	11:47:50.788	Core 01	2023.09.18 20:00:00   deal performed [#14 sell 0.01 GBP100_USDJPY at 147.667]
+OP	0	11:47:50.788	Core 01	2023.09.18 20:00:00   order performed sell 0.01 at 147.667 [#11 sell 0.01 GBP100_USDJPY at 147.667]
+ML	0	11:47:50.788	Core 01	2023.09.18 20:00:00   CTrade::OrderSend: market sell 0.01 position #10 GBP100_USDJPY [done at 147.667]
+PM	0	11:47:50.788	Core 01	2023.09.19 06:00:00   market buy 0.01 GBP100_USDJPY sl: 147.552 tp: 149.042 (147.762 / 147.765)
+EM	0	11:47:50.788	Core 01	2023.09.19 06:00:00   deal #15 buy 0.01 GBP100_USDJPY at 147.765 done (based on order #12)
+JP	0	11:47:50.788	Core 01	2023.09.19 06:00:00   deal performed [#15 buy 0.01 GBP100_USDJPY at 147.765]
+QG	0	11:47:50.788	Core 01	2023.09.19 06:00:00   order performed buy 0.01 at 147.765 [#12 buy 0.01 GBP100_USDJPY at 147.765]
+QD	0	11:47:50.788	Core 01	2023.09.19 06:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 147.552 tp: 149.042 [done at 147.765]
+GH	0	11:47:50.788	Core 01	2023.09.19 20:00:00   market sell 0.01 GBP100_USDJPY, close #12 (147.855 / 147.858)
+OG	0	11:47:50.788	Core 01	2023.09.19 20:00:00   deal #16 sell 0.01 GBP100_USDJPY at 147.855 done (based on order #13)
+ED	0	11:47:50.788	Core 01	2023.09.19 20:00:00   deal performed [#16 sell 0.01 GBP100_USDJPY at 147.855]
+NJ	0	11:47:50.788	Core 01	2023.09.19 20:00:00   order performed sell 0.01 at 147.855 [#13 sell 0.01 GBP100_USDJPY at 147.855]
+ME	0	11:47:50.788	Core 01	2023.09.19 20:00:00   CTrade::OrderSend: market sell 0.01 position #12 GBP100_USDJPY [done at 147.855]
+MG	0	11:47:50.788	Core 01	2023.09.20 08:00:00   market buy 0.01 GBP100_USDJPY sl: 147.723 tp: 148.950 (147.897 / 147.898)
+NS	0	11:47:50.788	Core 01	2023.09.20 08:00:00   deal #17 buy 0.01 GBP100_USDJPY at 147.898 done (based on order #14)
+CN	0	11:47:50.788	Core 01	2023.09.20 08:00:00   deal performed [#17 buy 0.01 GBP100_USDJPY at 147.898]
+CQ	0	11:47:50.788	Core 01	2023.09.20 08:00:00   order performed buy 0.01 at 147.898 [#14 buy 0.01 GBP100_USDJPY at 147.898]
+GS	0	11:47:50.788	Core 01	2023.09.20 08:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 147.723 tp: 148.950 [done at 147.898]
+DO	0	11:47:50.788	Core 01	2023.09.20 15:43:36   stop loss triggered #14 buy 0.01 GBP100_USDJPY 147.898 sl: 147.723 tp: 148.950 [#15 sell 0.01 GBP100_USDJPY at 147.723]
+QJ	0	11:47:50.788	Core 01	2023.09.20 15:43:36   deal #18 sell 0.01 GBP100_USDJPY at 147.721 done (based on order #15)
+IG	0	11:47:50.788	Core 01	2023.09.20 15:43:36   deal performed [#18 sell 0.01 GBP100_USDJPY at 147.721]
+LO	0	11:47:50.788	Core 01	2023.09.20 15:43:36   order performed sell 0.01 at 147.721 [#15 sell 0.01 GBP100_USDJPY at 147.723]
+EP	0	11:47:50.788	Core 01	2023.09.20 15:43:36   deal #19 balance -0.01 [withdrawal] done
+CO	0	11:47:50.788	Core 01	2023.09.21 03:00:00   market buy 0.01 GBP100_USDJPY sl: 148.038 tp: 150.629 (148.405 / 148.408)
+HL	0	11:47:50.788	Core 01	2023.09.21 03:00:00   deal #20 buy 0.01 GBP100_USDJPY at 148.408 done (based on order #16)
+OG	0	11:47:50.788	Core 01	2023.09.21 03:00:00   deal performed [#20 buy 0.01 GBP100_USDJPY at 148.408]
+CF	0	11:47:50.788	Core 01	2023.09.21 03:00:00   order performed buy 0.01 at 148.408 [#16 buy 0.01 GBP100_USDJPY at 148.408]
+IK	0	11:47:50.788	Core 01	2023.09.21 03:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 148.038 tp: 150.629 [done at 148.408]
+GF	0	11:47:50.788	Core 01	2023.09.21 12:11:38   stop loss triggered #16 buy 0.01 GBP100_USDJPY 148.408 sl: 148.038 tp: 150.629 [#17 sell 0.01 GBP100_USDJPY at 148.038]
+OQ	0	11:47:50.788	Core 01	2023.09.21 12:11:38   deal #21 sell 0.01 GBP100_USDJPY at 148.035 done (based on order #17)
+IN	0	11:47:50.788	Core 01	2023.09.21 12:11:38   deal performed [#21 sell 0.01 GBP100_USDJPY at 148.035]
+FD	0	11:47:50.788	Core 01	2023.09.21 12:11:38   order performed sell 0.01 at 148.035 [#17 sell 0.01 GBP100_USDJPY at 148.038]
+QK	0	11:47:50.788	Core 01	2023.09.21 12:11:38   deal #22 balance -0.02 [withdrawal] done
+EF	0	11:47:50.788	Core 01	2023.09.22 04:00:00   market buy 0.01 GBP100_USDJPY sl: 147.419 tp: 149.877 (147.767 / 147.770)
+JD	0	11:47:50.788	Core 01	2023.09.22 04:00:00   deal #23 buy 0.01 GBP100_USDJPY at 147.770 done (based on order #18)
+CO	0	11:47:50.788	Core 01	2023.09.22 04:00:00   deal performed [#23 buy 0.01 GBP100_USDJPY at 147.770]
+EN	0	11:47:50.788	Core 01	2023.09.22 04:00:00   order performed buy 0.01 at 147.770 [#18 buy 0.01 GBP100_USDJPY at 147.770]
+OL	0	11:47:50.788	Core 01	2023.09.22 04:00:00   CTrade::OrderSend: market buy 0.01 GBP100_USDJPY sl: 147.419 tp: 149.877 [done at 147.770]
+GS	0	11:47:50.788	Core 01	2023.09.22 20:00:00   market sell 0.01 GBP100_USDJPY, close #18 (148.320 / 148.323)
+HP	0	11:47:50.788	Core 01	2023.09.22 20:00:00   deal #24 sell 0.01 GBP100_USDJPY at 148.320 done (based on order #19)
+LM	0	11:47:50.788	Core 01	2023.09.22 20:00:00   deal performed [#24 sell 0.01 GBP100_USDJPY at 148.320]
+HE	0	11:47:50.788	Core 01	2023.09.22 20:00:00   order performed sell 0.01 at 148.320 [#19 sell 0.01 GBP100_USDJPY at 148.320]
+MJ	0	11:47:50.788	Core 01	2023.09.22 20:00:00   CTrade::OrderSend: market sell 0.01 position #18 GBP100_USDJPY [done at 148.320]
+KJ	0	11:47:50.788	Core 01	2023.09.22 20:00:00   deal #25 balance -0.02 [withdrawal] done
+DD	0	11:47:50.788	Core 01	final balance 102.76 GBP
+OS	0	11:47:50.788	Core 01	OnTester result 2.670000000000002
+RG	0	11:47:50.788	Core 01	GBP100_USDJPY,H1: 752560 ticks, 215 bars generated. Environment synchronized in 0:00:00.026. Test passed in 0:00:02.302 (including ticks preprocessing 0:00:00.297).
+FS	0	11:47:50.788	Core 01	GBP100_USDJPY,H1: total time from login to stop testing 0:00:02.328 (including 0:00:01.150 for history data synchronization)
+IS	0	11:47:50.788	Core 01	2111561 total ticks for all symbols
+NK	0	11:47:50.788	Core 01	GBP100_USDJPY: generate 752560 ticks in 0:00:00.094, passed to tester 752560 ticks
+GK	0	11:47:50.788	Core 01	GBPJPY: generate 1361968 ticks in 0:00:00.203, passed to tester 1359007 ticks
+DL	0	11:47:50.788	Core 01	137 Mb memory used including 0.47 Mb of history data, 64 Mb of tick data
+PP	0	11:47:50.788	Core 01	log file "C:\Users\ian\AppData\Roaming\MetaQuotes\Tester\DE9A4B13809164D991CFFF8AF2B25C58\Agent-127.0.0.1-3000\logs\20260913.log" written
+EM	0	11:47:51.114	Tester	automatic testing finished
+ED	0	11:47:51.114	Core 01	connection closed

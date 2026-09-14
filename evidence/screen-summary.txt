@@ -1,0 +1,87 @@
+EURUSD [{'symbol': 'EURUSD', 'mode': 2, 'lookback': 4, 'stop': 2.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 179.20376054207034, 'dd': 0.28263928853554726, 'trades': 193, 'pf': 1.1920330033056135}]
+USDJPY [{'symbol': 'USDJPY', 'mode': 2, 'lookback': 4, 'stop': 2.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 2.0, 'final': 350.4595630710652, 'dd': 0.21218946347850953, 'trades': 841, 'pf': 1.2165210496215257}]
+GBPUSD [{'symbol': 'GBPUSD', 'mode': 1, 'lookback': 48, 'stop': 1.0, 'target': 8.0, 'start': 12, 'end': 19, 'risk': 2.0, 'final': 240.09671097889102, 'dd': 0.2905865348156611, 'trades': 541, 'pf': 1.1832074365777185}]
+AUDUSD [{'symbol': 'AUDUSD', 'mode': 1, 'lookback': 96, 'stop': 2.0, 'target': 4.0, 'start': 12, 'end': 19, 'risk': 4.0, 'final': 203.8156910507395, 'dd': 0.29102361052355125, 'trades': 256, 'pf': 1.2186797346822371}]
+USDCAD [{'symbol': 'USDCAD', 'mode': 1, 'lookback': 24, 'stop': 3.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 249.91466389255928, 'dd': 0.2825858367349763, 'trades': 330, 'pf': 1.196699635006308}]
+USDCHF [{'symbol': 'USDCHF', 'mode': 1, 'lookback': 4, 'stop': 2.0, 'target': 2.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 222.9071334923023, 'dd': 0.2823002882156695, 'trades': 352, 'pf': 1.1982734809487723}]
+NZDUSD [{'symbol': 'NZDUSD', 'mode': 2, 'lookback': 96, 'stop': 3.0, 'target': 4.0, 'start': 1, 'end': 19, 'risk': 3.0, 'final': 180.9947275165412, 'dd': 0.2823319344814641, 'trades': 519, 'pf': 1.1289306344720291}]
+EURJPY [{'symbol': 'EURJPY', 'mode': 2, 'lookback': 4, 'stop': 2.0, 'target': 8.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 278.2669988377967, 'dd': 0.28598150376957215, 'trades': 253, 'pf': 1.2784248783130294}]
+EURGBP [{'symbol': 'EURGBP', 'mode': 1, 'lookback': 24, 'stop': 3.0, 'target': 2.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 217.24357142856988, 'dd': 0.2856309884764252, 'trades': 491, 'pf': 1.1686741168914547}]
+GBPJPY [{'symbol': 'GBPJPY', 'mode': 2, 'lookback': 24, 'stop': 3.0, 'target': 8.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 229.96684937788254, 'dd': 0.28027193982210674, 'trades': 357, 'pf': 1.1726271626471962}]
+AUDCAD [{'symbol': 'AUDCAD', 'mode': 1, 'lookback': 48, 'stop': 2.0, 'target': 4.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 176.41788445782674, 'dd': 0.28651151828063615, 'trades': 427, 'pf': 1.1346354778052727}]
+AUDCHF [{'symbol': 'AUDCHF', 'mode': 2, 'lookback': 96, 'stop': 3.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 204.91726951876782, 'dd': 0.28260004378275183, 'trades': 390, 'pf': 1.1288499059307424}]
+AUDJPY [{'symbol': 'AUDJPY', 'mode': 0, 'lookback': 12, 'stop': 1.0, 'target': 4.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 230.42468575293265, 'dd': 0.2817770649433283, 'trades': 398, 'pf': 1.1817368633325587}]
+AUDSGD [{'symbol': 'AUDSGD', 'mode': 1, 'lookback': 12, 'stop': 3.0, 'target': 2.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 157.8291941677396, 'dd': 0.28237217720323476, 'trades': 829, 'pf': 1.0746216289474815}]
+CADCHF [{'symbol': 'CADCHF', 'mode': 1, 'lookback': 4, 'stop': 2.0, 'target': 4.0, 'start': 1, 'end': 19, 'risk': 3.0, 'final': 193.2193398344211, 'dd': 0.2929478549951684, 'trades': 235, 'pf': 1.2528207204829653}]
+CADJPY [{'symbol': 'CADJPY', 'mode': 0, 'lookback': 12, 'stop': 3.0, 'target': 8.0, 'start': 1, 'end': 19, 'risk': 2.0, 'final': 208.18561715092846, 'dd': 0.14853166385745614, 'trades': 600, 'pf': 1.256173242488203}]
+CHFHUF [{'symbol': 'CHFHUF', 'mode': 0, 'lookback': 48, 'stop': 3.0, 'target': 4.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 128.75226063095428, 'dd': 0.2812399904337353, 'trades': 111, 'pf': 1.183894463841961}]
+CHFJPY [{'symbol': 'CHFJPY', 'mode': 2, 'lookback': 4, 'stop': 2.0, 'target': 4.0, 'start': 1, 'end': 19, 'risk': 2.0, 'final': 214.9088396632123, 'dd': 0.26977069856891206, 'trades': 851, 'pf': 1.1247705498870053}]
+CHFNOK [{'symbol': 'CHFNOK', 'mode': 1, 'lookback': 12, 'stop': 2.0, 'target': 8.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 124.06776610821092, 'dd': 0.28190880583608985, 'trades': 144, 'pf': 1.1172482265633672}]
+EURAUD [{'symbol': 'EURAUD', 'mode': 1, 'lookback': 24, 'stop': 3.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 165.8613783126708, 'dd': 0.2978055816990377, 'trades': 298, 'pf': 1.1528488816999953}]
+EURCAD [{'symbol': 'EURCAD', 'mode': 1, 'lookback': 48, 'stop': 2.0, 'target': 8.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 153.62868814798549, 'dd': 0.28029960050123337, 'trades': 258, 'pf': 1.1482093366074706}]
+EURCHF [{'symbol': 'EURCHF', 'mode': 2, 'lookback': 96, 'stop': 3.0, 'target': 8.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 284.15209316154295, 'dd': 0.29675242305967175, 'trades': 441, 'pf': 1.189057321185759}]
+EURCZK [{'symbol': 'EURCZK', 'mode': 1, 'lookback': 24, 'stop': 2.0, 'target': 2.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 105.24422085421763, 'dd': 0.28661700180656297, 'trades': 437, 'pf': 1.0196281705690133}]
+EURHUF [{'symbol': 'EURHUF', 'mode': 0, 'lookback': 96, 'stop': 3.0, 'target': 2.0, 'start': 12, 'end': 19, 'risk': 3.0, 'final': 103.66526876256769, 'dd': 0.05546129447245591, 'trades': 31, 'pf': 1.2446521775597703}]
+EURMXN [{'symbol': 'EURMXN', 'mode': 0, 'lookback': 96, 'stop': 3.0, 'target': 8.0, 'start': 12, 'end': 19, 'risk': 3.0, 'final': 105.03380399710402, 'dd': 0.09121510973640197, 'trades': 30, 'pf': 1.2515333314784485}]
+EURNOK [{'symbol': 'EURNOK', 'mode': 0, 'lookback': 12, 'stop': 1.0, 'target': 2.0, 'start': 7, 'end': 17, 'risk': 3.0, 'final': 127.6022227400037, 'dd': 0.2815380134895249, 'trades': 378, 'pf': 1.0771415766324293}]
+EURNZD [{'symbol': 'EURNZD', 'mode': 1, 'lookback': 12, 'stop': 2.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 153.10586876010007, 'dd': 0.28423465014401245, 'trades': 310, 'pf': 1.1462012346031114}]
+EURPLN [{'symbol': 'EURPLN', 'mode': 1, 'lookback': 12, 'stop': 2.0, 'target': 8.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 161.08238251500327, 'dd': 0.2852207335966993, 'trades': 194, 'pf': 1.238194553004531}]
+EURSEK [{'symbol': 'EURSEK', 'mode': 2, 'lookback': 96, 'stop': 3.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 138.05304433696583, 'dd': 0.2876205076773266, 'trades': 354, 'pf': 1.0769965177261298}]
+EURSGD [{'symbol': 'EURSGD', 'mode': 1, 'lookback': 24, 'stop': 3.0, 'target': 2.0, 'start': 1, 'end': 19, 'risk': 3.0, 'final': 130.12439858180485, 'dd': 0.2105059172473061, 'trades': 1162, 'pf': 1.0479909675541241}]
+EURTRY [{'symbol': 'EURTRY', 'mode': 0, 'lookback': 4, 'stop': 1.0, 'target': 2.0, 'start': 1, 'end': 19, 'risk': 1.0, 'final': 100.0, 'dd': 0.0, 'trades': 0, 'pf': 0.0}]
+EURZAR [{'symbol': 'EURZAR', 'mode': 2, 'lookback': 96, 'stop': 2.0, 'target': 4.0, 'start': 1, 'end': 19, 'risk': 1.0, 'final': 124.26612874415605, 'dd': 0.15914773029571863, 'trades': 39, 'pf': 1.3518808946043797}]
+GBPAUD [{'symbol': 'GBPAUD', 'mode': 0, 'lookback': 96, 'stop': 3.0, 'target': 2.0, 'start': 1, 'end': 19, 'risk': 3.0, 'final': 148.15604770908922, 'dd': 0.2362028030416459, 'trades': 256, 'pf': 1.2510025875355018}]
+GBPCAD [{'symbol': 'GBPCAD', 'mode': 2, 'lookback': 96, 'stop': 3.0, 'target': 4.0, 'start': 7, 'end': 17, 'risk': 3.0, 'final': 159.18532463878375, 'dd': 0.2905278655486466, 'trades': 403, 'pf': 1.1229619413643572}]
+GBPCHF [{'symbol': 'GBPCHF', 'mode': 2, 'lookback': 48, 'stop': 3.0, 'target': 8.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 236.1736260045055, 'dd': 0.28329074201644877, 'trades': 332, 'pf': 1.2322299691956116}]
+GBPCZK [{'symbol': 'GBPCZK', 'mode': 0, 'lookback': 4, 'stop': 3.0, 'target': 2.0, 'start': 1, 'end': 19, 'risk': 1.0, 'final': 100.0, 'dd': 0.0, 'trades': 0, 'pf': 0.0}]
+GBPHUF [{'symbol': 'GBPHUF', 'mode': 1, 'lookback': 4, 'stop': 3.0, 'target': 2.0, 'start': 1, 'end': 19, 'risk': 3.0, 'final': 108.60636908993455, 'dd': 0.04976478303793769, 'trades': 13, 'pf': 1.973739383665081}]
+GBPNOK [{'symbol': 'GBPNOK', 'mode': 1, 'lookback': 12, 'stop': 2.0, 'target': 8.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 110.26244080195885, 'dd': 0.29333393682506637, 'trades': 102, 'pf': 1.0678509390423445}]
+GBPNZD [{'symbol': 'GBPNZD', 'mode': 1, 'lookback': 24, 'stop': 2.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 148.949779065302, 'dd': 0.28890548079906314, 'trades': 212, 'pf': 1.1995323619356328}]
+GBPPLN [{'symbol': 'GBPPLN', 'mode': 1, 'lookback': 48, 'stop': 3.0, 'target': 4.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 103.30637843589867, 'dd': 0.28481350468063926, 'trades': 75, 'pf': 1.0275349292944118}]
+GBPSEK [{'symbol': 'GBPSEK', 'mode': 2, 'lookback': 96, 'stop': 3.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 3.0, 'final': 116.34959909256534, 'dd': 0.28390858114893247, 'trades': 119, 'pf': 1.0979574443324536}]
+GBPSGD [{'symbol': 'GBPSGD', 'mode': 1, 'lookback': 48, 'stop': 3.0, 'target': 2.0, 'start': 12, 'end': 19, 'risk': 4.0, 'final': 123.32041044674536, 'dd': 0.28121724344922666, 'trades': 654, 'pf': 1.054193397366171}]
+GBPZAR [{'symbol': 'GBPZAR', 'mode': 2, 'lookback': 4, 'stop': 2.0, 'target': 2.0, 'start': 7, 'end': 17, 'risk': 2.0, 'final': 104.97576540679977, 'dd': 0.06682660942981208, 'trades': 14, 'pf': 1.5556551159018739}]
+NOKSEK [{'symbol': 'NOKSEK', 'mode': 1, 'lookback': 24, 'stop': 1.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 3.0, 'final': 123.67455748298757, 'dd': 0.28414232958061886, 'trades': 83, 'pf': 1.1832037875769974}]
+NZDCAD [{'symbol': 'NZDCAD', 'mode': 1, 'lookback': 24, 'stop': 1.0, 'target': 4.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 174.8879152110975, 'dd': 0.28245561839822203, 'trades': 185, 'pf': 1.2845024713456774}]
+NZDCHF [{'symbol': 'NZDCHF', 'mode': 2, 'lookback': 96, 'stop': 1.0, 'target': 4.0, 'start': 7, 'end': 17, 'risk': 3.0, 'final': 166.6183415146808, 'dd': 0.2914559611073632, 'trades': 108, 'pf': 1.3657064930127372}]
+NZDJPY [{'symbol': 'NZDJPY', 'mode': 2, 'lookback': 24, 'stop': 1.0, 'target': 4.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 228.30158884838954, 'dd': 0.2885664123213687, 'trades': 222, 'pf': 1.2526054721225346}]
+SGDJPY [{'symbol': 'SGDJPY', 'mode': 0, 'lookback': 12, 'stop': 3.0, 'target': 4.0, 'start': 7, 'end': 17, 'risk': 3.0, 'final': 122.0003076358217, 'dd': 0.1897822258153645, 'trades': 515, 'pf': 1.072227355736777}]
+USDCZK [{'symbol': 'USDCZK', 'mode': 1, 'lookback': 96, 'stop': 1.0, 'target': 4.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 112.91514376999177, 'dd': 0.2892175082905756, 'trades': 58, 'pf': 1.1167091011635808}]
+USDHUF [{'symbol': 'USDHUF', 'mode': 1, 'lookback': 12, 'stop': 2.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 171.99383323472443, 'dd': 0.29218221255668947, 'trades': 82, 'pf': 1.3626863860709992}]
+USDMXN [{'symbol': 'USDMXN', 'mode': 1, 'lookback': 12, 'stop': 1.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 3.0, 'final': 196.76264647840415, 'dd': 0.2929054940665248, 'trades': 86, 'pf': 1.571031681653038}]
+USDNOK [{'symbol': 'USDNOK', 'mode': 2, 'lookback': 4, 'stop': 3.0, 'target': 4.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 137.34385299597844, 'dd': 0.2848791364933918, 'trades': 113, 'pf': 1.2166204757876558}]
+USDPLN [{'symbol': 'USDPLN', 'mode': 1, 'lookback': 12, 'stop': 2.0, 'target': 8.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 133.1913127588413, 'dd': 0.28561866450474693, 'trades': 90, 'pf': 1.1985559869161426}]
+USDSEK [{'symbol': 'USDSEK', 'mode': 1, 'lookback': 12, 'stop': 1.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 2.0, 'final': 181.6856480559364, 'dd': 0.2832735226024692, 'trades': 124, 'pf': 1.3338485857282953}]
+USDSGD [{'symbol': 'USDSGD', 'mode': 2, 'lookback': 4, 'stop': 3.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 4.0, 'final': 152.5922321550074, 'dd': 0.24300769679470796, 'trades': 856, 'pf': 1.0767676985258332}]
+USDTRY [{'symbol': 'USDTRY', 'mode': 1, 'lookback': 96, 'stop': 2.0, 'target': 2.0, 'start': 12, 'end': 19, 'risk': 3.0, 'final': 310.72729192345105, 'dd': 0.07585877018265656, 'trades': 787, 'pf': 2.091421219226363}]
+USDZAR [{'symbol': 'USDZAR', 'mode': 2, 'lookback': 12, 'stop': 3.0, 'target': 8.0, 'start': 1, 'end': 19, 'risk': 3.0, 'final': 138.06902658824896, 'dd': 0.282741899895275, 'trades': 183, 'pf': 1.126063267178635}]
+AUS200 [{'symbol': 'AUS200', 'mode': 0, 'lookback': 4, 'stop': 1.0, 'target': 2.0, 'start': 1, 'end': 19, 'risk': 1.0, 'final': 100.0, 'dd': 0.0, 'trades': 0, 'pf': 0.0}]
+CHINA50 [{'symbol': 'CHINA50', 'mode': 1, 'lookback': 12, 'stop': 2.0, 'target': 8.0, 'start': 1, 'end': 19, 'risk': 2.0, 'final': 219.9062302145086, 'dd': 0.2812251580502145, 'trades': 497, 'pf': 1.1615836226223124}]
+EUSTX50 [{'symbol': 'EUSTX50', 'mode': 2, 'lookback': 96, 'stop': 2.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 1.0, 'final': 136.69060299212305, 'dd': 0.20795082034598122, 'trades': 401, 'pf': 1.126997042583491}]
+FRA40 [{'symbol': 'FRA40', 'mode': 1, 'lookback': 48, 'stop': 3.0, 'target': 4.0, 'start': 12, 'end': 19, 'risk': 4.0, 'final': 191.40298415346075, 'dd': 0.2471294879914838, 'trades': 572, 'pf': 1.1348532464190473}]
+BCHUSD [{'symbol': 'BCHUSD', 'mode': 1, 'lookback': 48, 'stop': 2.0, 'target': 2.0, 'start': 12, 'end': 19, 'risk': 4.0, 'final': 101.5987078535696, 'dd': 0.2910528145893754, 'trades': 214, 'pf': 1.0119611526480787}]
+ETHUSD [{'symbol': 'ETHUSD', 'mode': 2, 'lookback': 4, 'stop': 1.0, 'target': 8.0, 'start': 1, 'end': 19, 'risk': 2.0, 'final': 214.62643506596396, 'dd': 0.1755556283712166, 'trades': 2047, 'pf': 1.1336323626159037}]
+LTCUSD [{'symbol': 'LTCUSD', 'mode': 0, 'lookback': 96, 'stop': 2.0, 'target': 4.0, 'start': 12, 'end': 19, 'risk': 4.0, 'final': 77.45248188769236, 'dd': 0.28064995854469005, 'trades': 54, 'pf': 0.5120050626178687}]
+XLMUSD [{'symbol': 'XLMUSD', 'mode': 0, 'lookback': 96, 'stop': 3.0, 'target': 4.0, 'start': 1, 'end': 19, 'risk': 4.0, 'final': 75.91876337128593, 'dd': 0.28211601627199473, 'trades': 81, 'pf': 0.41224278875135656}]
+XRPUSD [{'symbol': 'XRPUSD', 'mode': 0, 'lookback': 24, 'stop': 3.0, 'target': 8.0, 'start': 7, 'end': 17, 'risk': 3.0, 'final': 76.1019009377809, 'dd': 0.28324864136943717, 'trades': 105, 'pf': 0.4031064319483965}]
+symbol  mode  lookback  stop  target  start  end  risk      final       dd  trades       pf
+USDJPY     2         4   2.0     8.0      7   17   2.0 350.459563 0.212189     841 1.216521
+USDJPY     2        12   2.0     8.0      7   17   2.0 333.180433 0.280556     809 1.180192
+USDTRY     1        96   2.0     2.0     12   19   3.0 310.727292 0.075859     787 2.091421
+USDTRY     1        96   3.0     2.0     12   19   4.0 306.748580 0.076318     764 2.155135
+USDJPY     2         4   1.0     8.0      1   19   1.0 303.942924 0.280489    1332 1.125475
+USDJPY     2         4   1.0     4.0      1   19   1.0 294.259336 0.281146    1286 1.133950
+USDTRY     1        96   2.0     2.0     12   19   4.0 287.420736 0.119702     790 1.940242
+USDJPY     2        12   3.0     4.0      1   19   3.0 286.729756 0.284254     587 1.185167
+EURCHF     2        96   3.0     8.0      1   19   4.0 284.152093 0.296752     441 1.189057
+EURJPY     2         4   2.0     8.0      1   19   4.0 278.266999 0.285982     253 1.278425
+USDJPY     0         4   1.0     8.0      7   17   1.0 276.179389 0.227462     846 1.268325
+USDTRY     1        96   3.0     2.0     12   19   3.0 271.409312 0.068491     736 2.130403
+USDJPY     2         4   2.0     4.0      1   19   2.0 264.832895 0.292225     814 1.146783
+USDJPY     2        12   3.0     8.0      7   17   3.0 263.065117 0.281294     711 1.146133
+USDJPY     2        12   1.0     8.0      1   19   1.0 259.673089 0.281070    1308 1.117779
+USDTRY     1        96   2.0     2.0     12   19   2.0 259.345766 0.071920     750 1.973857
+USDJPY     2        12   3.0     4.0      7   17   3.0 258.037840 0.298295     777 1.131786
+EURJPY     2         4   2.0     4.0      1   19   4.0 257.929853 0.286917     294 1.231914
+USDTRY     1        96   2.0     4.0     12   19   3.0 257.746047 0.082923     730 1.942115
+EURJPY     2        96   2.0     8.0     12   19   3.0 253.923238 0.284726     511 1.153134
