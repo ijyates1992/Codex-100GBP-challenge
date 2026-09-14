@@ -20,6 +20,8 @@ The final evidence is [final_verified](evidence/final_verified/), including the 
 
 **Cost sensitivity:** adding half a pip to every spread reduced final equity to **£100.69**, with 28.74% drawdown. The baseline is not robust to this modest increase in trading costs. See the [stress report](evidence/stress_final/stress_final.htm).
 
+**Earlier-period failure:** the frozen EA lost **22.97%** in a continuous **2019–2021** test, closing at **£77.03** with **28.76% drawdown**. All 128 trades occurred in 2019; no further trades were taken after 27 June 2019. The same capital and equity peak carried through 2020–2021. See [the full negative result](docs/RESULTS-2019-2021.md).
+
 ![Verified baseline equity](evidence/final_verified/equity.png)
 
 ## Strategy

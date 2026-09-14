@@ -1,0 +1,38 @@
+{
+  "symbol": "GBP100_USDJPY_2019_2021",
+  "inputs": {
+    "Mode": 2.0,
+    "Lookback": 8.0,
+    "StopATR": 1.25,
+    "TargetATR": 12.0,
+    "RiskPercent": 2.0,
+    "StartHour": 1.0,
+    "EndHour": 19.0,
+    "CloseHour": 20.0,
+    "MaxDrawdown": 29.0,
+    "MarginFraction": 0.6,
+    "BrokerMarginPerLot": 2602.0,
+    "MarginSafety": 1.15,
+    "BrokerNotionalRate": 0.0353,
+    "Direction": 1.0,
+    "SpreadATR": 0.2,
+    "ConversionFeePercent": 0.8,
+    "Magic": 100202609.0
+  },
+  "model": 4,
+  "start": "2019.01.01",
+  "end": "2022.01.01",
+  "deposit": 100,
+  "currency": "GBP",
+  "leverage": 200,
+  "delay_ms": 100,
+  "source_sha256": "49e6120317182a439818864620fe948a8032a3ecce60f0cf7e4f42055fc65c4f",
+  "binary_sha256": "0722a2de4a9c3be5059468c10c1d5bbcb54a252102b0764ecece280278acecb6",
+  "data_provenance_sha256": {
+    "evidence\\broker.json": "a15b774c4be7c40aad91958c41d6649b7c1265e0e512011d6771d3292b51d6b6",
+    "evidence\\USDJPY2019_2021-raw-manifest.json": "a4d0082a8c8691b805662b3476747981a734fb26586baec5461459f87cd2230d",
+    "evidence\\holdout2019_2021-data-integrity.json": "7dc1d4745994d4444886c77997b8dab7492dbe4a215d4892eade5544dc11e280",
+    "evidence\\holdout2019_2021-import-result.txt": "6b285fb6fcf2601baf827a524ba3c4a8b97440e84951497239fbd99cbd0d6e64",
+    "docs\\PROTOCOL-2019-2021.md": "93d0fb1cfcd52070e1901581ad63f7783792a54b960ccf9346b1a4fef5722794"
+  }
+}

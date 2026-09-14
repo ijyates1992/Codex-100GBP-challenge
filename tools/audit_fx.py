@@ -3,7 +3,10 @@ from pathlib import Path
 import MetaTrader5 as m,pandas as pd,numpy as np,datetime as dt,json,argparse
 p=argparse.ArgumentParser();p.add_argument('folder');a=p.parse_args();base=Path(a.folder)
 d=pd.read_csv(base/'deals.csv');d=d[d.direction.isin(['in','out'])].copy();d['ts']=pd.to_datetime(d.time,format='%Y.%m.%d %H:%M:%S',utc=True).map(lambda v:int(v.timestamp()))
-assert d.ts.min()>1600000000, 'Invalid epoch conversion'
+manifest=json.loads((base/'manifest.json').read_text())
+start=dt.datetime.strptime(manifest['start'],'%Y.%m.%d').replace(tzinfo=dt.timezone.utc).timestamp()
+end=dt.datetime.strptime(manifest['end'],'%Y.%m.%d').replace(tzinfo=dt.timezone.utc).timestamp()
+assert d.ts.min()>=start and d.ts.max()<end, 'Deal timestamps must be seconds within the tested interval'
 assert m.initialize();assert m.account_info().trade_mode==0
 cache=Path('data/fx-audit');cache.mkdir(parents=True,exist_ok=True);rows=[]
 for day,group in d.groupby(d.ts//86400):

@@ -1,0 +1,9 @@
+{
+  "trades": 128,
+  "missing_quotes": 0,
+  "max_quote_age_seconds": 1.493,
+  "native_gbp": -21.759999999999998,
+  "reference_gbp": -21.76931702069485,
+  "sum_difference_gbp": 0.00931702069484595,
+  "max_abs_difference_gbp": 0.0050290116668834095
+}

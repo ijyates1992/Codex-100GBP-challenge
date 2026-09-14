@@ -43,3 +43,5 @@ This is extensive **in-sample optimisation**. The whole period influenced select
 The source currently deliberately runs in Strategy Tester only. The deliverable is a reproducible research system, not a validated live deployment.
 
 After freezing that baseline, the user requested an untouched-year test. Calendar 2022 was selected before acquiring its prices, using the exact frozen source, binary and inputs. Its separate protocol, results and data limitations are documented in `UNTESTED-YEAR-PROTOCOL.md` and `RESULTS-2022.md`. The initial search discussion above describes the three-year development result; the later 2022 experiment provides a distinct historical holdout.
+
+The user's subsequent request tested the preceding three calendar years, 2019–2021, continuously from £100 without annual resets. It lost 22.97%, remaining within 28.76% drawdown but taking no trades after June 2019. `RESULTS-2019-2021.md` preserves this negative result, its independent audits and the 1,375-minute price-data fallback. No strategy retuning followed either historical holdout.

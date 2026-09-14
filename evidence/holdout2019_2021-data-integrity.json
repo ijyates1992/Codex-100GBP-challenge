@@ -1,0 +1,21 @@
+{
+  "all_hashes_match": true,
+  "days": 1108,
+  "recorded_quotes": 70357130,
+  "fallback": [
+    {
+      "day": "20211001",
+      "minutes": 1375,
+      "source_sha256": "31e252a47b5e90aa93f1a42a9578cb85050d2e6061a5b09e1262f66bc61d700b"
+    }
+  ],
+  "generated_minutes": 1375,
+  "empty_holidays": [
+    "20181225",
+    "20190101",
+    "20191225",
+    "20200101",
+    "20201225",
+    "20210101"
+  ]
+}

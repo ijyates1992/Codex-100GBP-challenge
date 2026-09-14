@@ -1,0 +1,32 @@
+{
+  "scope": "Contributions from the continuous test; no annual capital, risk or equity-peak reset. Year-end positions are flat.",
+  "years": [
+    {
+      "year": 2019,
+      "opening_gbp": 100.0,
+      "closing_gbp": 77.03,
+      "net_profit_gbp": -22.97,
+      "return_pct": -22.97,
+      "trades": 128,
+      "fees_gbp": 1.21
+    },
+    {
+      "year": 2020,
+      "opening_gbp": 77.03,
+      "closing_gbp": 77.03,
+      "net_profit_gbp": 0.0,
+      "return_pct": 0.0,
+      "trades": 0,
+      "fees_gbp": -0.0
+    },
+    {
+      "year": 2021,
+      "opening_gbp": 77.03,
+      "closing_gbp": 77.03,
+      "net_profit_gbp": 0.0,
+      "return_pct": 0.0,
+      "trades": 0,
+      "fees_gbp": -0.0
+    }
+  ]
+}
