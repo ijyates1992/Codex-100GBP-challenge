@@ -1,0 +1,12 @@
+{
+  "all_entries_margin_feasible": true,
+  "entries": 122,
+  "initial_gbp": 500.0,
+  "reference_final_gbp": 384.4142031207334,
+  "native_final_gbp": 384.43,
+  "difference_gbp": 0.01579687926658835,
+  "maximum_reference_margin_fraction": 0.5202349319289001,
+  "minimum_reference_cash_gbp": 384.4142031207334,
+  "m1_conversion_bounds": 0,
+  "assumption": "Observed 3.53% IG notional margin rate applied historically. Actual recorded fills are fixed for this independent capital-feasibility audit; this is not a separate strategy simulation."
+}

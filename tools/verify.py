@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from analyse import analyse
 
-def verify(folder,start='2023.09.12',end='2026.09.12',fallback_minutes=586,fallback_day='2025.01.14',fallbacks=None):
+def verify(folder,start='2023.09.12',end='2026.09.12',fallback_minutes=586,fallback_day='2025.01.14',fallbacks=None,deposit=100):
     f=Path(folder)
     r=analyse(f)
     manifest=json.loads((f/'manifest.json').read_text())
@@ -22,14 +22,14 @@ def verify(folder,start='2023.09.12',end='2026.09.12',fallback_minutes=586,fallb
     checks['effective_report_inputs_match']=all(k in report_inputs and report_inputs[k]==float(v) for k,v in inputs.items())
     checks['full_period']=manifest['start']==start and manifest['end']==end
     checks['native_report_period']=f'H1 ({start} - {end})' in (f/(f.name+'.htm')).read_text(encoding='utf-16')
-    checks['gbp_100']=manifest['currency']=='GBP' and manifest['deposit']==100
+    checks['gbp_initial_capital']=manifest['currency']=='GBP' and abs(float(manifest['deposit'])-deposit)<.001
     checks['model_4']=manifest['model']==4
     checks['binary_match']=hashlib.sha256((f/'Challenge.ex5').read_bytes()).hexdigest()==manifest['binary_sha256']
     checks['fees_deducted']=abs(fees.fee.sum()-stats['fees'])<1e-7 and np.allclose(fees.net_profit,fees.gross_profit-fees.fee)
     checks['fee_rate']=np.allclose(fees.fee,np.round(abs(fees.gross_profit)*inputs['ConversionFeePercent']/100,2))
     flows=deals[deals.type=='balance']
     positive=flows[flows.profit>0]
-    checks['no_added_capital']=len(positive)==1 and abs(positive.profit.iloc[0]-100)<.001
+    checks['no_added_capital']=len(positive)==1 and abs(positive.profit.iloc[0]-deposit)<.001
     checks['withdrawals_only_fees']=abs(flows[flows.profit<0].profit.sum()+fees.fee.sum())<.011
     checks['fee_cash_available']=not bool(stats.fee_failure)
     checks['no_overnight']=r['overnight_trades']==0
@@ -73,6 +73,6 @@ def verify(folder,start='2023.09.12',end='2026.09.12',fallback_minutes=586,fallb
     return out
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('folder');p.add_argument('--start',default='2023.09.12');p.add_argument('--end',default='2026.09.12');p.add_argument('--fallback-minutes',type=int,default=586);p.add_argument('--fallback-day',default='2025.01.14');p.add_argument('--fallbacks');args=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('folder');p.add_argument('--start',default='2023.09.12');p.add_argument('--end',default='2026.09.12');p.add_argument('--fallback-minutes',type=int,default=586);p.add_argument('--fallback-day',default='2025.01.14');p.add_argument('--fallbacks');p.add_argument('--deposit',type=float,default=100);args=p.parse_args()
     fallback_map=json.loads(args.fallbacks) if args.fallbacks else None
-    raise SystemExit(0 if verify(args.folder,args.start,args.end,args.fallback_minutes,args.fallback_day,fallback_map)['all_pass'] else 1)
+    raise SystemExit(0 if verify(args.folder,args.start,args.end,args.fallback_minutes,args.fallback_day,fallback_map,args.deposit)['all_pass'] else 1)

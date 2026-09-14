@@ -1,5 +1,5 @@
 param(
-    [ValidateSet('ImportIG','ImportGap','ImportStress','ImportStressGap','ImportHoldout2022','ImportHoldout2019_2021','ImportHoldout2020Current')]
+    [ValidateSet('ImportIG','ImportGap','ImportStress','ImportStressGap','ImportHoldout2022','ImportHoldout2019_2021','ImportHoldout2020Current','ImportHoldout2019_2026_GBP500')]
     [string]$Expert = 'ImportIG'
 )
 $ErrorActionPreference = 'Stop'
@@ -40,6 +40,7 @@ $subdir = if ($Expert -in @('ImportGap','ImportStressGap')) {'Gap'} else {'USDJP
 if ($Expert -eq 'ImportHoldout2022') { $subdir = 'USDJPY2022' }
 if ($Expert -eq 'ImportHoldout2019_2021') { $subdir = 'USDJPY2019_2021' }
 if ($Expert -eq 'ImportHoldout2020Current') { $subdir = 'USDJPY2020_current' }
+if ($Expert -eq 'ImportHoldout2019_2026_GBP500') { $subdir = 'USDJPY2019_2026_GBP500' }
 $filename = if ($Expert.StartsWith('ImportStress')) {'stress-import-result.txt'} else {'import-result.txt'}
 $result = Get-Content -LiteralPath (Join-Path $data "$subdir\$filename")
 if ($result -match 'ERROR' -or $result[-1] -ne 'IMPORT_COMPLETE') { throw 'Importer read-back validation failed.' }

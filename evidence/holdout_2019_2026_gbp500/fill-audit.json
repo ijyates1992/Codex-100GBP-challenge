@@ -1,0 +1,9 @@
+{
+  "fills": 244,
+  "passed": 244,
+  "failures": [],
+  "categories": {
+    "recorded quote within timestamp tolerance": 244
+  },
+  "time_tolerance": "Report timestamps have second precision; original quotes are searched from 2 seconds before through 3 seconds after the reported second."
+}

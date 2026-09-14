@@ -24,6 +24,8 @@ The final evidence is [final_verified](evidence/final_verified/), including the 
 
 **Continuous 2020–current result:** the same frozen EA closed at **£114.35** after the completed 11 September 2026 session, a 14.35% total return with 28.87% drawdown. It made no trades after February 2022, and two Christmas positions carried over weekend closures. The numeric targets pass, but the strict daily-flat acceptance check fails. See [the full result](docs/RESULTS-2020-CURRENT.md).
 
+**£500 continuous 2019–current rerun:** with the same frozen EA and only the tester deposit changed to £500, the account closed at **£384.43** (−23.11%) with **28.95%** tick-observed drawdown. All 122 trades occurred in 2019; all execution, data, and margin checks passed, while the net-profit acceptance check failed. See [the full result](docs/RESULTS-2019-2026-GBP500.md).
+
 ![Verified baseline equity](evidence/final_verified/equity.png)
 
 ## Strategy

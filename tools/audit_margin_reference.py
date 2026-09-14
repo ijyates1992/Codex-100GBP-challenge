@@ -29,7 +29,8 @@ deals=pd.read_csv(f/'deals.csv');deals=deals[deals.direction.isin(['in','out'])]
 audit=pd.read_csv(f/'audit.csv')
 assert (audit.retcode==10009).all(), 'Handle partial/rejected orders explicitly'
 assert len(audit)==sum(deals.direction=='in')
-balance=100.;entry=None;rows=[];opened=0
+initial=float(json.loads((f/'manifest.json').read_text())['deposit'])
+balance=initial;entry=None;rows=[];opened=0
 for _,d in deals.iterrows():
     if d.direction=='in':
         entry=d
@@ -46,6 +47,6 @@ for _,d in deals.iterrows():
         entry=None
 assert entry is None
 frame=pd.DataFrame(rows);frame.to_csv(f/'reference-capital-ledger.csv',index=False)
-native=float(pd.read_csv(f/'stats.csv').iloc[0]['profit'])+100
-result={'all_entries_margin_feasible':bool(frame[frame.event=='entry'].feasible.all()),'entries':opened,'initial_gbp':100,'reference_final_gbp':balance,'native_final_gbp':native,'difference_gbp':native-balance,'maximum_reference_margin_fraction':float(frame.margin_fraction.max()),'minimum_reference_cash_gbp':float(frame.reference_equity.min()),'m1_conversion_bounds':int(q.reference_kind.str.startswith('adverse').sum()),'assumption':'Observed 3.53% IG notional margin rate applied historically. Actual recorded fills are fixed for this independent capital-feasibility audit; this is not a separate strategy simulation.'}
+native=float(pd.read_csv(f/'stats.csv').iloc[0]['profit'])+initial
+result={'all_entries_margin_feasible':bool(frame[frame.event=='entry'].feasible.all()),'entries':opened,'initial_gbp':initial,'reference_final_gbp':balance,'native_final_gbp':native,'difference_gbp':native-balance,'maximum_reference_margin_fraction':float(frame.margin_fraction.max()),'minimum_reference_cash_gbp':float(frame.reference_equity.min()),'m1_conversion_bounds':int(q.reference_kind.str.startswith('adverse').sum()),'assumption':'Observed 3.53% IG notional margin rate applied historically. Actual recorded fills are fixed for this independent capital-feasibility audit; this is not a separate strategy simulation.'}
 (f/'reference-capital-validation.json').write_text(json.dumps(result,indent=2));print(json.dumps(result,indent=2))

@@ -15,6 +15,7 @@ for day, group in deals.groupby(deals.time.str[:10]):
     dataset='USDJPY2022' if manifest['symbol']=='GBP100_USDJPY_2022' else 'USDJPY'
     if manifest['symbol']=='GBP100_USDJPY_2019_2021':dataset='USDJPY2019_2021'
     if manifest['symbol']=='GBP100_USDJPY_2020_CURRENT':dataset='USDJPY2020_current'
+    if manifest['symbol']=='GBP500_USDJPY_2019_2026':dataset='USDJPY2019_2026_GBP500'
     base=Path('data/replay/Gap' if name=='20250114' else 'data/replay/'+dataset)
     raw=np.fromfile(base/(name+'.ticks'),dtype=dtype)
     bars=None
