@@ -24,6 +24,8 @@ The final evidence is [final_verified](evidence/final_verified/), including the 
 
 ## Strategy
 
+**Subsequent untouched-year test:** the same frozen EA grew £100 to **£432.29 in calendar 2022**, with **25.16% equity drawdown**, 297 trades and 1.4874 net profit factor. All accounting and independent margin checks passed. One missing tick day uses 1,440 modeled minutes. See [the full 2022 results](docs/RESULTS-2022.md).
+
 The EA buys USDJPY when the last completed H1 close exceeds the close eight bars earlier by more than one 14-bar average true range. Entries occur at the first tick of an eligible hour, from 01:00 through 18:59 in stored quote time. There is one position at a time; stops are 1.25 ATR, targets 12 ATR, and positions close from 20:00. No current-bar future prices enter the signal.
 
 Nominal risk is 2% of equity, further reduced by available drawdown headroom. The EA rounds volume down to IG's 0.01-lot grid and skips unaffordable trades. It caps buffered margin at 60% of equity/free margin and halts at a 29% measured drawdown threshold. These controls do not guarantee the ceiling under future gaps or different execution.

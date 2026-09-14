@@ -18,6 +18,8 @@ def run(name,symbol,inputs,model=4,start='2023.09.12',end='2026.09.12',leverage=
  binary=(ROOT/'src/Challenge.ex5').read_bytes()
  assert binary==(TD/'MQL5/Experts/GBP100/Challenge.ex5').read_bytes(), 'Installed binary differs'
  provenance={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in [ROOT/'evidence/broker.json',ROOT/'evidence/USDJPY-raw-manifest.json',ROOT/'evidence/gap-provenance.json',ROOT/'evidence/gap-import-verified.txt'] if p.exists()}
+ if symbol=='GBP100_USDJPY_2022':
+  provenance={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in [ROOT/'evidence/broker.json',ROOT/'evidence/USDJPY2022-raw-manifest.json',ROOT/'evidence/holdout2022-data-integrity.json',ROOT/'evidence/holdout2022-import-result.txt',ROOT/'docs/UNTESTED-YEAR-PROTOCOL.md']}
  (out/'manifest.json').write_text(json.dumps(dict(symbol=symbol,inputs=inputs,model=model,start=start,end=end,deposit=100,currency='GBP',leverage=leverage,delay_ms=delay,source_sha256=hashlib.sha256((ROOT/'src/Challenge.mq5').read_bytes()).hexdigest(),binary_sha256=hashlib.sha256(binary).hexdigest(),data_provenance_sha256=provenance),indent=2))
  for f in ['Challenge.mq5','Challenge.ex5']:shutil.copy2(ROOT/'src'/f,out/f)
  log=TD/'Tester'/'logs'/time.strftime('%Y%m%d.log'); offset=log.stat().st_size if log.exists() else 0

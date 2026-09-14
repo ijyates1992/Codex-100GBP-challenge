@@ -1,0 +1,13 @@
+{
+  "all_hashes_match": true,
+  "days": 377,
+  "recorded_quotes": 41155534,
+  "fallback": [
+    {
+      "day": "20220301",
+      "minutes": 1440,
+      "source_sha256": "376a7c60b603f3e6d8cc4044e0d8b42021cf4e56c44d7ac67b56d8e3582aab1e"
+    }
+  ],
+  "generated_minutes": 1440
+}

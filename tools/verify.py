@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from analyse import analyse
 
-def verify(folder):
+def verify(folder,start='2023.09.12',end='2026.09.12',fallback_minutes=586,fallback_day='2025.01.14'):
     f=Path(folder)
     r=analyse(f)
     manifest=json.loads((f/'manifest.json').read_text())
@@ -20,7 +20,8 @@ def verify(folder):
     checks={k:bool(r[k]) for k in ['source_match','deal_profit_match','last_balance_match','trade_count_match','volume_grid_ok']}
     report_inputs={k:float(v) for k,v in re.findall(r'<b>(\w+)=(-?[\d.]+)</b>',(f/(f.name+'.htm')).read_text(encoding='utf-16'))}
     checks['effective_report_inputs_match']=all(k in report_inputs and report_inputs[k]==float(v) for k,v in inputs.items())
-    checks['full_period']=manifest['start']=='2023.09.12' and manifest['end']=='2026.09.12'
+    checks['full_period']=manifest['start']==start and manifest['end']==end
+    checks['native_report_period']=f'H1 ({start} - {end})' in (f/(f.name+'.htm')).read_text(encoding='utf-16')
     checks['gbp_100']=manifest['currency']=='GBP' and manifest['deposit']==100
     checks['model_4']=manifest['model']==4
     checks['binary_match']=hashlib.sha256((f/'Challenge.ex5').read_bytes()).hexdigest()==manifest['binary_sha256']
@@ -48,13 +49,19 @@ def verify(folder):
     main=[l for l in journal.splitlines() if symbol+' :' in l]
     checks['no_discarded_trading_quotes']=not any('discarded' in l or 'mismatch' in l for l in main)
     absent=[l for l in main if 'real ticks absent for' in l]
-    checks['known_fallback_only']=len(absent)==2 and all('586 minutes' in l for l in absent) and any('2025.01.14 23:59' in l for l in absent)
+    whole_days=[l for l in absent if 'whole days' in l]
+    if whole_days:
+        day_notices=[l for l in main if 'no real ticks within a day' in l]
+        minutes=[l for l in absent if 'minutes' in l]
+        checks['known_fallback_only']=len(whole_days)==1 and 'absent for 1 whole days' in whole_days[0] and len(minutes)==1 and f'absent for {fallback_minutes} minutes' in minutes[0] and len(day_notices)==1 and fallback_day+' 23:59' in day_notices[0]
+    else:
+        checks['known_fallback_only']=(len(absent)==0 if fallback_minutes==0 else len(absent)==2 and all(f'{fallback_minutes} minutes' in l for l in absent) and any(fallback_day+' 23:59' in l for l in absent))
     checks['no_fee_failure_journal']='FEE_WITHDRAWAL_FAILED' not in journal
-    out={'scope':'Numeric and execution-accounting acceptance; explicit 586-minute M1 fallback remains an approximation. GBP conversion is audited separately.','checks':{k:bool(v) for k,v in checks.items()},'all_pass':all(checks.values())}
+    out={'scope':f'Numeric and execution-accounting acceptance for {start} to {end}; expected modeled minutes: {fallback_minutes}. GBP conversion is audited separately.','checks':{k:bool(v) for k,v in checks.items()},'all_pass':all(checks.values())}
     (f/'acceptance.json').write_text(json.dumps(out,indent=2))
     print(json.dumps(out,indent=2))
     return out
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('folder');args=p.parse_args()
-    raise SystemExit(0 if verify(args.folder)['all_pass'] else 1)
+    p=argparse.ArgumentParser();p.add_argument('folder');p.add_argument('--start',default='2023.09.12');p.add_argument('--end',default='2026.09.12');p.add_argument('--fallback-minutes',type=int,default=586);p.add_argument('--fallback-day',default='2025.01.14');args=p.parse_args()
+    raise SystemExit(0 if verify(args.folder,args.start,args.end,args.fallback_minutes,args.fallback_day)['all_pass'] else 1)

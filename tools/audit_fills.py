@@ -12,7 +12,8 @@ dtype=np.dtype([('time_msc','<i8'),('bid','<i4'),('ask','<i4')])
 result=[]
 for day, group in deals.groupby(deals.time.str[:10]):
     name=day.replace('.','')
-    base=Path('data/replay/Gap' if name=='20250114' else 'data/replay/USDJPY')
+    dataset='USDJPY2022' if manifest['symbol']=='GBP100_USDJPY_2022' else 'USDJPY'
+    base=Path('data/replay/Gap' if name=='20250114' else 'data/replay/'+dataset)
     raw=np.fromfile(base/(name+'.ticks'),dtype=dtype)
     bars=None
     for _,deal in group.iterrows():
@@ -27,7 +28,7 @@ for day, group in deals.groupby(deals.time.str[:10]):
             # A limit exit at its requested target is conservative if a better quote exists.
             ok=bool(px<=quote.max()) if deal['type']=='sell' else bool(px>=quote.min())
             if ok:kind='conservative target-limit fill'
-        if not ok and name=='20250114' and not len(quote):
+        if not ok and name in ['20250114','20220301'] and not len(quote):
             if bars is None:
                 bars=np.loadtxt(base/(name+'.bars'),delimiter=';',dtype='i8')
             minute=stamp//60000*60;row=bars[bars[:,0]==minute]

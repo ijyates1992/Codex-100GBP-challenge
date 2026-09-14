@@ -1,10 +1,11 @@
 """Preserve IG recorded quotes and rebuild bars from the same quotes; no interpolation."""
 import MetaTrader5 as m,datetime as dt,numpy as np,pathlib,json,hashlib,time,argparse
-p=argparse.ArgumentParser();p.add_argument('--symbol',default='USDJPY');a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--symbol',default='USDJPY');p.add_argument('--start',default='2023-09-01');p.add_argument('--end',default='2026-09-12');p.add_argument('--dataset');a=p.parse_args()
 assert m.initialize();assert m.account_info().trade_mode==0
 s=m.symbol_info(a.symbol); point=s.point
-base=pathlib.Path('data/replay')/a.symbol;base.mkdir(parents=True,exist_ok=True)
-start=dt.datetime(2023,9,1,tzinfo=dt.timezone.utc);end=dt.datetime(2026,9,12,tzinfo=dt.timezone.utc);manifest=[]
+dataset=a.dataset or a.symbol
+base=pathlib.Path('data/replay')/dataset;base.mkdir(parents=True,exist_ok=True)
+start=dt.datetime.fromisoformat(a.start).replace(tzinfo=dt.timezone.utc);end=dt.datetime.fromisoformat(a.end).replace(tzinfo=dt.timezone.utc);manifest=[]
 while start<end:
  day=start.strftime('%Y%m%d');stop=start+dt.timedelta(days=1);f=base/(day+'.ticks');meta=base/(day+'.json')
  if meta.exists():item=json.loads(meta.read_text());manifest.append(item);start=stop;continue
@@ -24,4 +25,4 @@ while start<end:
  item={'day':day,'ticks':len(raw),'bars':len(bars),'sha256':hashlib.sha256(f.read_bytes()).hexdigest(),'bars_sha256':hashlib.sha256(bf.read_bytes()).hexdigest()};meta.write_text(json.dumps(item));manifest.append(item)
  if start.day in [1,15]:print(day,'ticks',len(raw),'total',sum(x['ticks'] for x in manifest),flush=True)
  start=stop
-(base/'import-list.txt').write_text('\n'.join(x['day'] for x in manifest)+'\n');pathlib.Path('evidence/'+a.symbol+'-raw-manifest.json').write_text(json.dumps({'source':'IG-DEMO CopyTicksRange, unchanged bid/ask and timestamps','point':point,'symbol':a.symbol,'days':manifest},indent=2));m.shutdown()
+(base/'import-list.txt').write_text('\n'.join(x['day'] for x in manifest)+'\n');pathlib.Path('evidence/'+dataset+'-raw-manifest.json').write_text(json.dumps({'source':'IG-DEMO CopyTicksRange, unchanged bid/ask and timestamps','point':point,'symbol':a.symbol,'start':a.start,'end':a.end,'days':manifest},indent=2));m.shutdown()
