@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 from analyse import analyse
 
-def verify(folder,start='2023.09.12',end='2026.09.12',fallback_minutes=586,fallback_day='2025.01.14'):
+def verify(folder,start='2023.09.12',end='2026.09.12',fallback_minutes=586,fallback_day='2025.01.14',fallbacks=None):
     f=Path(folder)
     r=analyse(f)
     manifest=json.loads((f/'manifest.json').read_text())
@@ -50,18 +50,29 @@ def verify(folder,start='2023.09.12',end='2026.09.12',fallback_minutes=586,fallb
     checks['no_discarded_trading_quotes']=not any('discarded' in l or 'mismatch' in l for l in main)
     absent=[l for l in main if 'real ticks absent for' in l]
     whole_days=[l for l in absent if 'whole days' in l]
-    if whole_days:
+    if fallbacks:
+        expected={str(k):int(v) for k,v in fallbacks.items()}
+        day_notices=[l for l in main if 'no real ticks within a day' in l]
+        partial_notices=[l for l in main if 'real ticks absent for' in l and 'within a day' in l]
+        minutes=[l for l in absent if 'minutes' in l and 'within a day' not in l]
+        total=sum(expected.values())
+        complete_days=[date for date,amount in expected.items() if amount>=1000]
+        partial_days=[(date,amount) for date,amount in expected.items() if amount<1000]
+        checks['known_fallback_only']=len(day_notices)==len(complete_days) and all(any(date+' 23:59' in line for line in day_notices) for date in complete_days) and all(any(date+' 23:59' in line and f'absent for {amount} minutes' in line for line in partial_notices) for date,amount in partial_days) and len(whole_days)==1 and f'absent for {len(complete_days)} whole days' in whole_days[0] and len(minutes)==1 and f'absent for {total} minutes' in minutes[0]
+    elif whole_days:
         day_notices=[l for l in main if 'no real ticks within a day' in l]
         minutes=[l for l in absent if 'minutes' in l]
         checks['known_fallback_only']=len(whole_days)==1 and 'absent for 1 whole days' in whole_days[0] and len(minutes)==1 and f'absent for {fallback_minutes} minutes' in minutes[0] and len(day_notices)==1 and fallback_day+' 23:59' in day_notices[0]
     else:
         checks['known_fallback_only']=(len(absent)==0 if fallback_minutes==0 else len(absent)==2 and all(f'{fallback_minutes} minutes' in l for l in absent) and any(fallback_day+' 23:59' in l for l in absent))
     checks['no_fee_failure_journal']='FEE_WITHDRAWAL_FAILED' not in journal
-    out={'scope':f'Numeric and execution-accounting acceptance for {start} to {end}; expected modeled minutes: {fallback_minutes}. GBP conversion is audited separately.','checks':{k:bool(v) for k,v in checks.items()},'all_pass':all(checks.values())}
+    modeled=sum(fallbacks.values()) if fallbacks else fallback_minutes
+    out={'scope':f'Numeric and execution-accounting acceptance for {start} to {end}; expected modeled minutes: {modeled}. GBP conversion is audited separately.','checks':{k:bool(v) for k,v in checks.items()},'all_pass':all(checks.values())}
     (f/'acceptance.json').write_text(json.dumps(out,indent=2))
     print(json.dumps(out,indent=2))
     return out
 
 if __name__=='__main__':
-    p=argparse.ArgumentParser();p.add_argument('folder');p.add_argument('--start',default='2023.09.12');p.add_argument('--end',default='2026.09.12');p.add_argument('--fallback-minutes',type=int,default=586);p.add_argument('--fallback-day',default='2025.01.14');args=p.parse_args()
-    raise SystemExit(0 if verify(args.folder,args.start,args.end,args.fallback_minutes,args.fallback_day)['all_pass'] else 1)
+    p=argparse.ArgumentParser();p.add_argument('folder');p.add_argument('--start',default='2023.09.12');p.add_argument('--end',default='2026.09.12');p.add_argument('--fallback-minutes',type=int,default=586);p.add_argument('--fallback-day',default='2025.01.14');p.add_argument('--fallbacks');args=p.parse_args()
+    fallback_map=json.loads(args.fallbacks) if args.fallbacks else None
+    raise SystemExit(0 if verify(args.folder,args.start,args.end,args.fallback_minutes,args.fallback_day,fallback_map)['all_pass'] else 1)

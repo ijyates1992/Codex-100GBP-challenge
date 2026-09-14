@@ -1,0 +1,7 @@
+[
+  {"directory":"data/replay/USDJPY2019_2021","manifest":"evidence/USDJPY2019_2021-raw-manifest.json"},
+  {"directory":"data/replay/USDJPY2022","manifest":"evidence/USDJPY2022-raw-manifest.json"},
+  {"directory":"data/replay/USDJPY2023","manifest":"evidence/USDJPY2023-raw-manifest.json"},
+  {"directory":"data/replay/Gap","manifest":"evidence/gap-provenance.json","format":"gap"},
+  {"directory":"data/replay/USDJPY","manifest":"evidence/USDJPY-raw-manifest.json"}
+]

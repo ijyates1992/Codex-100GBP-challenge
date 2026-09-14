@@ -22,6 +22,8 @@ The final evidence is [final_verified](evidence/final_verified/), including the 
 
 **Earlier-period failure:** the frozen EA lost **22.97%** in a continuous **2019–2021** test, closing at **£77.03** with **28.76% drawdown**. All 128 trades occurred in 2019; no further trades were taken after 27 June 2019. The same capital and equity peak carried through 2020–2021. See [the full negative result](docs/RESULTS-2019-2021.md).
 
+**Continuous 2020–current result:** the same frozen EA closed at **£114.35** after the completed 11 September 2026 session, a 14.35% total return with 28.87% drawdown. It made no trades after February 2022, and two Christmas positions carried over weekend closures. The numeric targets pass, but the strict daily-flat acceptance check fails. See [the full result](docs/RESULTS-2020-CURRENT.md).
+
 ![Verified baseline equity](evidence/final_verified/equity.png)
 
 ## Strategy

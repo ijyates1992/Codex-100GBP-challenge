@@ -1,0 +1,10 @@
+{
+  "trades": 570,
+  "matched_trades": 569,
+  "missing_quotes": 1,
+  "max_quote_age_seconds": 11.195,
+  "native_gbp_matched": 23.91,
+  "reference_gbp_matched": 23.833618651920258,
+  "sum_difference_gbp_matched": 0.07638134807974332,
+  "max_abs_difference_gbp_matched": 0.00641670504056302
+}

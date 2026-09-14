@@ -1,0 +1,68 @@
+{
+  "scope": "Contributions from the continuous test; no annual capital, risk or equity-peak reset. Year-end positions are flat.",
+  "years": [
+    {
+      "year": 2020,
+      "opening_gbp": 100.0,
+      "closing_gbp": 97.22,
+      "net_profit_gbp": -2.78,
+      "return_pct": -2.779999999999996,
+      "trades": 256,
+      "fees_gbp": 3.13
+    },
+    {
+      "year": 2021,
+      "opening_gbp": 97.22,
+      "closing_gbp": 124.42,
+      "net_profit_gbp": 27.2,
+      "return_pct": 27.977782349310843,
+      "trades": 296,
+      "fees_gbp": 4.95
+    },
+    {
+      "year": 2022,
+      "opening_gbp": 124.42,
+      "closing_gbp": 114.35,
+      "net_profit_gbp": -10.07,
+      "return_pct": -8.093554090982158,
+      "trades": 18,
+      "fees_gbp": 0.34
+    },
+    {
+      "year": 2023,
+      "opening_gbp": 114.35,
+      "closing_gbp": 114.35,
+      "net_profit_gbp": 0.0,
+      "return_pct": 0.0,
+      "trades": 0,
+      "fees_gbp": -0.0
+    },
+    {
+      "year": 2024,
+      "opening_gbp": 114.35,
+      "closing_gbp": 114.35,
+      "net_profit_gbp": 0.0,
+      "return_pct": 0.0,
+      "trades": 0,
+      "fees_gbp": -0.0
+    },
+    {
+      "year": 2025,
+      "opening_gbp": 114.35,
+      "closing_gbp": 114.35,
+      "net_profit_gbp": 0.0,
+      "return_pct": 0.0,
+      "trades": 0,
+      "fees_gbp": -0.0
+    },
+    {
+      "year": 2026,
+      "opening_gbp": 114.35,
+      "closing_gbp": 114.35,
+      "net_profit_gbp": 0.0,
+      "return_pct": 0.0,
+      "trades": 0,
+      "fees_gbp": -0.0
+    }
+  ]
+}

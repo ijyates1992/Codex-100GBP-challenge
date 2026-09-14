@@ -6,9 +6,15 @@ import pandas as pd
 p=argparse.ArgumentParser();p.add_argument('folder');args=p.parse_args();f=Path(args.folder)
 m=json.loads((f/'manifest.json').read_text());d=pd.read_csv(f/'deals.csv')
 validation=json.loads((f/'validation.json').read_text())
-assert validation['overnight_trades']==0,'Year-end equity requires open-position marks'
+opens=d[d.direction=='in'].reset_index(drop=True);closes=d[d.direction=='out'].reset_index(drop=True)
+assert len(opens)==len(closes)
+for boundary_year in range(int(m['start'][:4])+1,int(m['end'][:4])):
+    boundary=f'{boundary_year}.01.01'
+    assert not any(o.time[:10]<boundary<=c.time[:10] for o,c in zip(opens.itertuples(),closes.itertuples())),f'Position open at {boundary}'
 d['year']=d.time.str[:4].astype(int);balance=float(m['deposit']);rows=[]
-for year in range(int(m['start'][:4]),int(m['end'][:4])):
+end=pd.Timestamp(m['end'].replace('.','-'))
+last_year=end.year-1 if (end.month,end.day)==(1,1) else end.year
+for year in range(int(m['start'][:4]),last_year+1):
     part=d[d.year==year];exits=part[part.direction=='out']
     fees=-part[(part.type=='balance')&(part.profit<0)].profit.sum()
     net=exits.profit.sum()-fees;closing=balance+net

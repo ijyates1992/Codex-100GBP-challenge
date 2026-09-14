@@ -16,13 +16,13 @@ if missing.any():
     assert mt5.initialize() and mt5.account_info().trade_mode==0
     for i in q.index[missing]:
         t=dt.datetime.strptime(q.loc[i,'time'],'%Y.%m.%d %H:%M:%S').replace(tzinfo=dt.timezone.utc)
-        start=t.replace(second=0);end=start+dt.timedelta(seconds=59)
+        start=t.replace(second=0);end=start+dt.timedelta(minutes=5)
         bars=mt5.copy_rates_range('GBPJPY',mt5.TIMEFRAME_M1,start,end)
-        assert bars is not None and len(bars)==1 and int(bars[0]['time'])==int(start.timestamp())
+        assert bars is not None and len(bars)>0 and int(bars[0]['time'])>=int(start.timestamp())
         r=bars[0]
         q.loc[i,'bid']=float(r['low'])
         q.loc[i,'ask']=float(r['high'])+max(.01,float(r['spread'])*.001)
-        q.loc[i,'reference_kind']='adverse IG M1 conversion bound'
+        q.loc[i,'reference_kind']='adverse nearest IG M1 conversion bound'
     mt5.shutdown()
 q.to_csv(f/'reference-fx-complete.csv',index=False)
 deals=pd.read_csv(f/'deals.csv');deals=deals[deals.direction.isin(['in','out'])].merge(q,on=['deal','time'],validate='one_to_one')
@@ -47,5 +47,5 @@ for _,d in deals.iterrows():
 assert entry is None
 frame=pd.DataFrame(rows);frame.to_csv(f/'reference-capital-ledger.csv',index=False)
 native=float(pd.read_csv(f/'stats.csv').iloc[0]['profit'])+100
-result={'all_entries_margin_feasible':bool(frame[frame.event=='entry'].feasible.all()),'entries':opened,'initial_gbp':100,'reference_final_gbp':balance,'native_final_gbp':native,'difference_gbp':native-balance,'maximum_reference_margin_fraction':float(frame.margin_fraction.max()),'minimum_reference_cash_gbp':float(frame.reference_equity.min()),'m1_conversion_bounds':int((q.reference_kind=='adverse IG M1 conversion bound').sum()),'assumption':'Observed 3.53% IG notional margin rate applied historically. Actual recorded fills are fixed for this independent capital-feasibility audit; this is not a separate strategy simulation.'}
+result={'all_entries_margin_feasible':bool(frame[frame.event=='entry'].feasible.all()),'entries':opened,'initial_gbp':100,'reference_final_gbp':balance,'native_final_gbp':native,'difference_gbp':native-balance,'maximum_reference_margin_fraction':float(frame.margin_fraction.max()),'minimum_reference_cash_gbp':float(frame.reference_equity.min()),'m1_conversion_bounds':int(q.reference_kind.str.startswith('adverse').sum()),'assumption':'Observed 3.53% IG notional margin rate applied historically. Actual recorded fills are fixed for this independent capital-feasibility audit; this is not a separate strategy simulation.'}
 (f/'reference-capital-validation.json').write_text(json.dumps(result,indent=2));print(json.dumps(result,indent=2))

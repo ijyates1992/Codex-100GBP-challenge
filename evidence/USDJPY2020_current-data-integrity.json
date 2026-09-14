@@ -1,0 +1,22 @@
+{
+  "all_hashes_match": true,
+  "days": 2460,
+  "recorded_ticks": 183966913,
+  "modeled_minutes_by_day": {
+    "2021.10.01": 1375,
+    "2022.03.01": 1440,
+    "2025.01.14": 586
+  },
+  "total_modeled_minutes": 3401,
+  "empty_calendar_days": [
+    "20260912",
+    "20260913"
+  ],
+  "source_manifests_sha256": {
+    "evidence/USDJPY2019_2021-raw-manifest.json": "a4d0082a8c8691b805662b3476747981a734fb26586baec5461459f87cd2230d",
+    "evidence/USDJPY2022-raw-manifest.json": "0da900940fb0bcd99da3dd525ea4ab4119d73b05613fa1e7795f7b0a3e8dc9c1",
+    "evidence/USDJPY2023-raw-manifest.json": "e31400dbe1dfaa57f61065b080e15aa4bd92fc7dee5f3f04c6a92108e7a9b1aa",
+    "evidence/gap-provenance.json": "b4af68e7074511f3424c3d8e9ff2b69a198fd30de838dc79081bc6b3b4a4c2de",
+    "evidence/USDJPY-raw-manifest.json": "0b1eded9b789fb5f2ec0b3ce6c86b7dd09ff8f14ec936dc440a3f4aa62be4e2e"
+  }
+}
