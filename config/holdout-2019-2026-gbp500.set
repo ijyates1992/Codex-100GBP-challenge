@@ -1,0 +1,17 @@
+Mode=2
+Lookback=8
+StopATR=1.25
+TargetATR=12
+RiskPercent=2
+StartHour=1
+EndHour=19
+CloseHour=20
+MaxDrawdown=29
+MarginFraction=0.6
+BrokerMarginPerLot=2602
+MarginSafety=1.15
+BrokerNotionalRate=0.0353
+Direction=1
+SpreadATR=0.2
+ConversionFeePercent=0.8
+Magic=100202609

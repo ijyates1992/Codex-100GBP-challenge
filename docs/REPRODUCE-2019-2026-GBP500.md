@@ -2,6 +2,8 @@
 
 Run from the repository root on the designated MT5 development VM. The linked datasets in `data/replay/` are intentionally excluded from Git; retain the dated source datasets and their evidence manifests.
 
+Use [holdout-2019-2026-gbp500.set](../config/holdout-2019-2026-gbp500.set) for the EA inputs. Set the Strategy Tester separately to a £500 GBP deposit, 1:200 leverage, Model 4, and 100 ms execution delay; those are tester settings rather than EA inputs.
+
 ```powershell
 python tools/assemble_continuous.py --dataset USDJPY2019_2026_GBP500 --start 2018-12-20 --end 2026-09-14 --sources config/sources-2019-2026-gbp500.json
 python tools/audit_continuous_data.py USDJPY2019_2026_GBP500 --fallbacks '{"2021.10.01":1375,"2022.03.01":1440,"2025.01.14":586}'
