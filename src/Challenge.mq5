@@ -27,7 +27,7 @@ bool halted=false;
 datetime lastbar=0;
 int audit=INVALID_HANDLE;
 int OnInit(){
- if(!MQLInfoInteger(MQL_TESTER)) {Print("Research EA: Strategy Tester only");return INIT_FAILED;}
+ if(!MQLInfoInteger(MQL_TESTER) && AccountInfoInteger(ACCOUNT_TRADE_MODE)!=ACCOUNT_TRADE_MODE_DEMO) {Print("Research EA: Strategy Tester or demo account only");return INIT_FAILED;}
  if(AccountInfoString(ACCOUNT_CURRENCY)!="GBP" || Mode<0 || Mode>2 || Lookback<2 || StopATR<=0 || TargetATR<=0 || RiskPercent<=0 || RiskPercent>30 || MaxDrawdown<=0 || MaxDrawdown>=30 || BrokerMarginPerLot<=0 || BrokerNotionalRate<=0 || MarginSafety<1 || MarginFraction<=0 || MarginFraction>1 || StartHour<0 || StartHour>=EndHour || EndHour>CloseHour || CloseHour>23 || Direction< -1 || Direction>1 || SpreadATR<=0 || ConversionFeePercent<0) return INIT_PARAMETERS_INCORRECT;
  peak=AccountInfoDouble(ACCOUNT_EQUITY);
  feeLog=FileOpen("ChallengeFees.csv",FILE_WRITE|FILE_CSV|FILE_ANSI|FILE_COMMON,',');
