@@ -40,7 +40,7 @@ The first H1 screen evaluated 106,920 configurations across 66 affordable market
 
 This is extensive **in-sample optimisation**. The whole period influenced selection. No untouched holdout, forward demo or live performance is claimed. The strongest discovered historical configuration is not proof of a global maximum or future profitability. Circuit breakers cannot guarantee a drawdown ceiling through unobserved gaps or live slippage; the measured three-year result, rather than the existence of the control, determines acceptance.
 
-The source currently deliberately runs in Strategy Tester only. The deliverable is a reproducible research system, not a validated live deployment.
+The source accepts the Strategy Tester and demo accounts only, and deliberately refuses to initialize on live accounts. The deliverable is a reproducible research system, not a validated live deployment.
 
 After freezing that baseline, the user requested an untouched-year test. Calendar 2022 was selected before acquiring its prices, using the exact frozen source, binary and inputs. Its separate protocol, results and data limitations are documented in `UNTESTED-YEAR-PROTOCOL.md` and `RESULTS-2022.md`. The initial search discussion above describes the three-year development result; the later 2022 experiment provides a distinct historical holdout.
 
